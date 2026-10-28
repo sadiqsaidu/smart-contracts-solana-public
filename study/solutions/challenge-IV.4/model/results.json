@@ -1,0 +1,221 @@
+{
+ "witnesses": {
+  "immediate": {
+   "transactions": [
+    "donate V_1 50 SOL",
+    "deposit 100 SOL"
+   ],
+   "transfer_to_depositor": "1192802328895329532923/41710687363",
+   "price_after": "216101088311/41710687363"
+  },
+  "fresh": {
+   "transactions": [
+    "donate V_1 50 SOL",
+    "deposit 100 SOL"
+   ],
+   "transfer_to_depositor": "-104668292465/31210767452",
+   "price_after": "216101088311/31210767452"
+  },
+  "nonatomic_first_maintenance": {
+   "transfer_to_depositors": "792132417782069288687/22189128525",
+   "minted": 49633754983,
+   "settle_price": "105370994489/22189128525",
+   "others_delta": "235738696841503100753/372071973747198349800"
+  },
+  "wrongpair": {
+   "transfer_to_depositors": "792132417782069288687/22189128525",
+   "minted": 49633754983,
+   "settle_price": "105370994489/22189128525",
+   "others_delta": "235738696841503100753/372071973747198349800"
+  },
+  "batch": {
+   "transfer_to_depositors": "-4438997159/7608464375",
+   "minted": 28882575938,
+   "settle_price": "105370994489/15216928750",
+   "others_delta": 0
+  },
+  "escrowmint": {
+   "transfer_to_depositors": "-48585228881/15717768824",
+   "minted_after_true_up": 14545881114
+  },
+  "batch_donate_and_burn_just_before_settle": {
+   "transfer_to_depositors": "-1275191766/18103962145",
+   "minted": 22411927804,
+   "settle_price": "323112983467/36207924290",
+   "others_delta": 0
+  }
+ },
+ "bfs": [
+  {
+   "design": "batch",
+   "kmax": 3,
+   "explored": 585,
+   "settled": 295,
+   "shortest_violation": null,
+   "max_transfer": "-160333520/10890117643",
+   "max_transfer_prefix": [
+    "maintenance",
+    "owner_add",
+    "epoch_tick_and_payout"
+   ]
+  },
+  {
+   "design": "nonatomic",
+   "kmax": 3,
+   "explored": 73,
+   "settled": 12,
+   "shortest_violation": {
+    "length": 2,
+    "prefix": [
+     "maintenance",
+     "donate_V0"
+    ],
+    "transfer": "792132417782069288687/22189128525"
+   },
+   "max_transfer": "792132417782069288687/22189128525",
+   "max_transfer_prefix": [
+    "maintenance",
+    "donate_V0"
+   ]
+  },
+  {
+   "design": "wrongpair",
+   "kmax": 3,
+   "explored": 73,
+   "settled": 12,
+   "shortest_violation": {
+    "length": 2,
+    "prefix": [
+     "maintenance",
+     "donate_V0"
+    ],
+    "transfer": "792132417782069288687/22189128525"
+   },
+   "max_transfer": "792132417782069288687/22189128525",
+   "max_transfer_prefix": [
+    "maintenance",
+    "donate_V0"
+   ]
+  },
+  {
+   "design": "escrowmint",
+   "kmax": 3,
+   "explored": 585,
+   "settled": 295,
+   "shortest_violation": null,
+   "max_transfer": "-608113535/66032597146",
+   "max_transfer_prefix": [
+    "epoch_tick_and_payout"
+   ]
+  }
+ ],
+ "random": {
+  "batch": {
+   "runs": 400,
+   "settles": 1265,
+   "settle_reverts": 1210,
+   "claims": 363,
+   "refunds": 491,
+   "immediate_deposits": 0,
+   "violations": 0,
+   "first_violations": [],
+   "max_transfer": 0
+  },
+  "escrowmint": {
+   "runs": 400,
+   "settles": 1265,
+   "settle_reverts": 1250,
+   "claims": 535,
+   "refunds": 0,
+   "immediate_deposits": 0,
+   "violations": 0,
+   "first_violations": [],
+   "max_transfer": 0
+  },
+  "fresh": {
+   "runs": 400,
+   "settles": 0,
+   "settle_reverts": 0,
+   "claims": 0,
+   "refunds": 0,
+   "immediate_deposits": 1831,
+   "violations": 0,
+   "first_violations": [],
+   "max_transfer": 0
+  },
+  "immediate": {
+   "runs": 400,
+   "settles": 0,
+   "settle_reverts": 0,
+   "claims": 0,
+   "refunds": 0,
+   "immediate_deposits": 1216,
+   "violations": 0,
+   "first_violations": [],
+   "max_transfer": "6994587473917713817258/47520848571"
+  },
+  "nonatomic": {
+   "runs": 400,
+   "settles": 533,
+   "settle_reverts": 4954,
+   "claims": 107,
+   "refunds": 571,
+   "immediate_deposits": 0,
+   "violations": 6232,
+   "first_violations": [
+    {
+     "seed": 0,
+     "v": [
+      [
+       "drain-settle",
+       1071,
+       "StakeListOutOfDate"
+      ],
+      [
+       "drain-settle",
+       1071,
+       "StakeListOutOfDate"
+      ]
+     ]
+    },
+    {
+     "seed": 1,
+     "v": [
+      [
+       "liveness",
+       1073
+      ],
+      [
+       "liveness",
+       1073
+      ]
+     ]
+    },
+    {
+     "seed": 2,
+     "v": [
+      [
+       "liveness",
+       1070
+      ],
+      [
+       "liveness",
+       1070
+      ]
+     ]
+    }
+   ],
+   "max_transfer": "951145761489321931/44334024"
+  }
+ },
+ "r1": {
+  "trials": 2000,
+  "max_dust": 5,
+  "equal_amount_claims_identical": true
+ },
+ "outofcell_escrowmint": {
+  "shortfall_tokens": 769687923,
+  "transfer": "-49346989145069497569/41228150606"
+ },
+ "verdict": "PASS: batch and fresh satisfy the bounds; flawed designs violate"
+}
