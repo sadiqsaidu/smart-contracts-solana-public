@@ -1,0 +1,75 @@
+{
+  "bounded_arithmetic_cases": 527560,
+  "burn_seven": {
+    "C": 25001666240,
+    "DS": 7,
+    "DT": 0,
+    "S": 24048173275,
+    "Sigma": 24048173268,
+    "T": 25001666240,
+    "Theta": 25001666240
+  },
+  "chunk_orders_checked": 24,
+  "initial": {
+    "C": 24000000000,
+    "DS": 0,
+    "DT": 0,
+    "S": 24000000000,
+    "Sigma": 24000000000,
+    "T": 24000000000,
+    "Theta": 24000000000
+  },
+  "outside_cell_rent_increase_DT": -1,
+  "owner_add_after_spb": {
+    "C": 25001666240,
+    "DS": 0,
+    "DT": 0,
+    "S": 24048173275,
+    "Sigma": 24048173275,
+    "T": 25001666240,
+    "Theta": 25001666240
+  },
+  "owner_add_one_transaction": {
+    "C": 25001666240,
+    "DS": 0,
+    "DT": 1001666240,
+    "S": 24000000000,
+    "Sigma": 24000000000,
+    "T": 24000000000,
+    "Theta": 25001666240
+  },
+  "owner_add_refresh_fee": 48173275,
+  "random_subset_transitions": 5000,
+  "removal_truncation": {
+    "DS": 0,
+    "DT": 0,
+    "S": 10000000000,
+    "T": 10000000000,
+    "actual": 1001666240,
+    "burn": 1001666241,
+    "kappa": 1,
+    "postS": 8998333759,
+    "postT": 8998333760,
+    "postTheta": 8998333760,
+    "quoted": 1001666241
+  },
+  "sweep": {
+    "delegation": 1000000000,
+    "extra": 616640,
+    "legacy_active_ok": false,
+    "legacy_required_cooldown": 616640,
+    "post": 1001666240,
+    "v": 1002282880,
+    "v5_ok": true
+  },
+  "validator_donation_one": {
+    "C": 25001666240,
+    "DS": 0,
+    "DT": 1,
+    "S": 24048173275,
+    "Sigma": 24048173275,
+    "T": 25001666240,
+    "Theta": 25001666241
+  }
+}
+PASS: exact arithmetic and restricted transition model; no validator execution

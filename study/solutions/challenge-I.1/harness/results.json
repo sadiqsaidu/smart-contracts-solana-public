@@ -1,0 +1,229 @@
+{
+  "rpc": "http://127.0.0.1:18899",
+  "steps": [
+    {
+      "label": "W0 baseline after VLB+SPB and a DepositSol",
+      "E": 1,
+      "lambda": "1",
+      "T": "23000000000",
+      "S": "23000000000",
+      "Sigma": "23000000000",
+      "Theta": "23000000000",
+      "thetaError": null,
+      "DT": "0",
+      "DS": "0",
+      "reserve": 22000000000,
+      "validatorStake": 1002282880
+    },
+    {
+      "label": "W1 System transfer to reserve by unprivileged signer",
+      "E": 1,
+      "lambda": "1",
+      "T": "23000000000",
+      "S": "23000000000",
+      "Sigma": "23000000000",
+      "Theta": "23001234567",
+      "thetaError": null,
+      "DT": "1234567",
+      "DS": "0",
+      "reserve": 22001234567,
+      "validatorStake": 1002282880
+    },
+    {
+      "label": "N1 later permissionless VLB+SPB by unprivileged signer",
+      "E": 1,
+      "lambda": "1",
+      "T": "23001234567",
+      "S": "23000061725",
+      "Sigma": "23000061725",
+      "Theta": "23001234567",
+      "thetaError": null,
+      "DT": "0",
+      "DS": "0",
+      "reserve": 22001234567,
+      "validatorStake": 1002282880
+    },
+    {
+      "label": "W2 SPL Token Burn of 7 base units by holder",
+      "E": 1,
+      "lambda": "1",
+      "T": "23001234567",
+      "S": "23000061725",
+      "Sigma": "23000061718",
+      "Theta": "23001234567",
+      "thetaError": null,
+      "DT": "0",
+      "DS": "7",
+      "reserve": 22001234567,
+      "validatorStake": 1002282880
+    },
+    {
+      "label": "N2 later permissionless SPB alone",
+      "E": 1,
+      "lambda": "1",
+      "T": "23001234567",
+      "S": "23000061718",
+      "Sigma": "23000061718",
+      "Theta": "23001234567",
+      "thetaError": null,
+      "DT": "0",
+      "DS": "0",
+      "reserve": 22001234567,
+      "validatorStake": 1002282880
+    },
+    {
+      "label": "W3 System transfer to listed validator stake account",
+      "E": 1,
+      "lambda": "1",
+      "T": "23001234567",
+      "S": "23000061718",
+      "Sigma": "23000061718",
+      "Theta": "23002012344",
+      "thetaError": null,
+      "DT": "777777",
+      "DS": "0",
+      "reserve": 22001234567,
+      "validatorStake": 1003060657
+    },
+    {
+      "label": "N3 after real VLB(no_merge) sweep then SPB",
+      "E": 1,
+      "lambda": "1",
+      "T": "23002012344",
+      "S": "23000100603",
+      "Sigma": "23000100603",
+      "Theta": "23002012344",
+      "thetaError": null,
+      "DT": "0",
+      "DS": "0",
+      "reserve": 22002012344,
+      "validatorStake": 1002282880
+    },
+    {
+      "label": "W4 donation+VLB+SPB in one transaction",
+      "E": 1,
+      "lambda": "1",
+      "T": "23002016586",
+      "S": "23000100815",
+      "Sigma": "23000100815",
+      "Theta": "23002016586",
+      "thetaError": null,
+      "DT": "0",
+      "DS": "0",
+      "reserve": 22002016586,
+      "validatorStake": 1002282880
+    },
+    {
+      "label": "W5 pre: reserve donation 999 to make D_T nonzero",
+      "E": 1,
+      "lambda": "1",
+      "T": "23002016586",
+      "S": "23000100815",
+      "Sigma": "23000100815",
+      "Theta": "23002017585",
+      "thetaError": null,
+      "DT": "999",
+      "DS": "0",
+      "reserve": 22002017585,
+      "validatorStake": 1002282880
+    },
+    {
+      "label": "W5a DepositSol 123,456,789 lamports",
+      "E": 1,
+      "lambda": "1",
+      "T": "23125473375",
+      "S": "23123547321",
+      "Sigma": "23123547321",
+      "Theta": "23125474374",
+      "thetaError": null,
+      "DT": "999",
+      "DS": "0",
+      "reserve": 22125474374,
+      "validatorStake": 1002282880
+    },
+    {
+      "label": "W5b WithdrawSol 100,000,003 pool tokens",
+      "E": 1,
+      "lambda": "1",
+      "T": "23025565052",
+      "S": "23023647319",
+      "Sigma": "23023647319",
+      "Theta": "23025566051",
+      "thetaError": null,
+      "DT": "999",
+      "DS": "0",
+      "reserve": 22025566051,
+      "validatorStake": 1002282880
+    },
+    {
+      "label": "END after falsification attempts",
+      "E": 1,
+      "lambda": "1",
+      "T": "23025565052",
+      "S": "23023647319",
+      "Sigma": "23023647319",
+      "Theta": "23025566051",
+      "thetaError": null,
+      "DT": "999",
+      "DS": "0",
+      "reserve": 22025566051,
+      "validatorStake": 1002282880
+    }
+  ],
+  "falsification": [
+    {
+      "label": "Stake Withdraw from reserve signed by unprivileged key",
+      "succeeded": false,
+      "error": "Transaction simulation failed: Error processing Instruction 0: missing required signature for instruction",
+      "logs": [
+        "Program Stake11111111111111111111111111111111111111 failed: missing required signature for instruction"
+      ]
+    },
+    {
+      "label": "Stake Withdraw from validator stake signed by unprivileged key",
+      "succeeded": false,
+      "error": "Transaction simulation failed: Error processing Instruction 0: missing required signature for instruction",
+      "logs": [
+        "Program Stake11111111111111111111111111111111111111 failed: missing required signature for instruction"
+      ]
+    },
+    {
+      "label": "SPL Token MintTo signed by unprivileged key",
+      "succeeded": false,
+      "error": "Transaction simulation failed: Error processing Instruction 0: custom program error: 0x4",
+      "logs": [
+        "Program log: Instruction: MintTo",
+        "Program log: Error: owner does not match",
+        "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4252 of 200000 compute units",
+        "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x4"
+      ]
+    },
+    {
+      "label": "System transfer out of reserve (stake-owned) claiming reserve as signer",
+      "succeeded": false,
+      "error": "Signature verification failed.",
+      "logs": []
+    }
+  ],
+  "stakeAccountRent": 2282880,
+  "epoch0Vlb": {
+    "succeeded": false,
+    "epoch": 0,
+    "error": "Simulation failed.  Message: Transaction simulation failed: Error processing Instruction 0: Unsupported sysvar. "
+  },
+  "n1FeeMinted": "61725",
+  "n1FeePredicted": "61725",
+  "wrongPairObservation": {
+    "theta": "23001234567",
+    "err": null,
+    "T": "23001234567"
+  },
+  "noMergeMutation": {
+    "vBefore": 1003060657,
+    "vAfter": 1002282880,
+    "rBefore": 22001234567,
+    "rAfter": 22002012344
+  },
+  "epochConstant": true,
+  "verdict": "PASS"
+}

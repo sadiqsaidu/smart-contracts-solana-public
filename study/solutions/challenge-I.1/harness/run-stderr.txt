@@ -1,0 +1,4 @@
+validator slot: 12
+Wrote program to /tmp/claude-1000/-home-azureuser-security-research-smart-contracts-solana-public/8112f5cd-0254-489b-b586-df032b46ec53/scratchpad/val/spoo1-local.so
+ec2dfefaa70d560754a0000f39bd2cabc192b895d36205b3c428f601b6e1d7e1  /tmp/claude-1000/-home-azureuser-security-research-smart-contracts-solana-public/8112f5cd-0254-489b-b586-df032b46ec53/scratchpad/val/spoo1-local.so
+bigint: Failed to load bindings, pure JS will be used (try npm run rebuild?)

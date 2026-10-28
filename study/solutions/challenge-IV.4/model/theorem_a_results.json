@@ -1,0 +1,15 @@
+{
+ "cases": 200000,
+ "inequality_holds": true,
+ "live_example": {
+  "T": 66101088311,
+  "S": 16407030513,
+  "L": 100000000000,
+  "z": 66101088311,
+  "fee_tokens": 420693090,
+  "fair_tokens_credit_after": 24821120093.827072,
+  "fair_tokens_credit_before": 12728779535.23775,
+  "separation_tokens": 12092340558.589325,
+  "separation_fraction_of_fair": 0.4871794871818314
+ }
+}

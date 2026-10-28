@@ -1,0 +1,97 @@
+{
+  "rpc": "http://127.0.0.1:18899",
+  "n": 23,
+  "experiments": {
+    "E1_atomic": {
+      "tx": {
+        "sig": "26hgAbgwd6rhuddkqcww7E1Gt1qqCSftAzQgzz8ZVL8Rc9feaZhCAPLirs86RiGsBew3WYRgoBZVgQSTmnQYPF1N",
+        "size": 556,
+        "accounts": 62,
+        "cu": 205836
+      },
+      "pre": {
+        "T": "83052506240",
+        "S": "83052506240",
+        "lambda": "1"
+      },
+      "post": {
+        "T": "133055839573",
+        "S": "108280320256",
+        "lambda": "1"
+      },
+      "thetaBefore": "83052506240",
+      "minted": "24413882307",
+      "tAtMint": "103055839573",
+      "sAtMint": "83866437949",
+      "priceIncludesDonations": true,
+      "mintedEqualsFloor": true,
+      "DT_after": "0",
+      "DS_after": "0",
+      "transferNumerator": "-85704865089",
+      "transferDenominator": "108280320256",
+      "approxLamports": -0.7915091577709934,
+      "thetaAfter": "133055839573",
+      "sigmaStarAfter": "108280320256"
+    },
+    "E2_nonatomic": {
+      "pre": {
+        "T": "133055839573",
+        "S": "108280320256",
+        "lambda": "1"
+      },
+      "thetaBefore": "153055839573",
+      "DT_at_mint": "20000000000",
+      "minted": "24413882307",
+      "fairMintApprox": 21363267709.955498,
+      "transferNumerator": "466411684024295134911",
+      "transferDenominator": "133423067964",
+      "approxLamports": 3495734966.5362334,
+      "thetaAfter": "183055839573",
+      "sigmaStarAfter": "133423067964"
+    },
+    "E3_wrong_pair": {
+      "tx": {
+        "sig": "2gTGVVkRWHroDt9iLLnvznfrCmpSTpQkAdvKdmAASDBDo6G6PCarmNXNxmHxb3Sse6BuBs6m64kSVC53s7SkhDda",
+        "size": 488,
+        "accounts": 61,
+        "cu": 195940
+      },
+      "thetaBefore": "203055839573",
+      "tAtMint": "183055839573",
+      "DT_at_mint": "20000000000",
+      "minted": "21865962037",
+      "transferNumerator": "417243594544380290201",
+      "transferDenominator": "155958218202",
+      "approxLamports": 2675354972.342391,
+      "thetaAfter": "233055839573",
+      "sigmaStarAfter": "155958218202"
+    },
+    "E4_lock_limit": {
+      "pad0": {
+        "ok": true,
+        "sig": "5bMaEvrhrmNWYJbwd57pNh19wKoM7PV28YesFEhjR6muMyZZGRM5dCVZFHNvVEhLzbhdKEHo9coaCydeXC2tQycP",
+        "size": 426,
+        "accounts": 61,
+        "cu": 270895
+      },
+      "pad4": {
+        "ok": true,
+        "sig": "2YyeBfLbH9P9yfFM8iHFaqD7YDNueFjAypgEzwN9XPypsxTtZMVNZjys97he4nh6KWyKKZBQZyVXMz9edvvEWPUR",
+        "size": 434,
+        "accounts": 65,
+        "cu": 196060
+      },
+      "pad5": {
+        "ok": true,
+        "sig": "64arX9bew7yx569gd1QWbvsoDf8oSKfcHUFtESUu52ip5izoZTxRzVbtbNqs2MiRhDVk4tzC3hgJhGDegRTGW4s9",
+        "size": 436,
+        "accounts": 66,
+        "cu": 196267
+      }
+    }
+  },
+  "setupEpoch": 0,
+  "measuredEpoch": 1,
+  "epochAtEnd": 1,
+  "verdict": "PASS"
+}
