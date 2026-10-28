@@ -1,0 +1,2032 @@
+{
+ "epochs": {
+  "1020": {
+   "first_spb_slot_index": 2433,
+   "n_maint_txs": 2,
+   "claims": [
+    [
+     123170,
+     {
+      "V0": 117112
+     },
+     "4stLc3wuQpdf2JhmKRH5spWrb6FZPQj254JaDeJj4eCPMzsFKQpTksmkcvxnMLNXgSqvyghUbCBmpATdtjL6XPTp"
+    ],
+    [
+     131944,
+     {
+      "V1": 37999
+     },
+     "4tfuvxX9vnrTKToinHYvz4TdC36XVFr4LFw4cVipWBcYGA3xjzaKr4HCgyyHQezckW2TJArUcTGU3aRf3E3cFbBa"
+    ],
+    [
+     134656,
+     {
+      "V3": 53103
+     },
+     "2jYrArdMET8aEsAVioyqtELBfxZ6EXQ896Ef1DRWa5RUbLB4dP8QcqyDWait4Ud5SMvJYFTNJM4EjX39L56H7N3J"
+    ]
+   ],
+   "z_total": 208214,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1021": {
+   "first_spb_slot_index": 2349,
+   "n_maint_txs": 2,
+   "claims": [
+    [
+     23660,
+     {
+      "V3": 42328
+     },
+     "PG8Hyd55ARcwYs8M6UhWbNabVhWEJ1AUv74kv6VHaNJFYSCnxMLVPpWfi5vh2V3B2zPdQqsZjo64iv7zb3XJ5tY"
+    ],
+    [
+     26869,
+     {
+      "V0": 103877
+     },
+     "3MzAW2zFM4y5N7fvMZ44a2jJzJhFppqkq6FiVNqttSnry8Vruw8WjBNbtd4dQCpJwL3Hax1wDDpFzFdL1XStfvdn"
+    ],
+    [
+     35805,
+     {
+      "V1": 220199
+     },
+     "4RfJsTzLm6Fv32RrPpi1Sn57izztbabm81VUacKBN3X9dVeSiQb9bFw6AwnoPJk2HGjVxYZnGmvEC3CQnUkE2Vp"
+    ]
+   ],
+   "z_total": 366404,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1022": {
+   "first_spb_slot_index": 3806,
+   "n_maint_txs": 2,
+   "claims": [
+    [
+     20465,
+     {
+      "V0": 91855
+     },
+     "55kwU4fr7PFLuNFF2dgomyufPg26P4XWF3o5GejfY6EwGMjzTz7sgpDrcRCiuAMbERmVdG9fx7aCNHizjMAdE99n"
+    ],
+    [
+     21821,
+     {
+      "V1": 29378
+     },
+     "2KkoDfa3f3oPYt9US7inLfSDr6Rwmpvjnd9qPPXK15Rdge9nRYQUEfBf7U9syFGLdXNxXXERgWKv4Y1SZQNB1dLi"
+    ],
+    [
+     22640,
+     {
+      "V3": 73481
+     },
+     "2kZF2yXpspV6sP3kAAT1SDi9eXPHsAxB516uswBLQxUK8yQ6CWHuKTvMpSnFhDfn2ZaqYQzFJb3Xt667oKpDp251"
+    ]
+   ],
+   "z_total": 194714,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1023": {
+   "first_spb_slot_index": 4939,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     13681,
+     {
+      "V0": 131322
+     },
+     "2qE5KYLcFcDaMAcG4hDQSkWaD48afPEGcY946WRkRccs5et7GctMiLGDviqxNaeZAS6c5gkLWrNkB5uEzy97JPZm"
+    ],
+    [
+     19951,
+     {
+      "V1": 104522
+     },
+     "41HAw8P4fCMgTR7MYpBfrjZt7TZGyxwSPkDXRDtHgUnXqKvzRzd8FCQb5bfiwE6XgeNdShbsUm7fVDgoBy1qa2pG"
+    ],
+    [
+     20652,
+     {
+      "V3": 30911
+     },
+     "3VA7rgTMAde5BshTxq6knu2GeYPGQhxDcnscxHr8vicD7mHZjzAkSyambyv8ieXZNn9CDd9oi9yZACDWNSjtiNZx"
+    ]
+   ],
+   "z_total": 266755,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1024": {
+   "first_spb_slot_index": 5642,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     19987,
+     {
+      "V3": 120285
+     },
+     "4XKomxxgrNCBxWHekpYMtUDQT4M55mNfsq72kwBwv8odSMVmLVjubXdCMeXJ3khZJQ7AaTa3a5HiQanoKve1cuXU"
+    ],
+    [
+     32180,
+     {
+      "V1": 69950
+     },
+     "5hkR5rH3eAGBGp9h2CZb9H842xTUsGEB6gVoo3LZigV93F5bNVZMXj8Jng7RQ26H2jcF7qFWp6aiVcnocCRNssRu"
+    ],
+    [
+     37112,
+     {
+      "V0": 179421
+     },
+     "3QsM1hQ1jWjdYUXP1ZpC5Y1RASbUVPoHDX2WwqiMt8v1FnbaFQVgguFhuwKhf521XpLPDiS5Y1kfbbqsFhze6v98"
+    ]
+   ],
+   "z_total": 369656,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1025": {
+   "first_spb_slot_index": 5726,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     24438,
+     {
+      "V3": 47712
+     },
+     "3g6Lgx7FzRhcXnaK9FuvqXpavUWHtuv6TVyoLC9nVC2jmTi2mMddM1gSThMUsgGhzVZsz9breEASvHZcfNRLg22W"
+    ],
+    [
+     25469,
+     {
+      "V1": 46263
+     },
+     "3AZgufVzDnvgQ7DL9FALuxL8kPvnL1aLFy1Ws86vUqcxvnB9GDhu8M4PU8LkoyiUgvm5VCQUW1jTXfxwYsxB1BMM"
+    ],
+    [
+     26327,
+     {
+      "V0": 155771
+     },
+     "5oYVBTZkzvHVwJ13KBgukirsckG1CiqG3q8hSupoa4ZWCVwP9nbohUq1wnonDS3FGDqciprt8JDwYXbBrxkyXaK8"
+    ]
+   ],
+   "z_total": 249746,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1026": {
+   "first_spb_slot_index": 4907,
+   "n_maint_txs": 2,
+   "claims": [
+    [
+     22111,
+     {
+      "V0": 75571
+     },
+     "4xDHxYLWMxzRVBhM4DkrGGsJopFg2DZf5RbRRGPkaF346UkzSN3TCHFkdEiBd3hPkfpkt3kN3h9J3MJmWV7u8V3D"
+    ],
+    [
+     24664,
+     {
+      "V1": 34738
+     },
+     "5wepwTGgryoJLGP6C9eSFrUjfodje38RhokKEWkdwyqj4qSa3W9sFffASAvRguQmCV6y46bdrRoJ7tibZDk55Lxa"
+    ],
+    [
+     26279,
+     {
+      "V3": 37032
+     },
+     "TsKi9L6yo75z9dkJWsgGjvjKWGbDcoAsXb4Hw8jn3Z7NafCrv4LcZWWBqzxhyUmuDQGGY6FSN6AjcuRxhY7kyUQ"
+    ]
+   ],
+   "z_total": 147341,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": [
+    [
+     136710,
+     [],
+     {
+      "reserve": 1400000
+     },
+     "5azpQ6goCNECvMNGbP2HyA8Hvg3fUvadzRBXLmCDXffpq2jFTkzzpVDndCwTcJyE3g3iw2VmnFbRrT7wANZk4Tsc",
+     null
+    ],
+    [
+     136769,
+     [],
+     {
+      "reserve": 2100000
+     },
+     "5zso3nYgTQQbhZfSKNiX2MhqVd2SXsYAJEGLH3QSbqu7E6z4eKiq4Ha9Ee9bsefMWw1LRoJz9n8fTavk7DbjQ4zz",
+     null
+    ],
+    [
+     136808,
+     [],
+     {
+      "reserve": 1800000
+     },
+     "4r3FMP8eudvsNhs1KxnDVNvj48zet8pNnvRZxPU4eojGZoSK13vTq1FjriVgrfrkXqPkpwLHHMmoZw1kPT7sQfb2",
+     null
+    ]
+   ]
+  },
+  "1027": {
+   "first_spb_slot_index": 4637,
+   "n_maint_txs": 4,
+   "claims": [
+    [
+     91585,
+     {
+      "V1": 31027
+     },
+     "3CKDLC2N362sAeLqTGvwPXNMC3zQSyjVE7zTvW7XesG8jebX2KKKqcY6ezzGe8ku57mhcikRZCSSbPUUwzvnF55i"
+    ],
+    [
+     92698,
+     {
+      "V3": 60216
+     },
+     "381MNPzprL9ApZXZg3QRXpdrGyqesJ9B1jHC8xhFaJvkqM7P4nPjcsAzLo6w3mxrqCe6TZiwekPKBLw7PKNEMdnv"
+    ],
+    [
+     104907,
+     {
+      "V0": 72548
+     },
+     "29SAYaPg1PUzAVKapsm6kDNPqjPwmLiGMsLL94FkGqkKyAgviLWJZtmu2syw9reLzYKK15jBHs4ZugJFpadpGCE8"
+    ]
+   ],
+   "z_total": 163791,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1028": {
+   "first_spb_slot_index": 5747,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     16965,
+     {
+      "V1": 35813
+     },
+     "3SNYoZpdQwG1FiAsH6rHTQGk3gs4G3wdv6VqrcvZeCZPWLD3X3kW9mN2PVdxmPRUZMXMibZNs8qeEbA2sdMYStsr"
+    ],
+    [
+     17181,
+     {
+      "V3": 20989
+     },
+     "2MKe32s112eJ4T7VQvBio6oDLp7dpjSZVdVCtTgaEGjYFjruEf6aUpcWu6QenFVHJomYDGFQaZgggKS1Hz9MUHca"
+    ],
+    [
+     28205,
+     {
+      "V0": 51653
+     },
+     "7H99gYJsDeG4mdDt5dEXJjWXN1iESaCFd1v2THrWkMbN6jJbYB59Ca4kesVHRtL2epKw3QJdD7PCi239v8ovZHY"
+    ]
+   ],
+   "z_total": 108455,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1029": {
+   "first_spb_slot_index": 5735,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     16883,
+     {
+      "V3": 33417
+     },
+     "62eaJgKbpCiD6fggoJhTQ7PAFVRNp4Pm9KPqx6Kb2FuoyCWvyxwXc5UE3uJLyBxLp5rmdfVEP5EGuXTWUH6LbKBa"
+    ],
+    [
+     28252,
+     {
+      "V0": 28626
+     },
+     "QYz6Vwbz3JvKBFMV5Ageg8XE2FJHRt5A2iwkaMxFGQHAwwCCzXZJHe9uvoofUMs9wtbb2a2DDfrpKm3Xow5v3qY"
+    ],
+    [
+     29807,
+     {
+      "V1": 29426
+     },
+     "5WJRpnsDASb92VoGuozSkbPd9zX5XLWjRJ6rRhg4i1AAW2GCXn6mRhrgcZUGisuwiH5pajahc843ZZdqJDQjmhXy"
+    ]
+   ],
+   "z_total": 91469,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1030": {
+   "first_spb_slot_index": 5692,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     20015,
+     {
+      "V0": 29347
+     },
+     "3EBJMLwfdwStaXiWJ3ECSZP4H54TMXM21tMwgQMi2z8gkiHHdcqBJdJtndc3rsLf9RpqcoNtK2R1tHbe9xULPhPd"
+    ],
+    [
+     21029,
+     {
+      "V1": 50867
+     },
+     "4ajRe9BQHjwpdZHozVp73t4Qcj5dG9KnJkG86fZxPqgcvrdf1AYFxxrQcdMyKY7n7jds8TAVtACCncVKTAJvGLX5"
+    ],
+    [
+     25927,
+     {
+      "V3": 18019
+     },
+     "3vcpQRt1of3Pg5f7xuThS36tERwjRNj5os6UuopSiiz71dEuTpEeM6FMXUnaPrHJ8nSNTyX4SWK9cL6PsKX48qDG"
+    ]
+   ],
+   "z_total": 98233,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": [
+    [
+     406775,
+     [],
+     {
+      "reserve": 14573000000
+     },
+     "2KJhxo5LiRvusHPYKceKboAxQJ3LBDeNDXPEGMnZG2VdFJ1hwV4Bn4QzzS4zc4VXuomvWZxevjgLqAHj25rRLCSy",
+     null
+    ]
+   ]
+  },
+  "1031": {
+   "first_spb_slot_index": 5696,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     18462,
+     {
+      "V1": 71330
+     },
+     "2czy53zZSPNCvsAeYG7u2UG4jpnegTnwsN1WNbLv2LQy31JtfXbitDDB9f6kcELYEMdaNUMPuY5L9EzRq5SEr6UP"
+    ],
+    [
+     19204,
+     {
+      "V0": 44399
+     },
+     "4xAH9FTSUN9z7nD1FJW3hTKPLYSLnGAAUbBz6BxW1ntH7FDkzvwdn76sLaoM3XH9cJX4mJsrGmmnQfiSb4viC1g9"
+    ],
+    [
+     33966,
+     {
+      "V3": 16913
+     },
+     "5Aco4UauLDuzV53isumGMeB4praznYUho1UDiSTCXAyM7soTWAsTrtt7WhCiEvmi5rwm9SyqA33DzH7SWTwhj9cq"
+    ]
+   ],
+   "z_total": 132642,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": [
+    [
+     31819,
+     [
+      "IncreaseValidatorStake",
+      "IncreaseAdditionalValidatorStake",
+      "GetMinimumDelegation",
+      "Split"
+     ],
+     {
+      "X0": 3647859059,
+      "reserve": -3647859059
+     },
+     "3GMMyuYK3krtdE7dLcQyYgt3hpRby9DBnEjd6JSiFE3iFwSx3e8mszY8wpYxXpHdwXxBbmEPP8pNvE6G8CsTLveW",
+     null
+    ],
+    [
+     31853,
+     [
+      "IncreaseValidatorStake",
+      "IncreaseAdditionalValidatorStake",
+      "GetMinimumDelegation",
+      "Split"
+     ],
+     {
+      "reserve": -3647859059
+     },
+     "2mVFS4WcobpG1TKK82D2Bctdx2oMLRnGdStkVioWh95UAJW1q1QiYbaRuPjzWZhrVRVvxAftxBuJi8pj7drmW5sv",
+     null
+    ],
+    [
+     31918,
+     [
+      "IncreaseValidatorStake",
+      "IncreaseAdditionalValidatorStake",
+      "GetMinimumDelegation",
+      "Split"
+     ],
+     {
+      "X2": 3647859059,
+      "reserve": -3647859059
+     },
+     "3WLkACorZHqi6DnBYg7yxS9UqzLPEZ73hBTtdSBkMiCQ2GF3Fm3am7t7jGyw5kK2bJyw8UhVri7uzQeue6aMVFqi",
+     null
+    ],
+    [
+     31952,
+     [
+      "IncreaseValidatorStake",
+      "IncreaseAdditionalValidatorStake",
+      "GetMinimumDelegation",
+      "Split"
+     ],
+     {
+      "X3": 3647859059,
+      "reserve": -3647859059
+     },
+     "37wQgYcd4VSgjK8Mgfhqm9anqRnac1gymFTs3X2S4z7t3CohAHng1ezMJ9vJUn2AJyupChai8dS7VrPjyoN5ndEZ",
+     null
+    ]
+   ]
+  },
+  "1032": {
+   "first_spb_slot_index": 5761,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     15861,
+     {
+      "V1": 94923
+     },
+     "XKFGnrBNqJ5xASEWixXRnexyxvZWmufhSnNhTStPeSUhQJBfJBNmbi5UZhYYAaoVL8gZeHrMenABF6cXDHD61j3"
+    ],
+    [
+     16721,
+     {
+      "V3": 15872
+     },
+     "2daUr8QoUrnVYBbgGstL7Wo8EtJoaiYwa1R8SgpTpCz14vEU56M32RBo5xxa1rRTrjW8XSjE4J1y4tHiECdjXH46"
+    ],
+    [
+     24081,
+     {
+      "V0": 69118
+     },
+     "Dh7crSLcdtijzYsBacuawyT93adPeaUw8aDgSJwLbMmaYRPyqBRoGQjtC3KrW9DDuBdvAAvkLPdGqCNTBU4C2tH"
+    ]
+   ],
+   "z_total": 179913,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [
+    [
+     9051,
+     [
+      "DeployVaultAssets",
+      "Deposit",
+      "DepositSol",
+      "IncreaseLiquidityV2"
+     ],
+     {
+      "reserve": 2552173055
+     },
+     "BWwBVme9HZProXM8CaoGBEb6oqSBgy6HP452Bx1dk4jy42vd7bjYcjQwSLtuoQLHUYPmfcZXFXvEDLMTpKWaZRe",
+     "4X8avqCKvNxb2a57pPV9nGJNfRQtETgBn7a7iyuNyjaH"
+    ]
+   ],
+   "other_txs": []
+  },
+  "1033": {
+   "first_spb_slot_index": 5695,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     17094,
+     {
+      "V0": 64457
+     },
+     "3Wwo2CFv4gUsJSiCvENM8QByQkL9WezzeVbk6cS6FuQQg6939jtQPgzZ4rKeWQMSQF2BtXH479Exz8gyeC4WVYQe"
+    ],
+    [
+     17493,
+     {
+      "V1": 52666
+     },
+     "42eutqBQb9sFzg57dYQ6WMM3p8briQ1YqUuo3THGi1BzDmQ59MUNpGQEHjjzvjqfwTtnkRjwdWWDAGHU2SmE9zyB"
+    ],
+    [
+     18281,
+     {
+      "V3": 12978
+     },
+     "5UWcgb3PxzxujKAwcZBDW9FVaDMq1bxE3gtyD9HzohdGWan7bBN5UYJLQcoXqmrjiyiEhEU4XYgb2gDuFVYTwvmd"
+    ],
+    [
+     24286,
+     {
+      "X0": 19458
+     },
+     "4vh3f5jpviSGSS1C7yDpnfVcYooCDPSbyACQA8WhD24qHwSxVgrWb73xdaEHbeZvN4rv3tE3Yn1MssTLgC9JxFr9"
+    ]
+   ],
+   "z_total": 130101,
+   "claims_after_first_spb": 4,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1034": {
+   "first_spb_slot_index": 5737,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     14758,
+     {
+      "V3": 11614
+     },
+     "3dp7k67TQNXjXtAcWbtBaPuXxCjFKNRKbUhfyb8Xh8hsEguQA9SLRtQ23RW1zRS53QtMmevaY6UJgSqUX8mVX7C3"
+    ],
+    [
+     19475,
+     {
+      "V0": 54967
+     },
+     "jbi8exEGHqZTwQiJnCtg4c9K15LVTDDfYM794j3X7mifAkyngFuzd8Zr6TSfebCswgqGwD64Wd49L7L6133AFfn"
+    ],
+    [
+     26484,
+     {
+      "V1": 16455
+     },
+     "3PG6ML6WVPS8scnSQAjrijy6ZsDTRnyQqYeN8g8V6muDzzb12CnzLMXU8wayabMRvJJDK31eJUouGDQeA45R9MSA"
+    ],
+    [
+     27284,
+     {
+      "X0": 16593
+     },
+     "4RHBJGQCP9RbS3H1nBLKsxrAU9hU4S8MZvrDZpGwcL9hnLsq62CPm7mHrf3sNzScZsN7YGhGqiMhGFos2y8oVpB6"
+    ]
+   ],
+   "z_total": 83036,
+   "claims_after_first_spb": 4,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1035": {
+   "first_spb_slot_index": 5712,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     20942,
+     {
+      "X0": 10227
+     },
+     "4keF5J39wU7kwdf1VkDAZu1tjnivqKW2wWMAXAE6cZU7qS9xQ49wS5XeFhvNcWN5EDLbc18Sv8iM7Av6LPCDos1j"
+    ],
+    [
+     25057,
+     {
+      "V0": 33880
+     },
+     "5GgTQnoRQkiGuMtUwPvxbuF9AzC8M432ZTHq8TDcCFr9T6LJwBhf64N57Z1ghHMsQrF1DgZwhGPfLckHMxjNEDEG"
+    ],
+    [
+     26410,
+     {
+      "V3": 17533
+     },
+     "3m15DQSWn5D4pBtYJXCHc7ozw8N21xXCKM9tKaog4qDUQAAL2k7EavaQjdqg3Q77Esmjv84NuxXNJW966bggR8eX"
+    ],
+    [
+     34316,
+     {
+      "V1": 21694
+     },
+     "vC8wJ3bUize9fG4HfVMqnDDxj9MQcUGHZoxn4xJscGN7t7cHi5pzKQSjhmyaHYpkBD7kFghG1SC8LGuAuxmjLhN"
+    ],
+    [
+     35843,
+     {
+      "X3": 6026
+     },
+     "3HRUb5Uid93B9AKai9a4hRwVpDET63J5r38cvfrLG9ivys1gXYuedJaAvdhiLv5dx3nCc1MoHrhABrcpkXaea3MR"
+    ]
+   ],
+   "z_total": 73107,
+   "claims_after_first_spb": 5,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1036": {
+   "first_spb_slot_index": 5737,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     32916,
+     {
+      "X3": 7191
+     },
+     "49Z3kYv9WDFmNGLMMLDxn6Ni63VAWMgXqf6JBtPXQ7sKG7P47Wzyw9v3uKSPLsq5c4kxKmM79UrxNPRYtTTNrBQx"
+    ],
+    [
+     44674,
+     {
+      "V3": 20923
+     },
+     "agCwCsHBseidrCTvBaXGJD3AafnQ2wgfWJUzE5xjhQLFkWzx2mniyXB8zys6nMaqBoqjjra6phf9kxrSQkmSXvB"
+    ],
+    [
+     46405,
+     {
+      "V1": 56383
+     },
+     "4RsQUhxqHsDLm5rxGvU3LimifVnpf4h3GzUpNR1dmcExC9Yth8yKvNNWz2Fyc615Vk92E74mQtZMM5CH1xdQbb6S"
+    ],
+    [
+     46729,
+     {
+      "X0": 25625
+     },
+     "2ZzHBq4c98Ye1ksKpLiQraSgTv8UcAFtuVAFfbjdqKgoiaBge13zE1ZsK6ozd5pXkLMTTm7LpUXZbYjFACCaueVs"
+    ],
+    [
+     50727,
+     {
+      "V0": 84884
+     },
+     "79xjYW35yWW67BpXvworBHjhHeosmJnZDeHziLjbUPV5tbtKbBKJV6ppGVxW8vy62zu9xWccbvSQLMxU82uewxR"
+    ]
+   ],
+   "z_total": 162190,
+   "claims_after_first_spb": 5,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1037": {
+   "first_spb_slot_index": 6795,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     15087,
+     {
+      "V3": 58428
+     },
+     "2jNBkpYKtJKGr1LouQkK6gm58A1AhGEKhBk8fDNYmL6N4wGTCXqyX3z1KHJyZVcFc7kaoX3f2Nxzm32nEwkLMdDD"
+    ],
+    [
+     17828,
+     {
+      "X3": 20083
+     },
+     "2xRAQTM3oK2Q6tJxStLbaj2dwLjkcBUEvQqyfvMg1Prw4sWtH8bhNiwxpZzvLte8qQaedbevkKUQSyrthvKSiYKb"
+    ],
+    [
+     18234,
+     {
+      "V0": 111237
+     },
+     "4PH5wUU9TQBR7SixK2gCygfuN8ULRhezXTpeKEdKvRNEWdjcW4oG4AUvfipfzyMKDbaRrJMhVfdP6BMCg6eumkJa"
+    ],
+    [
+     27820,
+     {
+      "X0": 33580
+     },
+     "2GrvkG8WhX3Tj8bYPU3MG497FeYUWaB8PTiiNA6986m28z7cNiYZ27EqtmhqBj1XebXh3bS1tyhi24d3YLNkR3uh"
+    ],
+    [
+     29556,
+     {
+      "V1": 42690
+     },
+     "4SwZ48q65zQ8WwFrCTmyLWvtTt1JPdJnZzgRgbALeis1h9y1D3cA8M2eHY7RxebbiDrAWBWJowFFgaakmhSFoFLG"
+    ]
+   ],
+   "z_total": 212355,
+   "claims_after_first_spb": 5,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1038": {
+   "first_spb_slot_index": 6775,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     133572,
+     {
+      "X3": 12471
+     },
+     "9FRBi8Mg6a8Jzo6YCH3TQaAU4xxjoW3bLdh3QRKufJzoBcZPKU77vSX5kBSDYZe6CuvWLKPwexhVX7JoZttyTCK"
+    ],
+    [
+     139659,
+     {
+      "V0": 28928
+     },
+     "8e9fWsL6iEHxRKq1cCcTMWBmoevHn4xPHKUYRMernQAvBgV85PTd2oCXWspeF9ufWwqZ7a59yo84VahkSMePCRB"
+    ],
+    [
+     143133,
+     {
+      "V1": 44476
+     },
+     "5Nd2CaLodxPELXBeANR2BgJ7nkDtzsZ8hYK1WJAPbEeSwKEg6AkR2noMRhEKnomEZKhTbWxmshDG9pXkg8ZijXid"
+    ],
+    [
+     145497,
+     {
+      "X0": 8732
+     },
+     "3fv8hxFh9AttN4bcRKHmqGP3o7xpxS85GcryanxibPfwohnaZHTSdQKuqugnejrZiMnFeTM9pf3kUPcx1hkdRPYA"
+    ],
+    [
+     146584,
+     {
+      "V3": 36283
+     },
+     "3Qu6tUXHvMFocm745a2a2Kcp9p2WwanVS35NBzZAckv89iWsqe9Yqrp4zUcd3kyX6AJSR76iVs3GRPQnwqFUPULA"
+    ]
+   ],
+   "z_total": 109687,
+   "claims_after_first_spb": 5,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1039": {
+   "first_spb_slot_index": 6787,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     16099,
+     {
+      "X3": 10605
+     },
+     "2Awnxn8BqDR65QMvh6MhsaGb2McpEyBpQ4n3c6DPaLQPk8YZQSpezKshuL5WKqzVqqVU5YvKG17KveTenttvrTUm"
+    ],
+    [
+     17402,
+     {
+      "V3": 30854
+     },
+     "32YMvBJPo3TCk4JtP2wGfSw87Z7agd9B1u3kR5SkCy3EUwdnzjQh2Sv4XRqdSPiLUrnbxbfKknhYh24Z8gQ5wZPv"
+    ],
+    [
+     17482,
+     {
+      "X0": 11150
+     },
+     "dx2PZfvE8rvEwzfraCkojbLYxtT6iQxn6bmGec4BNhEoZCykbYZ5LEvuSo8gkfv7xGANDojwuybyZ84gD7QpNcT"
+    ],
+    [
+     19783,
+     {
+      "V0": 36936
+     },
+     "5Yt1a5fjnBRCALqZhCz7HGCMjZEgHkbD9rfStJTrjcNXBGDhXhL5pgP7qE4EfuM4qV7NoPF3FbcSaZvzTiitaEm4"
+    ],
+    [
+     25215,
+     {
+      "V1": 25047
+     },
+     "3omD8VQBsnrTm9bNr7wa8kZWbzQBhAFyRXarYYwqGFp8foNKrQbYDfc3xniiK6xngU2xUXW2dJpJ9v5XdQgSxWHB"
+    ]
+   ],
+   "z_total": 92837,
+   "claims_after_first_spb": 5,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1040": {
+   "first_spb_slot_index": 6800,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     21377,
+     {
+      "X3": 11573
+     },
+     "4hPxkWVEF2dtUxQZUFsa8TAGxKpjbdf2soPMrW88nmMYtcNVUkVAus89aMoToBTMMFf9yjLNVhKSU2zQZTn6rwSi"
+    ],
+    [
+     24217,
+     {
+      "V1": 22840
+     },
+     "2Atb5gopaZoxKzBVjXHyjyzDKboGdH5KF4K9dFriseTYPjR2mBvvgpkZfa7SKizHvSE8ydAk5e7qVhbnsi74EVyh"
+    ],
+    [
+     26257,
+     {
+      "X0": 13613
+     },
+     "ApNea9sf5zwm3MkfFL3aTKZvA1tAVZN28X9ngedD9etTjjEfHfbKz2BZeWzLdWifVZVEhrTTf919FZmtjd8xH6a"
+    ],
+    [
+     28450,
+     {
+      "V3": 33669
+     },
+     "2TF8dmouQDDhQBB4a2NT5NfCESpQgpgAB7A2uBsqdzmySjnyxHmDzDbvEEr3L9TiAtYntoJjLzXyzvikmH2sSR9x"
+    ],
+    [
+     34576,
+     {
+      "V0": 45095
+     },
+     "4UjvihCjrtqr2QvTKMTzPjzdqgcpET7PonyDj11NTP4qmLx4nzVQhaKrynQG83zfeGqfGxsMKKDszZzwuUxqfDUn"
+    ]
+   ],
+   "z_total": 101604,
+   "claims_after_first_spb": 5,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1041": {
+   "first_spb_slot_index": 6814,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     11609,
+     {
+      "V3": 29500
+     },
+     "4rW5DCWMQ6YDJbGnAHNGwSfrDeXYk5jt1x9BEDeLZYjtWe6Xx4nUcMtCJaBZNyewvQMvUxGsPHTZ9yi1zwp9sQPf"
+    ],
+    [
+     13002,
+     {
+      "X0": 12259
+     },
+     "xyr4ijshGPLoSLLXUruEn9gh4NkrFXqJu671qvUxyRno4cQKCJsohZheZyvQtGYhuGsxajr6NkcMcQGqQEeRDVE"
+    ],
+    [
+     15363,
+     {
+      "V0": 40608
+     },
+     "4dTh8J16Y2y7pkuGgc11qM9opEHJScgT7DLqjam7QjbTZ3buStnkbRoq5Jqrm2ZPD99kTAMMmqcx4yktq5qwndRc"
+    ],
+    [
+     15912,
+     {
+      "X3": 10140
+     },
+     "3Qf5bAH832qcr2QPesghPBeVs6pU9mijm1wL9Libmnj6AJ69Gkfa9sYP2zfU9cV3vWvvFiQaH1uWwnsmWSNhvdiE"
+    ],
+    [
+     21997,
+     {
+      "V1": 36177
+     },
+     "5pFgjWG3oVhTNpZ8ArTemF8dC1UqhKSXGB2MKdnD9RHPwb2S53pxmY1jMFRZaVkVjDDdvzjjRH612NFARiJRKwrm"
+    ]
+   ],
+   "z_total": 106285,
+   "claims_after_first_spb": 5,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1042": {
+   "first_spb_slot_index": 6805,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     14728,
+     {
+      "V3": 93565
+     },
+     "2fEidzsFXZbbwRTqukaBtXy7eJBwk4kH6fYPF81VzMue9kxVBueMeXd7FCeH8XhBQMZoohrnCDZAukxUowrQ2qCL"
+    ],
+    [
+     16076,
+     {
+      "X3": 32161
+     },
+     "4eaV3GDvnoJeJyYCxJhY966vhLwfA6CWs7jaGGaADYmGtsHfMQC4mda6T8gif2QE451RfDKUrvnGvJ9ajqMr92hC"
+    ],
+    [
+     17147,
+     {
+      "V0": 55891
+     },
+     "BcBMdjkKfxCdymtVw9bPhdSwmehPhDWcMPN9F9Wki6XRKK18TXTNvLwRspXia8ruySsvZZHQGVnNXkz9ddPmEx6"
+    ],
+    [
+     17927,
+     {
+      "X0": 16872
+     },
+     "tiNs3mGXKtjsbJcHWiznfCH9YVZVfk55aBtWkabmHPkp8eVwVNDnbKgt9qbZqBkpPee7cdNjsFN18XFsJWYZNpY"
+    ],
+    [
+     20577,
+     {
+      "V1": 100422
+     },
+     "2vzyWNRmvxY8e6DZVHF9zNar4awafDgow7unWYG4xXwKKycq3GYufdS4g3WJntSgtnADT9ctrqa5TAptNLxF3kmq"
+    ]
+   ],
+   "z_total": 249878,
+   "claims_after_first_spb": 5,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1043": {
+   "first_spb_slot_index": 6750,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     10599,
+     {
+      "V1": 57794
+     },
+     "3AFoExvdghrqjN4uLdFL4U3WjcLMoTD81ZBgJdPdRHm15Kgkr3BpZ5Aswrgwz4tzGj45Z53MVFUNAtTPTNmgqwWf"
+    ],
+    [
+     13111,
+     {
+      "X0": 20277
+     },
+     "4Gtq4AaRNRApFn9quJk75HA5uPBHAf7vckBCKVYihykFNaYB6Y1vDE7K3pR3bQng42bdMrqz1q8V81myVQjCf4zS"
+    ],
+    [
+     13680,
+     {
+      "X3": 31480
+     },
+     "QKN3YWp8NTjMv814sUNnazsrFmDg6q68KM16PTVb6s42ZUeBf6neaWWHcrUFNF1xZKtmTjz1KBVYi834rRiFt72"
+    ],
+    [
+     22484,
+     {
+      "V3": 91586
+     },
+     "5Te9sbzyJNxMQcmhf7TsKFjTX77aYMJ3kk95e7vG9XzddkqQo8Qj3ND7N6SvGKQw5vkQ8tZQ8a81MucB4qCmCq2w"
+    ],
+    [
+     23541,
+     {
+      "V0": 67170
+     },
+     "56sko3WVhMMjujkSa31PtJLQUfWe3Aho4cYf551bgoXEWrGpQKzPGY5YNJHotrgP9QcXDMAndzYL32SFNK2tCWBf"
+    ]
+   ],
+   "z_total": 216550,
+   "claims_after_first_spb": 5,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1044": {
+   "first_spb_slot_index": 6757,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     19016,
+     {
+      "X0": 68053
+     },
+     "PMDk8wFdkef19zhMj54rbVX1ahwALVdLa8fqZw17MebRZDrnE6bbm8DM4Tu4aNLRfmQbvKjmn28mtGghx8Pz2Bv"
+    ],
+    [
+     23703,
+     {
+      "V3": 105568
+     },
+     "28pVumpTZs2AfMMPKcv26qnRPzXzp9srodxBXReAj7Yq9vWjofwxytpik7NA5djudYvnXFgRPKHwbSyLqN1tB1qe"
+    ],
+    [
+     26016,
+     {
+      "V1": 27949
+     },
+     "2WYjoY8wob6N9P95wQGroMuJtcYDbt2eNCzZvNLSBsnYqW5QzLhG7YcXX1AopFGxdvhjsnMMSZbNqKuJJeTr5nuv"
+    ],
+    [
+     27465,
+     {
+      "X3": 36287
+     },
+     "52N8Y5J2hSmCvAPSiUWtjshn5CvpwziABVGhF9K1QTS4moEzRoL9NtN1sjcVPV154HfrtGWfh7h4Bp2kNgwnNrzb"
+    ],
+    [
+     27639,
+     {
+      "V0": 225431
+     },
+     "3GTGedXm3jcABKR8pdunzb6nEgnwjjo2f7SMACmJdjeqeTo9339WovE5h5kP5YGwb4KD8gZyQddAZvVCecJcw6yZ"
+    ]
+   ],
+   "z_total": 358948,
+   "claims_after_first_spb": 5,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1045": {
+   "first_spb_slot_index": 6787,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     18512,
+     {
+      "X3": 27920
+     },
+     "3fVzuSVAwxkuXVzhZYqhTDbxHr21FsW6zDoPDndsKmJayBR19U2YZuttPsivMedehEoi2rBfrykxNU5W2LBsEt22"
+    ],
+    [
+     23376,
+     {
+      "V3": 81227
+     },
+     "29eHVeRjBMuJejmaA5m5n5enUrmuwUzj1pA3t5uvVcecok4G1na5Zp6PUh29souuohEDwFcDdvhhdc5hVDKvpgMN"
+    ],
+    [
+     24350,
+     {
+      "V1": 43503
+     },
+     "5aBerv8GETGqwT7NcbAd2NpCoe9RJuopsDuUypchViDm1YHC4wpFfoZtGjomhr5zgpW8tatRSvdaTvkBsZojGtU7"
+    ],
+    [
+     24831,
+     {
+      "V0": 39851
+     },
+     "2TVqP7oBELdGfx73AFR3GgWR5ErGtiYN2PehU7eeDM8yabtTpwKemQe5xU3jSzBd7sKQwoDfJnUjjMZ81n9QszoW"
+    ],
+    [
+     29919,
+     {
+      "X0": 12030
+     },
+     "64YwigRrfioLP3LqM64LzKDc7GeM6LofpDsxYUwrVcu58VwWH2AuGALLvgTvMJw8zvpbpxU3kQwUMda4LmZttX1b"
+    ]
+   ],
+   "z_total": 164581,
+   "claims_after_first_spb": 5,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1046": {
+   "first_spb_slot_index": 5476,
+   "n_maint_txs": 2,
+   "claims": [
+    [
+     20106,
+     {
+      "V3": 54417
+     },
+     "3Lf7bjdYAfXK9Q44pD2vZGf2ChEJnFHYuTGZ5ofSXJrPK1Uv3uch8QZsrJAk2AGrka1CfSQJ77XixTNNGbh65gRf"
+    ],
+    [
+     27543,
+     {
+      "V0": 34328
+     },
+     "3c1iBEhTZKGm8LrXdkSE6KeZCrVpyTas65eUYkMmxogz1pmvdHSSu8G9jVUPTZ9qQEes3hHgFqTrryp8Fx8fQGHo"
+    ],
+    [
+     34621,
+     {
+      "V1": 55709
+     },
+     "2Tpr5tgUQW5tHiXr36JrWvGjPEjrcPP573RhWDaYYaf7BdVmRcm3KFz4gprfg2wQrX8dhfKttrvuUtau5y2urPBi"
+    ],
+    [
+     61327,
+     {
+      "X0": 10363
+     },
+     "3Sqkr1xmRkuVpJhFT8sidnjUeAq8nrJtcfw4pGSWa9acyBv1bc3JKjNf3kbsb3yB4yQKwvmVqA6bkWjSc6u2Kbh9"
+    ]
+   ],
+   "z_total": 144454,
+   "claims_after_first_spb": 4,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": [
+    [
+     32375,
+     [
+      "IncreaseValidatorStake",
+      "IncreaseAdditionalValidatorStake",
+      "GetMinimumDelegation",
+      "Split"
+     ],
+     {
+      "X0": 1282738232,
+      "reserve": -1282738232
+     },
+     "4BvTYPpikAh5VsawDYtH89xLqa3PCvjTrMnTbyjD5zsgnX4HFsy2Hc5DMZMHC7gSajGfdeBvowAnvZtoR7gV83mA",
+     null
+    ],
+    [
+     32412,
+     [
+      "IncreaseValidatorStake",
+      "IncreaseAdditionalValidatorStake",
+      "GetMinimumDelegation",
+      "Split"
+     ],
+     {
+      "reserve": -1282738232
+     },
+     "NYsDhdr9oNnnLPEgRMutoa9dXNj5qSLifkG8MBbZtYevp1XUqBfuAxLTEumKGpv9CePkFEUKDQFwqjANeKSuVid",
+     null
+    ],
+    [
+     362051,
+     [],
+     {
+      "reserve": 1900000
+     },
+     "3DLrLv8wBE68Fwg8STHeXYt8SYQAF6zuAtDZa8GT1dY9ZWscBtjREeKdtKkQXW8Ec4uGLaMzdDrvAxTwYd4MYy3w",
+     null
+    ]
+   ]
+  },
+  "1047": {
+   "first_spb_slot_index": 4259,
+   "n_maint_txs": 2,
+   "claims": [
+    [
+     9602,
+     {
+      "V1": 54788
+     },
+     "4wYECZUWJEK6oBztPEqvWQpk773WmJxwdqmkjdNggHjVbxfLwLvprBQYTPxm1gx4zzyFwbCrjJsVnG8Vk88N8C7K"
+    ],
+    [
+     16485,
+     {
+      "V0": 49274
+     },
+     "4dd5tDJrHpDAifnVNuGi3RGAWG23AeX2PUxnvZSzSDFV4xzRHZ9fRHsAMGQhgLt6nVLBsQ4HUEFmzexReibKURFj"
+    ],
+    [
+     25378,
+     {
+      "V3": 78345
+     },
+     "5CA7QqQYoi3JrQFYmouL2zWx3FV4AJzPd3Yer6JoesHD6AutPX2KRmxmFmk3SEoYJUfmETTQaRZxv7UJ2CKq55Uw"
+    ]
+   ],
+   "z_total": 182407,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1048": {
+   "first_spb_slot_index": 2503,
+   "n_maint_txs": 2,
+   "claims": [
+    [
+     19091,
+     {
+      "V3": 238434
+     },
+     "4gzsJtJFnFhKc8ADBWt1U79bSKi9nA5zZKyLf8tmr67dMRT9ZBa4NVVkojgfVjHmA6f2PDp6mSchmPeiMWAW5qTL"
+    ],
+    [
+     29213,
+     {
+      "V1": 32809
+     },
+     "5L6uu1GWk6pRmbbe4ndu96x2w5psM7nJzDdwT5YRjr3WG1fnnA1TMxWt5kexrDTBfoM3Xrm93pAwBD31jTMU2r2Q"
+    ],
+    [
+     34665,
+     {
+      "V0": 59732
+     },
+     "4CeWNYF5ygpwQQkxojABtwoFXHdjaA8QwrKJzWrvirUVAU1cskmniCe6Ppww1btukHeYgWYKvuWwz1GEij5viSiA"
+    ]
+   ],
+   "z_total": 330975,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1049": {
+   "first_spb_slot_index": 1578,
+   "n_maint_txs": 2,
+   "claims": [
+    [
+     21577,
+     {
+      "V3": 66640
+     },
+     "XoWT9zprrroqAYys6KJTt3uw4x9mSL1zDR396y2maRbN8cFJ2WJAMYvJ1btVUcaMB9Y2FbHWK4W1L9icZ4Dn9N3"
+    ],
+    [
+     23224,
+     {
+      "V0": 42334
+     },
+     "4TcvVmy62HEhaUnwzMosCPyVK5kKMhCKavj3vHnj3Kj667h1UECQu8Ct5Zip7FoshY1xfrzWdT2NREtqMgMffScC"
+    ],
+    [
+     26565,
+     {
+      "V1": 45502
+     },
+     "4MbEexs1xGZC1FKoWetsa9Xc3zcGWkfTjUrwd3V5BjVfgiQaHgfVZNmc8EEiNQeHjTLZXzHKALQJ2fV22NQodAEt"
+    ]
+   ],
+   "z_total": 154476,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1050": {
+   "first_spb_slot_index": 6714,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     18001,
+     {
+      "V1": 36156
+     },
+     "25EdGXp2CStME9kfqJEQKWkVZVEfU6JevVsree2MjwU6RsV7G7r3e396YPbcQ3i22er3hsYKxnnhXG1aF9WdKcgG"
+    ],
+    [
+     23587,
+     {
+      "V0": 41591
+     },
+     "MebCuTe6M4pt2ascnsFCtaGgavRBmW9avKidUYKCn5sNH8EMFtJi4nrMeHxGzHvFWC9GopKyjnvGjkaQGUc5Qyi"
+    ],
+    [
+     32957,
+     {
+      "V3": 64157
+     },
+     "2ALg38G78YL7gdse9pH6zVF4Y4BZ2RBeMCamprKwhfxtRaRgMen4VD7bppTTW611CScqNpPW65coUovS2LgEp2AK"
+    ]
+   ],
+   "z_total": 141904,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1051": {
+   "first_spb_slot_index": 6721,
+   "n_maint_txs": 6,
+   "claims": [
+    [
+     14130,
+     {
+      "V1": 38356
+     },
+     "62mkHfTkDGDS7LtDGmTg1dG6crCQjAhEpLKzKhbB2jwQ49Uj5rxxcXSKyjyZwVQLVbefG91NkkkrNK9KfEZKQ1PG"
+    ],
+    [
+     17512,
+     {
+      "V0": 66741
+     },
+     "2Qa55sZky6SpoKgNZAeq2hn3u9jbi9WrmqjJSUrUJECx9r77gbuux1rCB1JeAovxuLyCHNHodzhbyH5rUrXK8thM"
+    ],
+    [
+     21734,
+     {
+      "V3": 90558
+     },
+     "3AWUZXdsLTR9Uh2vaiX1WVepCv6s61mXYyfxa6FU3miEv5tTQXoNG32qtc4qWi2AKk4henTXqc231gDyavnaLiFq"
+    ]
+   ],
+   "z_total": 195655,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1052": {
+   "first_spb_slot_index": 6784,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     22472,
+     {
+      "V0": 48310
+     },
+     "2XLE7ZvpeMJiJmRxYTyWX52j3kwhyVBMLamx5DVh9Fpra6rzaNr582xo8Sn569GAFwLgf4Dyarxm8eYTSyzXbWxg"
+    ],
+    [
+     23314,
+     {
+      "V1": 57067
+     },
+     "5MNmrJtpJDZzHxLpPEkvAcwFehxuuQTJAQpas6QzzL6BsUZkf5FdAPRHznW3cdHV23cwgN3WU4k5RZVayzcxPVzg"
+    ],
+    [
+     30880,
+     {
+      "V3": 82395
+     },
+     "2tAMnCpj3fTNbUJQ7aanPVpcdaBJX7tST1NS26ErSN18m9ho89acunfMQx2fFNduHFsSFbrUXeNU1n4o4gXBi1cJ"
+    ]
+   ],
+   "z_total": 187772,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1053": {
+   "first_spb_slot_index": 5256,
+   "n_maint_txs": 2,
+   "claims": [
+    [
+     21363,
+     {
+      "V0": 44170
+     },
+     "37JiWM2swAfp3VmpyTk159TM1h75DrD7TyFSEynNMhzVv8ccyCdLpJdMC1YbpiFcEqX6jTLGhkTvxVNG7PLnd67n"
+    ],
+    [
+     22798,
+     {
+      "V1": 42313
+     },
+     "3rHCECNu83sC5BUD62Pon4n7obrGn7JVXewSL9qf3G97wMRp2qNjkW8zbpdydbh4q3phwLUSHYENUcFzHuNVZwCR"
+    ],
+    [
+     38356,
+     {
+      "V3": 55775
+     },
+     "HuFyqi37wjcCJEF3BZTrhSio6xWfLgSTqMTSnssjwtrw1rxZVDodLD6XePHtZyuAcwhijjPsQybiDWrkzUCRuS2"
+    ]
+   ],
+   "z_total": 142258,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1054": {
+   "first_spb_slot_index": 2083,
+   "n_maint_txs": 2,
+   "claims": [
+    [
+     19827,
+     {
+      "V1": 126404
+     },
+     "3aNq6DDKJEhoE9M7c629PZVBBrJRyFPWEA2r4hvXijWzndutUUf65njMeTGRbAP5Es7ikqitX4jP3oAp6YUUeHvh"
+    ],
+    [
+     28794,
+     {
+      "V3": 55535
+     },
+     "3gvWZuWRK2s4QMNyPaC4nyboZuQdRHQyR1oDUj38pnjXBfP6kUrsMT8MYAMDun2qrEpJ4cx4UgwRikH7uhU5xN2Z"
+    ],
+    [
+     33651,
+     {
+      "V0": 27060
+     },
+     "4GDGQrHvRQALZwZBsvznZKn3mDUbPt45WUZyH8qpQ63YSMkCe1MfZMqPBgEcgHaXMTnjNEbxeHzbRr3USGdzxt9a"
+    ]
+   ],
+   "z_total": 208999,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1055": {
+   "first_spb_slot_index": 8249,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     16513,
+     {
+      "V3": 37468
+     },
+     "576Ckzr1nPb5sSVTVkMFpS7f6kV5Lo78ogjbnSarVSpCjkVpfMDYVKDZK6WPgGwuVfeV4rcQ8MDqH57Qad8gE4Yz"
+    ],
+    [
+     24913,
+     {
+      "V1": 20863
+     },
+     "2i8mqc6xkP3GE4rMDVH2QS4oZ54nwRaNLoGXhdqBY5dX5Q5H3DkD36vBH3SdGJdYTTqFExKwCEADN7QRgjdWVERU"
+    ],
+    [
+     29928,
+     {
+      "V0": 24759
+     },
+     "4UQk9jo3Ddu4e45QybY1bDVE86sqkepjxQmegn6wayKdL8Bj3ZSokdFzPi7uiyHbpUn2Xg2EmatozPsUhf2VjJdA"
+    ]
+   ],
+   "z_total": 83090,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1056": {
+   "first_spb_slot_index": 8273,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     18121,
+     {
+      "V0": 82644
+     },
+     "3eMHMQqhLYAJb4qFceXU4BTFBroXBBX8nqjhenUevmx1MLcZGmfUPPHvk3RULP4RAEg5ptitdVpaWdnugAF835vw"
+    ],
+    [
+     21377,
+     {
+      "V3": 49351
+     },
+     "5mNFUrbzBE6rABUa2MeQpNeLTmaf3LwgJ3Zo5aCN4CDyzfwGC1Nir6cbuMJXyL6BhpFxjxPC6okJtczuPzyMvoWo"
+    ],
+    [
+     22045,
+     {
+      "V1": 62480
+     },
+     "2dQCVVHYf3jYQzgmFFncJoW4tVirSPBCcUFRHwpH2PFVfktJXjFFBTysTRfyMqA2JzomjuX4LdDVw7XYJdLjzqi"
+    ]
+   ],
+   "z_total": 194475,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1057": {
+   "first_spb_slot_index": 8139,
+   "n_maint_txs": 2,
+   "claims": [
+    [
+     19514,
+     {
+      "V1": 51272
+     },
+     "4yQcDsydyuU7QhoMA1mpJG1xFq3yfUbcGbgfyP3WevvMsJgq2ZaBWgDZTjG29YfEqPogGBBRdZGQnCdwjPB4xLbZ"
+    ],
+    [
+     26506,
+     {
+      "V3": 42590
+     },
+     "21L5mJ8LPjKayDTexwkNth4Y2BdPLpGw7gVUvJjNTWsTAyY2H2cttFeuTsC4VYqFkLfPRkj5xjjwgjedQsVjKegF"
+    ],
+    [
+     27999,
+     {
+      "V0": 28469
+     },
+     "33s5YvGwwgHUwza6rKu8zDVSn3wHznRTAUH1UhZgGgNVqwZK9FXUjRS9p7veLMYwxCQcuZGy6bnHohpnJYkUm8LD"
+    ]
+   ],
+   "z_total": 122331,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1058": {
+   "first_spb_slot_index": 7432,
+   "n_maint_txs": 2,
+   "claims": [
+    [
+     20141,
+     {
+      "V1": 34246
+     },
+     "2S3PCHv1dw2Z7aY1h1CzuLrd63kgiJW1PRYexvNwJtivE1QkkUhNv4UFW3pdAoJoeEMxuEsFkBFL8gWd75PHuKGs"
+    ],
+    [
+     26196,
+     {
+      "V3": 48582
+     },
+     "2aieLV2nstaKzZZQkFxUZCEWHA8s7BVSR8LFxy8nbwQaoX68UKa17JbeAZrTd8nmwZEWQmSmAYGqpBobnqHFSKd9"
+    ],
+    [
+     33336,
+     {
+      "V0": 28492
+     },
+     "4vHMeWHr5yJ2YDxGPJLns99q9uT7gRAUkURBQFTthYcA7QhpaDGfW7HJTAvGUXZqCwWBYKjH5AAvqhz4XnshZgs"
+    ]
+   ],
+   "z_total": 111320,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1059": {
+   "first_spb_slot_index": 8090,
+   "n_maint_txs": 2,
+   "claims": [
+    [
+     27141,
+     {
+      "V3": 46485
+     },
+     "4THiTm1dmQEzuzwEGus87kxKVe5vsShw9sJSpggbd63yQLcjbHB9d2W3fuGsxKqvnRBKqwXySsLjmYcD3AbyjYYT"
+    ],
+    [
+     27521,
+     {
+      "V0": 29381
+     },
+     "4FqDANy64Yumg8Rku9GpZSs9yRKcJYQRa57nEchp9CzJ6aUzyJzonGSicDoxQPhHv2bpF9ykzjYvo5zEo3iP7AQR"
+    ],
+    [
+     30508,
+     {
+      "V1": 22928
+     },
+     "5yQJQUVQGBNiCLVomPY8EB16DdgchXi7xaQpwYhoKJBZDHiuBxEmYGmD6Q4HpGGScoGgPCJcEEqiKuBsC217MqEP"
+    ]
+   ],
+   "z_total": 98794,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1060": {
+   "first_spb_slot_index": 8362,
+   "n_maint_txs": 8,
+   "claims": [
+    [
+     25971,
+     {
+      "V0": 23207
+     },
+     "45V3fjxxnbF971s5DekXZvepP4KiMohgZufY6szk2JpBhJ24Qbk2ZNhBeaVS7jB3a3h76ye1qmJnNE2vsyDb5J2o"
+    ],
+    [
+     29824,
+     {
+      "V1": 32065
+     },
+     "3R1dG7p5dH2HQpyCx3MSPBuKTNA8zPs5md5u88MGSzzUsLQuBt3WJm319PnVB2Sqbf6FQEeW8h2xvqDJeMfPnfmD"
+    ],
+    [
+     30985,
+     {
+      "V3": 43012
+     },
+     "34qKgpu8SRhKkfeaiQo95QFysup3U433pCTH3xVYaAW73uDyh4QiQwuUEw5cuViRsvQZmG1tWESkEtahMGobPujc"
+    ]
+   ],
+   "z_total": 98284,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1061": {
+   "first_spb_slot_index": 8365,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     21639,
+     {
+      "V1": 25771
+     },
+     "aYK2Ddu3TavjLtN1UizXXTPYY1qYSYkdCQYBnXuKTHYtw7ZrZ286aEWxYcPZSVS8X1CXPLno1nrYQpbBPRiXwHN"
+    ],
+    [
+     25195,
+     {
+      "V3": 28245
+     },
+     "3hxVYnhpRQ8guAjD3NDivGicU11zNHk8sA6H4BDc15V63zggZ2kkUUmLzpMmeTD2BZqdGR5NNtG4RamTaqGStGCA"
+    ],
+    [
+     32381,
+     {
+      "V0": 18672
+     },
+     "3GFmTKsphAzvEvyiiDGPjgv7jYb42bqdt9CWJGYyzWAfEo6v6vayCELnG8dpGuAJ6PKs8YK8bUuAz3pqXm3uiydX"
+    ]
+   ],
+   "z_total": 72688,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1062": {
+   "first_spb_slot_index": 8392,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     26318,
+     {
+      "V3": 66370
+     },
+     "3jPNv861YKFQaCNoHPhDqEMQAKGiKfXty18DHHXAJbc2R9AiZaCGLyTjJ7y8hK1kUj5qA9VVLZYz3TeFABzHY41e"
+    ],
+    [
+     31206,
+     {
+      "V0": 21463
+     },
+     "aFUaSXS5QLA7gZkWXEMAYSJ8kNwfLaTXJtnPgaVykzkHrkdcN1Lk7igwb7cFzj7MQXQz8Kgkqr9z8BTUCKwzxxL"
+    ],
+    [
+     33144,
+     {
+      "V1": 19879
+     },
+     "BBMoxggrFfN6zAdoTKAeMkZTQht4Jt8n7dzmZLqpLN1w8ALZrSPVwXTiaMVX5UUXw8JpCw9kiG2zwsMvwWFVCzr"
+    ]
+   ],
+   "z_total": 107712,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1063": {
+   "first_spb_slot_index": 6587,
+   "n_maint_txs": 2,
+   "claims": [
+    [
+     20275,
+     {
+      "V3": 43937
+     },
+     "qoxxWiDrEU5TT3nKRgA1pr5fCaBo6T835FJVdbPZ3R4JpQurcm3H1Ja6VdEGWUPX3CnqonM18APt9q6CUjZCAsv"
+    ],
+    [
+     28380,
+     {
+      "V1": 18434
+     },
+     "4jUPQqwxuUCuUyEXvwG3a4SU4wNjnHSCHpSjvkuKXgcsSXkfbnobVDTEs4d2nuhoMk8nDUuo5ryvZYer7kTGWyfQ"
+    ],
+    [
+     32092,
+     {
+      "V0": 25860
+     },
+     "r2XTxC7qSEf1nPAx3ECqxUGY1Lh6ezRbfguqPNMWht1TZqiABinW6KRV5GygXj8GqC7qYAPYEvAcSMvXgXtwmpQ"
+    ]
+   ],
+   "z_total": 88231,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [
+    [
+     425963,
+     [
+      "DepositToSpecificValidator",
+      "DepositSol",
+      "IncreaseAdditionalValidatorStake",
+      "GetMinimumDelegation"
+     ],
+     {
+      "X1": 1004998720
+     },
+     "3JUCKw3Nt9we69yWfx8T3if7A3vyZ5YF6FeuxV7Gq7kS5SzfM8oRTZxQxYSiWPuMozsCrPckW1fVfqqPoqBC9G4B",
+     "6nk2EXgZZE4dEebr1UJMGy8wCW8Sf3dgsRLaB4JHuo26"
+    ],
+    [
+     426231,
+     [
+      "WithdrawStake",
+      "GetMinimumDelegation",
+      "Split",
+      "Authorize"
+     ],
+     {
+      "V0": -3995999997
+     },
+     "2srEWZq8TSYmxtgDFnLbTkU8wTiQgkxY1CESjg1kJb8dEPhXetMhXCU8h4FjRJaHNRYwo65S6XWPRTGhjAc9Yt2e",
+     "6nk2EXgZZE4dEebr1UJMGy8wCW8Sf3dgsRLaB4JHuo26"
+    ]
+   ],
+   "other_txs": []
+  },
+  "1064": {
+   "first_spb_slot_index": 7032,
+   "n_maint_txs": 2,
+   "claims": [
+    [
+     20491,
+     {
+      "V3": 82721
+     },
+     "5ybApLwWVdghEngakeffF8kapo6vV9SBvFaTTcUurvKtZiLvHqicxwhmCWt6EQ1mErGuNAomeQ7C8Z6SxT3o1Lhk"
+    ],
+    [
+     23546,
+     {
+      "V0": 15859
+     },
+     "PbcA2qvHy3qUpYGA73CQB9xhYvAPDA5yi4LBV4FYurfJyyqAC4dmSYaWrXmo9P7A1xk54KiQ1fyeEq4qbXXsH9B"
+    ],
+    [
+     32681,
+     {
+      "V1": 68031
+     },
+     "4a88jcFrPghMTVqSRBKoDWiWUFsZKjwj5EmoXtqJPfgXBiKodVhKdprmmJv7HNYzFZ4qKekcXFpsxBANVXNXStsU"
+    ]
+   ],
+   "z_total": 166611,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1065": {
+   "first_spb_slot_index": 8605,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     20142,
+     {
+      "V3": 37518
+     },
+     "27srQVGSqx7y2JNAZKCBwVia2xnRYL2VG1N9iFB7dn8NNrmQA1JaBypqqSkaXvNkjWdkhvwJA3aYLxoaMkTnik4W"
+    ],
+    [
+     20648,
+     {
+      "V0": 20598
+     },
+     "bVMHXG3MCxRwSUGPn4fqytSzyd2AcgfTmC8GsvR2ugYfPk1rZnit4W6HCmG5AaZsfLK2Lv2jneuCCwaoY6zkZwi"
+    ],
+    [
+     33337,
+     {
+      "V1": 44936
+     },
+     "2EYesTvaGkW5bZYjdnLDrajYT1nWR3ZxJJuXm7aSehYKiiWwFkk2y2voLyXJADvM2cPLK3g67K9U4NrCc6xjYGLC"
+    ]
+   ],
+   "z_total": 103052,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1066": {
+   "first_spb_slot_index": 8322,
+   "n_maint_txs": 2,
+   "claims": [
+    [
+     23424,
+     {
+      "V0": 18917
+     },
+     "5teBxpD6jj3LuNZPjZtY6rQpZZrMeUjLuFCeZzbMtauDkmVCmthA8W5vPsH19gddakFoVJKZ38UtWJDaMMwV8DyA"
+    ],
+    [
+     24049,
+     {
+      "V1": 44291
+     },
+     "3qb5HWzMaamskpt924iquHHFJthtUT3MQPz4hsYaTtaYaacLMRv24hWjxfLMtJh9Kf3h5x39wM8uFiVoTzSVRUNW"
+    ],
+    [
+     28545,
+     {
+      "V3": 35202
+     },
+     "4SgM6kJXzzQNoHEc4T7FYBcv5F1nohNicJ9H5DGgatCCuHjSfCSGcMDYaqrSrMwbLTrmuBPyhYuUkxuZvguxfhwF"
+    ]
+   ],
+   "z_total": 98410,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1067": {
+   "first_spb_slot_index": 8589,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     17582,
+     {
+      "V0": 15664
+     },
+     "4kc5kKQZNd1f9jvLFgeBfo1a2RJcoUKdeQxBgU41XSFAEHc4PJvG8oAhuTrZXrmvotwjMCcdVYFVckUWyQ576esM"
+    ],
+    [
+     25467,
+     {
+      "V1": 31904
+     },
+     "66CwJbSp7cpGu7N9PRfYNPsJWiB2wTeU5i5yzMZz2fa8vKnRHemKdK8yM4FWK7YmfnKnyp2PdXiqPBPQBybCVXiw"
+    ],
+    [
+     35711,
+     {
+      "V3": 42053
+     },
+     "4NWj6zWMvrYhqnW1ZRehC3ViHSupvsNNZZadpLpeLzrvbtMomZNbpfMSQRDNVLbk8tZcfEPRbAYgnBQF8mezywsj"
+    ]
+   ],
+   "z_total": 89621,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1068": {
+   "first_spb_slot_index": 8578,
+   "n_maint_txs": 10,
+   "claims": [
+    [
+     19743,
+     {
+      "V0": 12360
+     },
+     "4WUMFisZmYS7Edf4gRntEbKkJbeUkLaWxiQQYa4xGYRNPsNkTMWbzMgE1pNwqYdyk2mnuBLyuzgsdsrgU7aFJEh2"
+    ],
+    [
+     21348,
+     {
+      "V3": 37453
+     },
+     "2NPon6FRp8pPtiRtsHVAnaCrJquAMVfNyvMLFZ5rN9c5SkNivKwm4PtTB6ubEQPt81xQU1xoz38CoE54XJ2xtejF"
+    ],
+    [
+     25235,
+     {
+      "V1": 37419
+     },
+     "25cDWaSTHEm4JhQgNcdgUkF94JU5ZebPhqUoUpagCRBorKZ4tVdaKyUeWT2mXGv43gKSshiA1uEuYykwEHAA4oVL"
+    ]
+   ],
+   "z_total": 87232,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1069": {
+   "first_spb_slot_index": 781,
+   "n_maint_txs": 2,
+   "claims": [
+    [
+     33683,
+     {
+      "V0": 13814
+     },
+     "3wAvB5TcpVMLs1YEMwYwCdPYjJw1NkRjRYKVVu5RWEgFdnCzouWEJqytdB6RerKUYNm2JLSDNCtNSyfG3e9qqdra"
+    ],
+    [
+     35990,
+     {
+      "V1": 33567
+     },
+     "4BLtxpXAx6tCBKUTKjhQFgN2y7M3L4eNWWNUryiopRLhy8UAfekceNX1uXJtHsDQkk3T6s83Mu7tsRTKgioJmQdv"
+    ],
+    [
+     42791,
+     {
+      "V3": 33391
+     },
+     "4Bcg2rH2VnrfocuCxSumxSpYBCExg7bmoDKfPEt9u7k8b3ZuZZtNGkSCFeBZegEHqmugELcjT3nDvQDPCrsefHek"
+    ]
+   ],
+   "z_total": 80772,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  },
+  "1070": {
+   "first_spb_slot_index": 8568,
+   "n_maint_txs": 11,
+   "claims": [
+    [
+     19135,
+     {
+      "V0": 18861
+     },
+     "5jrnrWgrh5EGu8oAEZ9krvBLHS5QB2qHAEPTgUeaxEsV331AGcKqaLUKdbjCJcS7EYYT3SNw9XLK2XakMfZSAvEq"
+    ],
+    [
+     30339,
+     {
+      "V1": 43128
+     },
+     "5aEC2StGL6F3d3iqgvCaNw3vPq86VVUGFykX9XiyG3YBhqQvhXqFrCPhjLUxZFVvXg7YJzt723kwR13LXESV7VCC"
+    ],
+    [
+     30521,
+     {
+      "V3": 44932
+     },
+     "cU4UuRepbSCi1JGc4Yhifh8VD8jRAyxpxgJ8gL7HrLcgijvbuFbghTpRkuQqMXNewZv85i43cecxKQYPgbQCTPz"
+    ]
+   ],
+   "z_total": 106921,
+   "claims_after_first_spb": 3,
+   "maintenance_after_last_claim": 0,
+   "user_txs": [],
+   "other_txs": []
+  }
+ },
+ "summary": {
+  "epochs_covered": [
+   1020,
+   1070
+  ],
+  "n_epochs_with_claims": 51,
+  "n_claims": 178,
+  "all_claims_after_first_spb_in_every_epoch": true,
+  "total_claimed_lamports": 8036936,
+  "user_txs_inside_unrecognised_window": [
+   [
+    1063,
+    425963,
+    [
+     "DepositToSpecificValidator",
+     "DepositSol",
+     "IncreaseAdditionalValidatorStake",
+     "GetMinimumDelegation"
+    ],
+    {
+     "X1": 1004998720
+    },
+    "3JUCKw3Nt9we69yWfx8T3if7A3vyZ5YF6FeuxV7Gq7kS5SzfM8oRTZxQxYSiWPuMozsCrPckW1fVfqqPoqBC9G4B"
+   ],
+   [
+    1063,
+    426231,
+    [
+     "WithdrawStake",
+     "GetMinimumDelegation",
+     "Split",
+     "Authorize"
+    ],
+    {
+     "V0": -3995999997
+    },
+    "2srEWZq8TSYmxtgDFnLbTkU8wTiQgkxY1CESjg1kJb8dEPhXetMhXCU8h4FjRJaHNRYwo65S6XWPRTGhjAc9Yt2e"
+   ]
+  ]
+ }
+}

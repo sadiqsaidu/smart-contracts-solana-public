@@ -1,0 +1,108 @@
+{
+ "addresses": [
+  "FDBQthc1mrSBntxJaJtmFVSkUnonDpGD5uJp8eemRBci",
+  "A8skhwLunD3WKfsv5oX9XZ4SAXvAqNebLyMhGft4CSqP",
+  "Z3tPaBv5gEphQWvhA4xVtvSw7FBszPifLd11MvZiXFj",
+  "Ev6cP6pHUREpCJJPc65k4svhQyuXsFwdPjYksGUk3hDb",
+  "EDKjf7YhYZyZriHrepRZEXNjwAen9aJwqToiWWqKf9yU"
+ ],
+ "epochs": {
+  "1029": [
+   {
+    "amount": 2364508,
+    "commission": null,
+    "commissionBps": 1000,
+    "effectiveSlot": 444960291,
+    "epoch": 1029,
+    "postBalance": 12074228024
+   },
+   {
+    "amount": 3845810,
+    "commission": null,
+    "commissionBps": 400,
+    "effectiveSlot": 444960262,
+    "epoch": 1029,
+    "postBalance": 18410331757
+   },
+   {
+    "amount": 2155537,
+    "commission": null,
+    "commissionBps": 500,
+    "effectiveSlot": 444960084,
+    "epoch": 1029,
+    "postBalance": 10428092922
+   },
+   {
+    "amount": 2145745,
+    "commission": null,
+    "commissionBps": 700,
+    "effectiveSlot": 444960317,
+    "epoch": 1029,
+    "postBalance": 10604374922
+   },
+   null
+  ],
+  "1030": [
+   {
+    "amount": 2362986,
+    "commission": null,
+    "effectiveSlot": 445392218,
+    "epoch": 1030,
+    "postBalance": 12076591731
+   },
+   {
+    "amount": 3843396,
+    "commission": null,
+    "effectiveSlot": 445392272,
+    "epoch": 1030,
+    "postBalance": 18414196594
+   },
+   {
+    "amount": 2154189,
+    "commission": null,
+    "effectiveSlot": 445392317,
+    "epoch": 1030,
+    "postBalance": 10430247111
+   },
+   {
+    "amount": 2144391,
+    "commission": null,
+    "effectiveSlot": 445392245,
+    "epoch": 1030,
+    "postBalance": 10606503915
+   },
+   null
+  ],
+  "1031": [
+   {
+    "amount": 2368194,
+    "commission": null,
+    "effectiveSlot": 445824015,
+    "epoch": 1031,
+    "postBalance": 12078974977
+   },
+   {
+    "amount": 3851964,
+    "commission": null,
+    "effectiveSlot": 445824347,
+    "epoch": 1031,
+    "postBalance": 18418069021
+   },
+   {
+    "amount": 2158950,
+    "commission": null,
+    "effectiveSlot": 445824168,
+    "epoch": 1031,
+    "postBalance": 10432406061
+   },
+   {
+    "amount": 2149052,
+    "commission": null,
+    "effectiveSlot": 445824175,
+    "epoch": 1031,
+    "postBalance": 10608651861
+   },
+   null
+  ]
+ }
+}

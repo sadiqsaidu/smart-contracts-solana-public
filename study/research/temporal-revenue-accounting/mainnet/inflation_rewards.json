@@ -1,0 +1,352 @@
+{
+ "addresses": [
+  "FDBQthc1mrSBntxJaJtmFVSkUnonDpGD5uJp8eemRBci",
+  "A8skhwLunD3WKfsv5oX9XZ4SAXvAqNebLyMhGft4CSqP",
+  "Z3tPaBv5gEphQWvhA4xVtvSw7FBszPifLd11MvZiXFj",
+  "Ev6cP6pHUREpCJJPc65k4svhQyuXsFwdPjYksGUk3hDb",
+  "EDKjf7YhYZyZriHrepRZEXNjwAen9aJwqToiWWqKf9yU"
+ ],
+ "epochs": {
+  "1059": [
+   {
+    "amount": 2199772,
+    "commission": null,
+    "effectiveSlot": 457920001,
+    "epoch": 1059,
+    "postBalance": 17077987033
+   },
+   {
+    "amount": 3222318,
+    "commission": null,
+    "effectiveSlot": 457920410,
+    "epoch": 1059,
+    "postBalance": 23452084670
+   },
+   {
+    "amount": 1923042,
+    "commission": null,
+    "effectiveSlot": 457920492,
+    "epoch": 1059,
+    "postBalance": 14144109469
+   },
+   {
+    "amount": 1905517,
+    "commission": null,
+    "effectiveSlot": 457920168,
+    "epoch": 1059,
+    "postBalance": 14319802020
+   },
+   null
+  ],
+  "1060": [
+   {
+    "amount": 2194929,
+    "commission": null,
+    "effectiveSlot": 458352098,
+    "epoch": 1060,
+    "postBalance": 17080175788
+   },
+   {
+    "amount": 3215245,
+    "commission": null,
+    "effectiveSlot": 458352210,
+    "epoch": 1060,
+    "postBalance": 23455309052
+   },
+   {
+    "amount": 1918814,
+    "commission": null,
+    "effectiveSlot": 458352149,
+    "epoch": 1060,
+    "postBalance": 14146028283
+   },
+   {
+    "amount": 1901340,
+    "commission": null,
+    "effectiveSlot": 458352012,
+    "epoch": 1060,
+    "postBalance": 14321699887
+   },
+   null
+  ],
+  "1061": [
+   {
+    "amount": 2201180,
+    "commission": null,
+    "effectiveSlot": 458784132,
+    "epoch": 1061,
+    "postBalance": 17082372433
+   },
+   {
+    "amount": 3224417,
+    "commission": null,
+    "effectiveSlot": 458784113,
+    "epoch": 1061,
+    "postBalance": 23458527175
+   },
+   {
+    "amount": 1924292,
+    "commission": null,
+    "effectiveSlot": 458784201,
+    "epoch": 1061,
+    "postBalance": 14147952575
+   },
+   {
+    "amount": 1906870,
+    "commission": null,
+    "effectiveSlot": 458784368,
+    "epoch": 1061,
+    "postBalance": 14323591990
+   },
+   null
+  ],
+  "1062": [
+   {
+    "amount": 2198526,
+    "commission": null,
+    "effectiveSlot": 459216017,
+    "epoch": 1062,
+    "postBalance": 17084573750
+   },
+   {
+    "amount": 3220572,
+    "commission": null,
+    "effectiveSlot": 459216317,
+    "epoch": 1062,
+    "postBalance": 23461741855
+   },
+   {
+    "amount": 1921984,
+    "commission": null,
+    "effectiveSlot": 459216363,
+    "epoch": 1062,
+    "postBalance": 14149874559
+   },
+   {
+    "amount": 1904614,
+    "commission": null,
+    "effectiveSlot": 459216493,
+    "epoch": 1062,
+    "postBalance": 14325534729
+   },
+   null
+  ],
+  "1063": [
+   {
+    "amount": 1686234,
+    "commission": null,
+    "effectiveSlot": 459648003,
+    "epoch": 1063,
+    "postBalance": 13090264384
+   },
+   {
+    "amount": 3224542,
+    "commission": null,
+    "effectiveSlot": 459648132,
+    "epoch": 1063,
+    "postBalance": 23464964952
+   },
+   {
+    "amount": 1923693,
+    "commission": null,
+    "effectiveSlot": 459648522,
+    "epoch": 1063,
+    "postBalance": 14151798252
+   },
+   {
+    "amount": 1906977,
+    "commission": null,
+    "effectiveSlot": 459648278,
+    "epoch": 1063,
+    "postBalance": 14327419273
+   },
+   null
+  ],
+  "1064": [
+   {
+    "amount": 1655463,
+    "commission": null,
+    "effectiveSlot": 460080173,
+    "epoch": 1064,
+    "postBalance": 13091909846
+   },
+   {
+    "amount": 3331981,
+    "commission": null,
+    "effectiveSlot": 460080359,
+    "epoch": 1064,
+    "postBalance": 24471679010
+   },
+   {
+    "amount": 1898903,
+    "commission": null,
+    "effectiveSlot": 460080382,
+    "epoch": 1064,
+    "postBalance": 14153697155
+   },
+   {
+    "amount": 1866572,
+    "commission": null,
+    "effectiveSlot": 460080216,
+    "epoch": 1064,
+    "postBalance": 14329324629
+   },
+   null
+  ],
+  "1065": [
+   {
+    "amount": 1668046,
+    "commission": null,
+    "effectiveSlot": 460512043,
+    "epoch": 1065,
+    "postBalance": 13093582631
+   },
+   {
+    "amount": 3321439,
+    "commission": null,
+    "effectiveSlot": 460512310,
+    "epoch": 1065,
+    "postBalance": 24474977354
+   },
+   {
+    "amount": 1895231,
+    "commission": null,
+    "effectiveSlot": 460512142,
+    "epoch": 1065,
+    "postBalance": 14155592386
+   },
+   {
+    "amount": 1929351,
+    "commission": null,
+    "effectiveSlot": 460512648,
+    "epoch": 1065,
+    "postBalance": 14331208777
+   },
+   null
+  ],
+  "1066": [
+   {
+    "amount": 1603896,
+    "commission": null,
+    "effectiveSlot": 460944050,
+    "epoch": 1066,
+    "postBalance": 13095184846
+   },
+   {
+    "amount": 3384160,
+    "commission": null,
+    "effectiveSlot": 460944496,
+    "epoch": 1066,
+    "postBalance": 24478360869
+   },
+   {
+    "amount": 1932338,
+    "commission": null,
+    "effectiveSlot": 460944556,
+    "epoch": 1066,
+    "postBalance": 14157524724
+   },
+   {
+    "amount": 1917794,
+    "commission": null,
+    "effectiveSlot": 460944466,
+    "epoch": 1066,
+    "postBalance": 14333124255
+   },
+   null
+  ],
+  "1067": [
+   {
+    "amount": 1646038,
+    "commission": null,
+    "effectiveSlot": 461376133,
+    "epoch": 1067,
+    "postBalance": 13096827631
+   },
+   {
+    "amount": 3286043,
+    "commission": null,
+    "effectiveSlot": 461376284,
+    "epoch": 1067,
+    "postBalance": 24481634525
+   },
+   {
+    "amount": 1915302,
+    "commission": null,
+    "effectiveSlot": 461376168,
+    "epoch": 1067,
+    "postBalance": 14159440026
+   },
+   {
+    "amount": 1989147,
+    "commission": null,
+    "effectiveSlot": 461376414,
+    "epoch": 1067,
+    "postBalance": 14335120253
+   },
+   null
+  ],
+  "1068": [
+   {
+    "amount": 1678547,
+    "commission": null,
+    "effectiveSlot": 461808414,
+    "epoch": 1068,
+    "postBalance": 13098502874
+   },
+   {
+    "amount": 3570270,
+    "commission": null,
+    "effectiveSlot": 461808057,
+    "epoch": 1068,
+    "postBalance": 24485210310
+   },
+   {
+    "amount": 1927720,
+    "commission": null,
+    "effectiveSlot": 461808188,
+    "epoch": 1068,
+    "postBalance": 14161367746
+   },
+   {
+    "amount": 1889084,
+    "commission": null,
+    "effectiveSlot": 461808360,
+    "epoch": 1068,
+    "postBalance": 14337004737
+   },
+   null
+  ],
+  "1069": [
+   {
+    "amount": 1709928,
+    "commission": null,
+    "effectiveSlot": 462240267,
+    "epoch": 1069,
+    "postBalance": 13100214256
+   },
+   {
+    "amount": 3281624,
+    "commission": null,
+    "effectiveSlot": 462240127,
+    "epoch": 1069,
+    "postBalance": 24488488082
+   },
+   {
+    "amount": 1873887,
+    "commission": null,
+    "effectiveSlot": 462240139,
+    "epoch": 1069,
+    "postBalance": 14163241633
+   },
+   {
+    "amount": 2012802,
+    "commission": null,
+    "effectiveSlot": 462240336,
+    "epoch": 1069,
+    "postBalance": 14339013477
+   },
+   null
+  ]
+ }
+}

@@ -1,0 +1,586 @@
+{
+ "checks": [
+  {
+   "name": "zero credit: D_T = D_S = 0 on a reconciled pool",
+   "pass": true,
+   "gaps": {
+    "D_T": 0,
+    "D_S": 0
+   }
+  },
+  {
+   "name": "credit to counted validator: D_T = z",
+   "pass": true
+  },
+  {
+   "name": "credit to counted validator: VLB(i)+SPB recognises it",
+   "pass": true
+  },
+  {
+   "name": "credit to reserve: D_T = z",
+   "pass": true
+  },
+  {
+   "name": "credit to reserve: SPB alone recognises it",
+   "pass": true
+  },
+  {
+   "name": "credit to an account the pool does not observe: no effect",
+   "pass": true
+  },
+  {
+   "name": "partial update: credit to already-processed V0 is missed, credit to unprocessed V1 is recorded",
+   "pass": true,
+   "D_T": 1000
+  },
+  {
+   "name": "rejected: VLB during reward distribution",
+   "pass": true
+  },
+  {
+   "name": "rejected: DepositSol on a stale pool",
+   "pass": true
+  },
+  {
+   "name": "rejected: WithdrawStake on a stale pool",
+   "pass": true
+  },
+  {
+   "name": "rejected: SPB before every entry is updated this epoch",
+   "pass": true
+  },
+  {
+   "name": "inflation for epoch e: deposits impossible until it is RECORDED",
+   "pass": true
+  },
+  {
+   "name": "L=1000000: deposit in window mints >= honest counterfactual",
+   "pass": true,
+   "n_late": 250000,
+   "n_early": 249892
+  },
+  {
+   "name": "L=1000000: deposit before or after the claim mints the same (credit position inside the window is irrelevant)",
+   "pass": true
+  },
+  {
+   "name": "L=1000000: honest re-reconciliation removes the excess (control)",
+   "pass": true
+  },
+  {
+   "name": "L=1000000000: deposit in window mints >= honest counterfactual",
+   "pass": true,
+   "n_late": 250000000,
+   "n_early": 249892095
+  },
+  {
+   "name": "L=1000000000: deposit before or after the claim mints the same (credit position inside the window is irrelevant)",
+   "pass": true
+  },
+  {
+   "name": "L=1000000000: honest re-reconciliation removes the excess (control)",
+   "pass": true
+  },
+  {
+   "name": "L=100000000000: deposit in window mints >= honest counterfactual",
+   "pass": true,
+   "n_late": 25000000000,
+   "n_early": 24989209531
+  },
+  {
+   "name": "L=100000000000: deposit before or after the claim mints the same (credit position inside the window is irrelevant)",
+   "pass": true
+  },
+  {
+   "name": "L=100000000000: honest re-reconciliation removes the excess (control)",
+   "pass": true
+  },
+  {
+   "name": "L=10000000000000: deposit in window mints >= honest counterfactual",
+   "pass": true,
+   "n_late": 2500000000000,
+   "n_early": 2498920953165
+  },
+  {
+   "name": "L=10000000000000: deposit before or after the claim mints the same (credit position inside the window is irrelevant)",
+   "pass": true
+  },
+  {
+   "name": "L=10000000000000: honest re-reconciliation removes the excess (control)",
+   "pass": true
+  },
+  {
+   "name": "rounding: toy pool price is exactly 4",
+   "pass": true
+  },
+  {
+   "name": "rounding: a 1-lamport credit can leave the mint unchanged (L=5)",
+   "pass": true
+  },
+  {
+   "name": "rounding: a 1-lamport credit can lower the mint by one unit (L=4 at an exact boundary)",
+   "pass": true
+  },
+  {
+   "name": "rounding: mint difference for L=1000000, z=1 is within [floor(LSz/T(T+z)), +1]",
+   "pass": true,
+   "d": 1,
+   "bound": 0
+  },
+  {
+   "name": "rounding: mint difference for L=1000000000, z=1000 is within [floor(LSz/T(T+z)), +1]",
+   "pass": true,
+   "d": 3,
+   "bound": 2
+  },
+  {
+   "name": "rounding: mint difference for L=1000000000000, z=1000000 is within [floor(LSz/T(T+z)), +1]",
+   "pass": true,
+   "d": 2272638,
+   "bound": 2272637
+  },
+  {
+   "name": "epoch fee uses recorded S (not the burned mint supply)",
+   "pass": true,
+   "fee_with_burn": 1248921,
+   "fee_without": 1248921
+  },
+  {
+   "name": "manager-fee value invariant to recognition time within 2 lamports + P",
+   "pass": true,
+   "v_mid": 4999998,
+   "v_late": 4999999
+  },
+  {
+   "name": "final T invariant to recognition time (commutativity of credit and deposit for T)",
+   "pass": true,
+   "T_mid": 120103332480,
+   "T_late": 120103332480
+  },
+  {
+   "name": "final S differs (the allocation, not the asset total, depends on order)",
+   "pass": true,
+   "S_mid": 29999924878,
+   "S_late": 30002082131
+  },
+  {
+   "name": "WithdrawStake rejected: below min delegation",
+   "pass": true
+  },
+  {
+   "name": "WithdrawStake rejected: leaving < rent+min in V",
+   "pass": true
+  },
+  {
+   "name": "WithdrawStake fee = ceil(p/1000) tokens transferred to the fee account",
+   "pass": true
+  },
+  {
+   "name": "manager fee account is withdrawal-fee exempt (processor.rs:2861)",
+   "pass": true
+  },
+  {
+   "name": "mainnet L=1004998720: full redemption succeeded",
+   "pass": true,
+   "txs": 1
+  },
+  {
+   "name": "mainnet L=1004998720: realized round trip is a loss even with the delay",
+   "pass": true,
+   "pnl": -1024795
+  },
+  {
+   "name": "mainnet L=10000000000: full redemption succeeded",
+   "pass": true,
+   "txs": 1
+  },
+  {
+   "name": "mainnet L=10000000000: realized round trip is a loss even with the delay",
+   "pass": true,
+   "pnl": -9026977
+  },
+  {
+   "name": "mainnet L=100000000000: full redemption succeeded",
+   "pass": true,
+   "txs": 5
+  },
+  {
+   "name": "mainnet L=100000000000: realized round trip is a loss even with the delay",
+   "pass": true,
+   "pnl": -95093675
+  },
+  {
+   "name": "mainnet L=1000000000000: full redemption succeeded",
+   "pass": true,
+   "txs": 5
+  },
+  {
+   "name": "mainnet L=1000000000000: realized round trip is a loss even with the delay",
+   "pass": true,
+   "pnl": -992228867
+  },
+  {
+   "name": "breakeven late credit is orders of magnitude above the observed Jito credit",
+   "pass": true,
+   "z_breakeven": 72491173
+  },
+  {
+   "name": "self-funded credit: donation + deposit is a mark-to-market loss",
+   "pass": true,
+   "sf": {
+    "1000000": -428060,
+    "1000000000": -428059136,
+    "50000000000": -21402956789
+   }
+  },
+  {
+   "name": "history replay reproduces T_1070 exactly",
+   "pass": true
+  },
+  {
+   "name": "history replay reproduces S_1070 exactly",
+   "pass": true,
+   "replayed": 16407030513,
+   "observed": 16407030513
+  },
+  {
+   "name": "history replay reproduces the observed 1063 deposit mint exactly",
+   "pass": true,
+   "replayed": 249676722,
+   "observed": 249676722
+  },
+  {
+   "name": "history replay reproduces the observed 1063 WithdrawStake lamports exactly",
+   "pass": true,
+   "replayed": 3995999997,
+   "observed": 3995999997
+  },
+  {
+   "name": "history replay reproduces last_epoch_total_lamports",
+   "pass": true
+  },
+  {
+   "name": "history replay reproduces last_epoch_pool_token_supply",
+   "pass": true
+  }
+ ],
+ "scenarios": {
+  "mainnet_1070_jit_deposit": {
+   "1004998720": {
+    "L": 1004998720,
+    "late": {
+     "D_T_in_window": 106921,
+     "minted": 249451939,
+     "T": 67115072193,
+     "S": 16656593948,
+     "fee_tokens": 12826635962,
+     "others_value_pre_exit": 14427074501,
+     "fee_value_pre_exit": 51682871136,
+     "mtm_value": 1005126555,
+     "withdraw_lamports": 1004121428,
+     "withdraw_txs": 1,
+     "unredeemed_tokens": 0,
+     "others_value": 14427074501,
+     "fee_value": 51683876263,
+     "final_T": 66110950765,
+     "final_S": 16407391461
+    },
+    "honest": {
+     "D_T_in_window": 106921,
+     "minted": 249451555,
+     "T": 67115072193,
+     "S": 16656593565,
+     "fee_tokens": 12826635963,
+     "others_value_pre_exit": 14427074833,
+     "fee_value_pre_exit": 51682872328,
+     "mtm_value": 1005125030,
+     "withdraw_lamports": 1004119904,
+     "withdraw_txs": 1,
+     "unredeemed_tokens": 0,
+     "others_value": 14427074833,
+     "fee_value": 51683877455,
+     "final_T": 66110952289,
+     "final_S": 16407391462
+    },
+    "delay_attributable_tokens": 384,
+    "delay_attributable_mtm_lamports": 1525,
+    "mtm_pnl_late": 127835,
+    "mtm_pnl_honest": 126310,
+    "others_change_vs_no_deposit_pre_exit": -27897,
+    "fee_acct_change_vs_no_deposit_pre_exit": -99938,
+    "others_delay_attributable_pre_exit": -332,
+    "fee_acct_delay_attributable_pre_exit": -1192,
+    "others_change_vs_no_deposit_after_exit": -27897,
+    "fee_acct_change_vs_no_deposit_after_exit": 905189,
+    "realized_pnl_late": -1024795,
+    "realized_pnl_honest": -1026319,
+    "realized_delay_attributable": 1524
+   },
+   "10000000000": {
+    "L": 10000000000,
+    "late": {
+     "D_T_in_window": 106921,
+     "minted": 2482112009,
+     "T": 76110073473,
+     "S": 18889254020,
+     "fee_tokens": 12826635964,
+     "others_value_pre_exit": 14426857620,
+     "fee_value_pre_exit": 51682094200,
+     "mtm_value": 10001121652,
+     "withdraw_lamports": 9991120526,
+     "withdraw_txs": 1,
+     "unredeemed_tokens": 0,
+     "others_value": 14426857620,
+     "fee_value": 51692095326,
+     "final_T": 66118952947,
+     "final_S": 16409624124
+    },
+    "honest": {
+     "D_T_in_window": 106921,
+     "minted": 2482108195,
+     "T": 76110073473,
+     "S": 18889250206,
+     "fee_tokens": 12826635964,
+     "others_value_pre_exit": 14426860533,
+     "fee_value_pre_exit": 51682104635,
+     "mtm_value": 10001108303,
+     "withdraw_lamports": 9991107192,
+     "withdraw_txs": 1,
+     "unredeemed_tokens": 0,
+     "others_value": 14426860533,
+     "fee_value": 51692105747,
+     "final_T": 66118966281,
+     "final_S": 16409624120
+    },
+    "delay_attributable_tokens": 3814,
+    "delay_attributable_mtm_lamports": 13349,
+    "mtm_pnl_late": 1121652,
+    "mtm_pnl_honest": 1108303,
+    "others_change_vs_no_deposit_pre_exit": -244778,
+    "fee_acct_change_vs_no_deposit_pre_exit": -876874,
+    "others_delay_attributable_pre_exit": -2913,
+    "fee_acct_delay_attributable_pre_exit": -10435,
+    "others_change_vs_no_deposit_after_exit": -244778,
+    "fee_acct_change_vs_no_deposit_after_exit": 9124252,
+    "realized_pnl_late": -9026977,
+    "realized_pnl_honest": -9040311,
+    "realized_delay_attributable": 13334
+   },
+   "100000000000": {
+    "L": 100000000000,
+    "late": {
+     "D_T_in_window": 106921,
+     "minted": 24821120093,
+     "T": 166110073473,
+     "S": 41228262111,
+     "fee_tokens": 12826635971,
+     "others_value_pre_exit": 14425980919,
+     "fee_value_pre_exit": 51678953573,
+     "mtm_value": 100005138980,
+     "withdraw_lamports": 99905133828,
+     "withdraw_txs": 5,
+     "unredeemed_tokens": 0,
+     "others_value": 14425980919,
+     "fee_value": 51778958725,
+     "final_T": 66204939645,
+     "final_S": 16431963141
+    },
+    "honest": {
+     "D_T_in_window": 106921,
+     "minted": 24821081952,
+     "T": 166110073473,
+     "S": 41228223970,
+     "fee_tokens": 12826635971,
+     "others_value_pre_exit": 14425994264,
+     "fee_value_pre_exit": 51679001382,
+     "mtm_value": 100005077825,
+     "withdraw_lamports": 99905072734,
+     "withdraw_txs": 5,
+     "unredeemed_tokens": 0,
+     "others_value": 14425994265,
+     "fee_value": 51779006473,
+     "final_T": 66205000739,
+     "final_S": 16431963103
+    },
+    "delay_attributable_tokens": 38141,
+    "delay_attributable_mtm_lamports": 61155,
+    "mtm_pnl_late": 5138980,
+    "mtm_pnl_honest": 5077825,
+    "others_change_vs_no_deposit_pre_exit": -1121479,
+    "fee_acct_change_vs_no_deposit_pre_exit": -4017501,
+    "others_delay_attributable_pre_exit": -13345,
+    "fee_acct_delay_attributable_pre_exit": -47809,
+    "others_change_vs_no_deposit_after_exit": -1121479,
+    "fee_acct_change_vs_no_deposit_after_exit": 95987651,
+    "realized_pnl_late": -95093675,
+    "realized_pnl_honest": -95154769,
+    "realized_delay_attributable": 61094
+   },
+   "1000000000000": {
+    "L": 1000000000000,
+    "late": {
+     "D_T_in_window": 106921,
+     "minted": 248211200938,
+     "T": 1066110073473,
+     "S": 264618342961,
+     "fee_tokens": 12826635976,
+     "others_value_pre_exit": 14425355106,
+     "fee_value_pre_exit": 51676711711,
+     "mtm_value": 1000008006655,
+     "withdraw_lamports": 999007998636,
+     "withdraw_txs": 5,
+     "unredeemed_tokens": 0,
+     "others_value": 14425355106,
+     "fee_value": 52676719730,
+     "final_T": 67102074837,
+     "final_S": 16655353227
+    },
+    "honest": {
+     "D_T_in_window": 106921,
+     "minted": 248210819523,
+     "T": 1066110073473,
+     "S": 264617961546,
+     "fee_tokens": 12826635976,
+     "others_value_pre_exit": 14425375898,
+     "fee_value_pre_exit": 51676786197,
+     "mtm_value": 1000007911377,
+     "withdraw_lamports": 999007903451,
+     "withdraw_txs": 5,
+     "unredeemed_tokens": 0,
+     "others_value": 14425375898,
+     "fee_value": 52676794123,
+     "final_T": 67102170022,
+     "final_S": 16655352846
+    },
+    "delay_attributable_tokens": 381415,
+    "delay_attributable_mtm_lamports": 95278,
+    "mtm_pnl_late": 8006655,
+    "mtm_pnl_honest": 7911377,
+    "others_change_vs_no_deposit_pre_exit": -1747292,
+    "fee_acct_change_vs_no_deposit_pre_exit": -6259363,
+    "others_delay_attributable_pre_exit": -20792,
+    "fee_acct_delay_attributable_pre_exit": -74486,
+    "others_change_vs_no_deposit_after_exit": -1747292,
+    "fee_acct_change_vs_no_deposit_after_exit": 993748656,
+    "realized_pnl_late": -992228867,
+    "realized_pnl_honest": -992324052,
+    "realized_delay_attributable": 95185
+   }
+  },
+  "breakeven": {
+   "L": 10000000000,
+   "z_breakeven": 72491173,
+   "z_over_T": 0.0010966713990991372,
+   "observed_z_1069": 106921,
+   "ratio_needed_to_observed": 677.9881688349342,
+   "note": "z is the total unrecognised credit present at deposit time; inflation capture included"
+  },
+  "self_funded_mtm": {
+   "1000000": -428060,
+   "1000000000": -428059136,
+   "50000000000": -21402956789
+  },
+  "lag_lemma_examples": {
+   "1->3": -18228,
+   "1->5": 10772,
+   "2->5": 36921
+  },
+  "h6_comparison": {
+   "owner_add_q": 1001666240,
+   "jito_late_credit_1069": 106921,
+   "ratio": 9368.283499031995
+  },
+  "history_replay": {
+   "T_1063_after_spb": 69029448647,
+   "S_1063_after_spb": 17149321808,
+   "replayed_T_1070": 66101088311,
+   "replayed_S_1070": 16407030513,
+   "observed_T_1070": 66101088311,
+   "observed_S_1070": 16407030513,
+   "replayed_deposit_minted": 249676722,
+   "observed_deposit_minted": 249676722,
+   "replayed_withdraw_lamports": 3995999997,
+   "observed_withdraw_lamports": 3995999997,
+   "trace": [
+    {
+     "epoch": 1063,
+     "T_after_spb": 69029448647,
+     "S_after_spb": 17149321808,
+     "deposit_minted": 249676722,
+     "withdraw_lamports": 3995999997
+    },
+    {
+     "epoch": 1064,
+     "r": 8829677,
+     "fee_tokens": 109666,
+     "T": 66047277047,
+     "S": 16406362473
+    },
+    {
+     "epoch": 1065,
+     "r": 8919530,
+     "fee_tokens": 110767,
+     "T": 66056196577,
+     "S": 16406473240
+    },
+    {
+     "epoch": 1066,
+     "r": 8917119,
+     "fee_tokens": 110723,
+     "T": 66065113696,
+     "S": 16406583963
+    },
+    {
+     "epoch": 1067,
+     "r": 8936598,
+     "fee_tokens": 110951,
+     "T": 66074050294,
+     "S": 16406694914
+    },
+    {
+     "epoch": 1068,
+     "r": 8926151,
+     "fee_tokens": 110807,
+     "T": 66082976445,
+     "S": 16406805721
+    },
+    {
+     "epoch": 1069,
+     "r": 9152853,
+     "fee_tokens": 113606,
+     "T": 66092129298,
+     "S": 16406919327
+    },
+    {
+     "epoch": 1070,
+     "r": 8959013,
+     "fee_tokens": 111186,
+     "T": 66101088311,
+     "S": 16407030513
+    }
+   ],
+   "last_epoch_total_lamports_check": {
+    "replayed": 66092129298,
+    "observed": 66092129298
+   },
+   "last_epoch_supply_check": {
+    "replayed": 16406919327,
+    "observed": 16406919327
+   }
+  },
+  "history_1063_counterfactual": {
+   "z_unrecognised_at_deposit": 88231,
+   "minted_actual": 249676722,
+   "minted_if_recognised": 249676418,
+   "extra_tokens": 304,
+   "extra_tokens_value_at_1070_price": 1224,
+   "withdraw_actual": 3995999997,
+   "withdraw_if_recognised": 3996004850,
+   "withdrawer_shortfall_lamports": 4853,
+   "honest_fee_tokens": 1096,
+   "note": "counterfactual = an honest VLB+SPB after the 1063 claims and before both transactions, including its epoch-fee mint"
+  }
+ },
+ "failures": [],
+ "verdict": "PASS"
+}

@@ -1,0 +1,424 @@
+{
+ "rpc": "http://127.0.0.1:28899",
+ "deviations": [
+  "pool staker = local owner key (mainnet: Staker staker PDA); stake moves via SPL directly",
+  "late credit = SystemProgram transfer to the validator stake account (mainnet: Jito tip-distribution Claim, a program-owned lamport debit/credit; no stake-data change in either)",
+  "legacy builtin Stake program, stake rent 2282880 (mainnet: Stake v5.1.0 BPF, rent 1,666,240)",
+  "min delegation and epoch length are local-cluster values"
+ ],
+ "steps": [
+  {
+   "label": "epoch1 after merge maintenance",
+   "E": 1,
+   "slotIndex": 42,
+   "lambda": "1",
+   "T": "62004565760",
+   "S": "60097145006",
+   "Sigma": "60097145006",
+   "Theta": "62004565760",
+   "D_T": "0",
+   "reserve": 10002282880,
+   "V": [
+    26002282880,
+    26002282880
+   ],
+   "feeTokens": "97145006"
+  },
+  {
+   "label": "X: after complete maintenance (cranker, no role)",
+   "E": 2,
+   "slotIndex": 43,
+   "lambda": "2",
+   "T": "62009604067",
+   "S": "60097389153",
+   "Sigma": "60097389153",
+   "Theta": "62009604067",
+   "D_T": "0",
+   "reserve": 10002282880,
+   "V": [
+    26007321187,
+    26002282880
+   ],
+   "feeTokens": "97389153",
+   "tx": {
+    "sig": "4UkgbNzLtsLZJ7J5e4cNi7Ud8qNkh46xjdftADuxNUpbketEk6tA3PsPwwcmyWawYZ3BGHpW5SMYg7GhTMmY155U",
+    "fee": 5000,
+    "slot": 843
+   }
+  },
+  {
+   "label": "X: after late credit z to V0",
+   "E": 2,
+   "slotIndex": 44,
+   "lambda": "2",
+   "T": "62009604067",
+   "S": "60097389153",
+   "Sigma": "60097389153",
+   "Theta": "62787381844",
+   "D_T": "777777777",
+   "reserve": 10002282880,
+   "V": [
+    26785098964,
+    26002282880
+   ],
+   "feeTokens": "97389153",
+   "tx": {
+    "sig": "iiuxTgYvjCNyL9vBcnBKjr9uqmJVoBSTEkr5oy3SQu9uwB1GDL7Raqp4MCpiMsk1UHxV6T3TL78oXUBFgUw5JzM",
+    "fee": 5000,
+    "slot": 844
+   }
+  },
+  {
+   "label": "X: after credit to an unobserved account",
+   "E": 2,
+   "slotIndex": 45,
+   "lambda": "2",
+   "T": "62009604067",
+   "S": "60097389153",
+   "Sigma": "60097389153",
+   "Theta": "62787381844",
+   "D_T": "777777777",
+   "reserve": 10002282880,
+   "V": [
+    26785098964,
+    26002282880
+   ],
+   "feeTokens": "97389153",
+   "tx": {
+    "sig": "4QywfH2yNUCrP34MusdCrLgtS7TtkbWfqsyaAFNpCEABBzu4uSW1Mh3xTxpkxoqeyKA1AT1kYQdpMHRFL9FLhkKr",
+    "fee": 5000,
+    "slot": 845
+   }
+  },
+  {
+   "label": "X: after window deposit L",
+   "E": 2,
+   "slotIndex": 46,
+   "lambda": "2",
+   "T": "102009604067",
+   "S": "98863893185",
+   "Sigma": "98863893185",
+   "Theta": "102787381844",
+   "D_T": "777777777",
+   "reserve": 50002282880,
+   "V": [
+    26785098964,
+    26002282880
+   ],
+   "feeTokens": "97389153",
+   "tx": {
+    "sig": "5kMa2mCVh5PQcryPaNAt2NzMNn9UwUGRErERD7rDXAHqJ6pc359sPSWr8RDBMfuhN6ERscKuotfJzFdtheByzsr3",
+    "fee": 5000,
+    "slot": 846
+   },
+   "minted": "38766504032"
+  },
+  {
+   "label": "X: after same-tx credit z2 + deposit",
+   "E": 2,
+   "slotIndex": 47,
+   "lambda": "2",
+   "T": "107009604067",
+   "S": "103709706189",
+   "Sigma": "103709706189",
+   "Theta": "107842937399",
+   "D_T": "833333332",
+   "reserve": 55002282880,
+   "V": [
+    26785098964,
+    26057838435
+   ],
+   "feeTokens": "97389153",
+   "tx": {
+    "sig": "3YKCUEjSd5BB1Gt6Tn2h64NMstCdMuQ5PYijzPhYyt3C93TuCgX2Bfr6jpK6fpR2uJ2UXNvibQ4qp65WszNuc6UZ",
+    "fee": 5000,
+    "slot": 847
+   },
+   "minted2": "4845813004"
+  },
+  {
+   "label": "X: after same-tx VLB+SPB+deposit (depositor3)",
+   "E": 2,
+   "slotIndex": 48,
+   "lambda": "2",
+   "T": "112842937399",
+   "S": "108560017926",
+   "Sigma": "108560017926",
+   "Theta": "112842937399",
+   "D_T": "0",
+   "reserve": 60835616212,
+   "V": [
+    26007321187,
+    26002282880
+   ],
+   "feeTokens": "137474374",
+   "tx": {
+    "sig": "4jsyt2AKvH6z8HtuNFZEGrW7x5NVEECG21Pw5LsEToNkGddPBMZ7SY9WD2uQucvnqovNcjqbKFTvf9vWpGPVmLpK",
+    "fee": 5000,
+    "slot": 848
+   },
+   "minted3": "4810226516"
+  },
+  {
+   "label": "X+1: before maintenance (stale)",
+   "E": 3,
+   "slotIndex": 1,
+   "lambda": "2",
+   "T": "112842937399",
+   "S": "108560017926",
+   "Sigma": "108560017926",
+   "Theta": "112847975704",
+   "D_T": "5038305",
+   "reserve": 60835616212,
+   "V": [
+    26012359492,
+    26002282880
+   ],
+   "feeTokens": "137474374"
+  },
+  {
+   "label": "X+1: after recognition maintenance",
+   "E": 3,
+   "slotIndex": 42,
+   "lambda": "3",
+   "T": "112847975704",
+   "S": "108560260270",
+   "Sigma": "108560260270",
+   "Theta": "112847975704",
+   "D_T": "0",
+   "reserve": 60835616212,
+   "V": [
+    26012359492,
+    26002282880
+   ],
+   "feeTokens": "137716718",
+   "tx": {
+    "sig": "4gjLf3J3cLVCgt16C9DyTjPjrJzLhjXfW7nEPpw8aFWyKcjDhuHeGZdWg2vVtr9F7BQSqZsYApBJH4WbNYUo2yuu",
+    "fee": 5000,
+    "slot": 1242
+   },
+   "r": "5038305",
+   "feeMinted": "242344"
+  },
+  {
+   "label": "X+1: after depositor redemption",
+   "E": 3,
+   "slotIndex": 44,
+   "lambda": "3",
+   "T": "72590640538",
+   "S": "69832522743",
+   "Sigma": "69832522743",
+   "Theta": "72590640538",
+   "D_T": "0",
+   "reserve": 60835616212,
+   "V": [
+    1002282880,
+    10755024326
+   ],
+   "feeTokens": "176483223",
+   "exits": 2
+  }
+ ],
+ "checks": [
+  {
+   "name": "control fails: Staker deposit while pool is stale (lambda < E)",
+   "pass": true
+  },
+  {
+   "name": "after complete maintenance D_T = 0 and pool fresh",
+   "pass": true
+  },
+  {
+   "name": "late credit leaves the pool fresh with D_T = z",
+   "pass": true,
+   "D_T": "777777777"
+  },
+  {
+   "name": "credit to unobserved account changes neither T nor Theta*",
+   "pass": true
+  },
+  {
+   "name": "window deposit mints floor(L*S/T) at the recorded (stale) price",
+   "pass": true,
+   "minted": "38766504032",
+   "expected": "38766504032"
+  },
+  {
+   "name": "window deposit mints more than the honest counterfactual",
+   "pass": true,
+   "minted": "38766504032",
+   "cf": "38310012764"
+  },
+  {
+   "name": "deposit leaves D_T unchanged (= z)",
+   "pass": true
+  },
+  {
+   "name": "credit+deposit in one tx: minted at recorded price (credit unseen)",
+   "pass": true,
+   "minted2": "4845813004"
+  },
+  {
+   "name": "D_T = z + z2",
+   "pass": true
+  },
+  {
+   "name": "maintenance+deposit in one tx: D_T back to 0 and depositor3 priced at reconciled T",
+   "pass": true
+  },
+  {
+   "name": "control fails: non-whitelisted user deposit via Staker",
+   "pass": true
+  },
+  {
+   "name": "control fails: direct SPL DepositSol without the deposit-authority signature",
+   "pass": true
+  },
+  {
+   "name": "control fails: WithdrawSol by a token holder (SOL withdraw authority = pool PDA)",
+   "pass": true
+  },
+  {
+   "name": "control fails: WithdrawStake while stale (lambda < E)",
+   "pass": true
+  },
+  {
+   "name": "X+1 SPB epoch-fee mint equals floor(S*phi/(T+r-phi))",
+   "pass": true,
+   "r": "5038305",
+   "phi": "251916",
+   "feeMinted": "242344",
+   "fExp": "242344"
+  },
+  {
+   "name": "WithdrawStake #0 (source V0) pays floor((p - ceil(p/1000)) * T / S)",
+   "pass": true,
+   "p": "24083890099",
+   "got": "25010076612",
+   "expected": "25010076612"
+  },
+  {
+   "name": "WithdrawStake #1 (source V1) pays floor((p - ceil(p/1000)) * T / S)",
+   "pass": true,
+   "p": "14682613933",
+   "got": "15247258554",
+   "expected": "15247258554"
+  },
+  {
+   "name": "depositor fully redeemed by WithdrawStake routing",
+   "pass": true,
+   "remaining": "0"
+  }
+ ],
+ "controls": [
+  {
+   "name": "Staker deposit while pool is stale (lambda < E)",
+   "failed": true,
+   "error": "tx 4QAsuiEWCtkguwUTHcmQkZvk3NwpiKBdiSps35fFjvBgFJTJvQikrSFvsLY5XqsT8e2fbxj3K93qfLteqkjjZExT failed: {\"InstructionError\":[0,{\"Custom\":17}]}",
+   "log_tail": [
+    "Program log: Error: First update old validator stake account balances and then pool stake balance.",
+    "Program SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy failed: custom program error: 0x11",
+    "Program 6EZAJVrNQdnBJU6ULxXSDaEoK6fN7C3iXTCkZKRWDdGM failed: custom program error: 0x11"
+   ]
+  },
+  {
+   "name": "non-whitelisted user deposit via Staker",
+   "failed": true,
+   "error": "tx 4EbKXSMkK5BM4VCNcBcJysKEruRhJQCokc7JQpzCaLk1wsiJ9BzLtATWfqZq3BFbUENtt35BQDjMTbGah3tNeCcG failed: {\"InstructionError\":[0,{\"Custom\":6009}]}",
+   "log_tail": [
+    "Program log: Instruction: Deposit",
+    "Program log: AnchorError caused by account: user_whitelist_account. Error Code: UserNotWhitelisted. Error Number: 6009. Error Message: User is not whitelisted.",
+    "Program 6EZAJVrNQdnBJU6ULxXSDaEoK6fN7C3iXTCkZKRWDdGM failed: custom program error: 0x1779"
+   ]
+  },
+  {
+   "name": "direct SPL DepositSol without the deposit-authority signature",
+   "failed": true,
+   "error": "tx 3JCwZqAzgwPLs8AayqFMpDHDUmAH7wVeQcq9EHjJtXRmWMjEdrvJrEJG2Hzf652kKKhNDHCcbxANQUbizAEhR56q failed: {\"InstructionError\":[0,\"NotEnoughAccountKeys\"]}",
+   "log_tail": [
+    "Program log: Instruction: DepositSol",
+    "Program log: Error: NotEnoughAccountKeys",
+    "Program SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy failed: insufficient account keys for instruction"
+   ]
+  },
+  {
+   "name": "WithdrawSol by a token holder (SOL withdraw authority = pool PDA)",
+   "failed": true,
+   "error": "tx 4rESBz7StYugYg7pRLnomcLwZnBLyTFuVnwPeFnAPEECvbK4GvghKDmdiwPW5Q85qvas4h46Dq6wkAYETaaYKca5 failed: {\"InstructionError\":[0,{\"Custom\":34}]}",
+   "log_tail": [
+    "Program log: Instruction: WithdrawSol",
+    "Program log: Error: Provided sol withdraw authority does not match the program's",
+    "Program SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy failed: custom program error: 0x22"
+   ]
+  },
+  {
+   "name": "WithdrawStake while stale (lambda < E)",
+   "failed": true,
+   "error": "tx 3fZbUT2PvFCycC5wyFR3SMoEUHJvqMkQjnLuTPWahfyN9jzZFtwZFyhPxjXoLGd4yLpgNeGoYyh5b9jEn5Kgqr7K failed: {\"InstructionError\":[1,{\"Custom\":17}]}",
+   "log_tail": [
+    "Program log: Instruction: WithdrawStake",
+    "Program log: Error: First update old validator stake account balances and then pool stake balance.",
+    "Program SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy failed: custom program error: 0x11"
+   ]
+  }
+ ],
+ "env": {
+  "stakeRent": "2282880",
+  "version": {
+   "feature-set": 607245837,
+   "solana-core": "2.0.15"
+  },
+  "minDelegation": "1000000000"
+ },
+ "setupEpoch": 0,
+ "counterfactual": {
+  "err": null,
+  "minted_if_reconciled_first": "38310012764",
+  "pool_after": {
+   "T": "102787381844",
+   "S": "98444647762"
+  }
+ },
+ "roundtrip": {
+  "X": 2,
+  "L": "40000000000",
+  "z": "777777777",
+  "minted": "38766504032",
+  "cf_minted": "38310012764",
+  "extra_tokens": "456491268",
+  "exits": [
+   {
+    "source": "V0",
+    "p": "24083890099",
+    "fee_tokens": "24083891",
+    "lamports": "25010076612",
+    "tx": {
+     "sig": "55p1HrHm9AX9pUjGVoeFaGhrRhvhVJrnshoJJEazR4mhUK4K8jSZcn5nmi3WfrShgWzTq74NK3cPRbDtRyjgvkqk",
+     "fee": 10000,
+     "slot": 1243
+    }
+   },
+   {
+    "source": "V1",
+    "p": "14682613933",
+    "fee_tokens": "14682614",
+    "lamports": "15247258554",
+    "tx": {
+     "sig": "3BCpUqs6YQ1ML66X1RPTfEMwTkvnbmceYCop7hT8Lbv2LUg8vaaSYvyTUQ5s1MEAgV7UGD3iMpsi1EdsFf2w32qy",
+     "fee": 10000,
+     "slot": 1244
+    }
+   }
+  ],
+  "redeemed_lamports": "40262179763",
+  "wallet_before_deposit": 199997955720,
+  "wallet_after_final_withdraw": 200260075483,
+  "realized_pnl_wallet": "262119763",
+  "tx_fees_after_deposit": 45000,
+  "recognition_x1": {
+   "r": "5038305",
+   "feeMinted": "242344"
+  }
+ },
+ "verdict": "PASS"
+}

@@ -1,0 +1,6522 @@
+{
+ "rpc": "https://api.mainnet-beta.solana.com",
+ "min_epoch": 1060,
+ "fetched_at": "2026-10-28T08:24:24.454Z",
+ "watched": {
+  "pool": "EyKyx9LKz7Qbp6PSbBRoMdt8iNYp8PvFVupQTQRMY9AM",
+  "reserve": "EDKjf7YhYZyZriHrepRZEXNjwAen9aJwqToiWWqKf9yU",
+  "validator_list": "8M7ZbLikHJdeU6iKzZxWJ8zHy1ozX65Zk2GBVcmFVnXe",
+  "mint": "6umRHtiuBd1PC6HQhfH9ioNsqY4ihZncZXNPiGu3d3rN",
+  "manager_fee": "5aiXfi3RnfXY3FKEQXPtLXxTC7DA3xn2NZPcQvhRPtod",
+  "V0": "FDBQthc1mrSBntxJaJtmFVSkUnonDpGD5uJp8eemRBci",
+  "X0": "33DcP2qViMBxG3D3nHAmLC7zjCXZ9D2BX6hYwfjsrfev",
+  "V1": "A8skhwLunD3WKfsv5oX9XZ4SAXvAqNebLyMhGft4CSqP",
+  "X1": "6Wczi4biBsBT22aZaDZWbXp3jMBVmW1ofWSzBkWZui4B",
+  "V2": "Z3tPaBv5gEphQWvhA4xVtvSw7FBszPifLd11MvZiXFj",
+  "X2": "AivKrPzjrokA8FKTZVth6Rd1WQNcNc9VHA3JgGywskTx",
+  "V3": "Ev6cP6pHUREpCJJPc65k4svhQyuXsFwdPjYksGUk3hDb",
+  "X3": "8DhhLDTCG8QqwgDRus2Q4BVPGLFUUVAqBxL39gvzM2Eh"
+ },
+ "txs": [
+  {
+   "sig": "51xwBG3b1UnAw3eRU7maqpArm747BYmLqqQ6R4Yzyib1sdBgJKLjjKHZhZEbECoQtjtHDa6qe5A4UduMggE8MoCi",
+   "slot": 457928359,
+   "epoch": 1060,
+   "slot_index": 8359,
+   "blockTime": 1792216636,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL57Rzc1FSAQeNf2xfLuMQ8J1MMRczV8jf2RwNhdV"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": -22928,
+    "X2": 0,
+    "reserve": 98794,
+    "V3": -46485,
+    "V0": -29381,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "GSYnwGJ8R5zRDTYTeJppZFPjHbMADQp7VRG2MeFFirsN",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "Stake11111111111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw"
+   ]
+  },
+  {
+   "sig": "2u3MD4ybg4R2vDBjBfkxSqxg6XjUAvf2TbEw7WQg7fNnMBVYyZ4LoKV9KiPxsBHbUNXZApjGtzeeNjnYwRonWJM1",
+   "slot": 457928360,
+   "epoch": 1060,
+   "slot_index": 8360,
+   "blockTime": 1792216636,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLXeBvDFhaUYB4w2oXWbZYDAT4YUFjRsTiHVq4CSP"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "GSYnwGJ8R5zRDTYTeJppZFPjHbMADQp7VRG2MeFFirsN",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "3CV6uuQnrgJKEgRc4bHTVvNFLrxmupvZLZMK4z26KKEdGRvL2FqEVb2xGcgwjzsM7szeGbtkrrPGZBxt7oz1Qaat",
+   "slot": 457928361,
+   "epoch": 1060,
+   "slot_index": 8361,
+   "blockTime": 1792216636,
+   "err": null,
+   "fee": 5165,
+   "signers": [
+    "SBKLuSi2wruCUjU7cY9NcWF6iHAsUjqD7smYmNEC27y"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0326020000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "GSYnwGJ8R5zRDTYTeJppZFPjHbMADQp7VRG2MeFFirsN",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "2KC4wcWwyr6KZAK2KqoNZhZfX791BJM6ngk1JhAEXUC6TAenw1mjW76LdiGKzdcsbARHqDHVRyhb6PNnZqNnDFrX",
+   "slot": 457928361,
+   "epoch": 1060,
+   "slot_index": 8361,
+   "blockTime": 1792216636,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL5VBhPL68Fx7goXmEHfXiWGnmzXM67A4T4Ut7qcH"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "GSYnwGJ8R5zRDTYTeJppZFPjHbMADQp7VRG2MeFFirsN",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "4c7xzApiqWTtuWuwWRVc6GqcXDWfGpXmqzc6LJ78SRQxeJ37LxJZDx6bR5zfWKPQmxUgfDRUWufLVaM368LYGybG",
+   "slot": 457928362,
+   "epoch": 1060,
+   "slot_index": 8362,
+   "blockTime": 1792216637,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL57Rzc1FSAQeNf2xfLuMQ8J1MMRczV8jf2RwNhdV"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "49RtcbeYAnth9T1UZZFLdcaZpat9G7jAQ7HDhNEJVHJm8WgNGmwxWV9NYFwQjqX5iGgPcbdYeN8DMX89EYHCQgzU",
+   "slot": 457928366,
+   "epoch": 1060,
+   "slot_index": 8366,
+   "blockTime": 1792216637,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLXeBvDFhaUYB4w2oXWbZYDAT4YUFjRsTiHVq4CSP"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "pRn6pJ5uxf8vpe5QM4XaNsQWTVfQaVD9eyvK3dJqnncaQziMzAoqRFHXv3bwYkY9QBqKUKotmXr5gijYMYYtC42",
+   "slot": 457928367,
+   "epoch": 1060,
+   "slot_index": 8367,
+   "blockTime": 1792216638,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL5VBhPL68Fx7goXmEHfXiWGnmzXM67A4T4Ut7qcH"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "383kesKgT1kco1RnEqSbwktEje84RTpinC9yfA9mR24mMyfKcn2oYYiDKbLaxH9hdPEQk8bJnmJiU3xibGKd82t2",
+   "slot": 457928368,
+   "epoch": 1060,
+   "slot_index": 8368,
+   "blockTime": 1792216638,
+   "err": null,
+   "fee": 5165,
+   "signers": [
+    "SBKLuSi2wruCUjU7cY9NcWF6iHAsUjqD7smYmNEC27y"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0326020000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "45V3fjxxnbF971s5DekXZvepP4KiMohgZufY6szk2JpBhJ24Qbk2ZNhBeaVS7jB3a3h76ye1qmJnNE2vsyDb5J2o",
+   "slot": 457945971,
+   "epoch": 1060,
+   "slot_index": 25971,
+   "blockTime": 1792220439,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V0"
+   ],
+   "deltas": {
+    "V0": 23207
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a080000005eb5e0",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "CZiBQAVb1Yyks2Rh7mmwPurpEZERb7NPCEwsiQCXR2WU",
+      "6trsPXQibZeYwMWF6Wp7tC97NQD1FDZPhJDfHAnhtjY3",
+      "V0",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "3R1dG7p5dH2HQpyCx3MSPBuKTNA8zPs5md5u88MGSzzUsLQuBt3WJm319PnVB2Sqbf6FQEeW8h2xvqDJeMfPnfmD",
+   "slot": 457949824,
+   "epoch": 1060,
+   "slot_index": 29824,
+   "blockTime": 1792221270,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V1"
+   ],
+   "deltas": {
+    "V1": 32065
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a05000000f70a0a",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "2BaMvWJ7gexLRhb2572WhvBe3stFncUiuK2aSqsD7x7i",
+      "D5WndX3SmRogBoC9hRRYJTEHARiCt83A2b2SQ2BPTg8y",
+      "V1",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "34qKgpu8SRhKkfeaiQo95QFysup3U433pCTH3xVYaAW73uDyh4QiQwuUEw5cuViRsvQZmG1tWESkEtahMGobPujc",
+   "slot": 457950985,
+   "epoch": 1060,
+   "slot_index": 30985,
+   "blockTime": 1792221519,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V3"
+   ],
+   "deltas": {
+    "V3": 43012
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a05000000edfb39",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "8skDM3qLJoEDjNYt6V9qsyL75MDBWZJZThXNQSXom6d2",
+      "522RTnXCEYDTZFFPsmTjXG8WGm94jMhLZ3EW3pyaWAPb",
+      "V3",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "5qUAzQ8p5oQCT9zXPuj26Dcz8HcoctaJm9k7LSWRrCeZnh8vEsUUX4ksSRvCW4XiR4iKa1hYppGLpEgoMgKtB5HY",
+   "slot": 458360359,
+   "epoch": 1061,
+   "slot_index": 8359,
+   "blockTime": 1792310377,
+   "err": null,
+   "fee": 5032,
+   "signers": [
+    "SBKLuSi2wruCUjU7cY9NcWF6iHAsUjqD7smYmNEC27y"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": -32065,
+    "X2": 0,
+    "reserve": 98284,
+    "V3": -43012,
+    "V0": -23207,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0369000000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "GSYnwGJ8R5zRDTYTeJppZFPjHbMADQp7VRG2MeFFirsN",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "Stake11111111111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw"
+   ]
+  },
+  {
+   "sig": "3VXo6YH8EAPwCdKnNjcBisksxcxhEh39waXk8RrYwYJ2uUWFoF3KTetdLsgMk2EHfAo4SegAdSinTrN32q9zkXJn",
+   "slot": 458360361,
+   "epoch": 1061,
+   "slot_index": 8361,
+   "blockTime": 1792310377,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL57Rzc1FSAQeNf2xfLuMQ8J1MMRczV8jf2RwNhdV"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "GSYnwGJ8R5zRDTYTeJppZFPjHbMADQp7VRG2MeFFirsN",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "2vn7RsqxuVfp3kGFKtoFY68JqQ1PLcnWSLoTpz9mUALbHbfZf3xx244vA628SMTtyoPTysME1u9Vmc2Eg15JjB5M",
+   "slot": 458360361,
+   "epoch": 1061,
+   "slot_index": 8361,
+   "blockTime": 1792310377,
+   "err": null,
+   "fee": 5048,
+   "signers": [
+    "SFLY3RDVNZ3rQLWofFAzc89kQj9xrr5a96JVnqHRphy"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "039e000000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "GSYnwGJ8R5zRDTYTeJppZFPjHbMADQp7VRG2MeFFirsN",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "5hXqoDg4u9oPTaZZ8Msi3jGfpJZWQhJRLTkT9aYcGRLD7yGHdEE89ot5DrsGYK58xqAA6FExPSeE47xJhZMZ49TA",
+   "slot": 458360363,
+   "epoch": 1061,
+   "slot_index": 8363,
+   "blockTime": 1792310378,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL5VBhPL68Fx7goXmEHfXiWGnmzXM67A4T4Ut7qcH"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "GSYnwGJ8R5zRDTYTeJppZFPjHbMADQp7VRG2MeFFirsN",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "3HM794XTJYJThFijSh1TN7Mwcc4jdKPFLPHcXLLksPPsrAANyn5tKAbUKbBXHmck3jJAcRc4U9docFMMXrVyjAc7",
+   "slot": 458360363,
+   "epoch": 1061,
+   "slot_index": 8363,
+   "blockTime": 1792310378,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLXeBvDFhaUYB4w2oXWbZYDAT4YUFjRsTiHVq4CSP"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "GSYnwGJ8R5zRDTYTeJppZFPjHbMADQp7VRG2MeFFirsN",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "3ch2RT1Cf3WoZYFtmKejMjrh8Q5TxTySv2UTmBwY23j2b1cLBX81KvDBw8etdLYHPMf5RUe2pv6yaPjtvHXn25FP",
+   "slot": 458360365,
+   "epoch": 1061,
+   "slot_index": 8365,
+   "blockTime": 1792310378,
+   "err": null,
+   "fee": 5032,
+   "signers": [
+    "SBKLuSi2wruCUjU7cY9NcWF6iHAsUjqD7smYmNEC27y"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0369000000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "MgtXw3sazpLNiztpzSVCgDjkJzMRAzRYK24F7BbFjbiVTn7JcZsNsQrR1VMe9dnsx8dmMJRPtXC5qGVTZyjSRco",
+   "slot": 458360367,
+   "epoch": 1061,
+   "slot_index": 8367,
+   "blockTime": 1792310379,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL57Rzc1FSAQeNf2xfLuMQ8J1MMRczV8jf2RwNhdV"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "3H5eWW7rqcpqDo5trEw5EWPcsfDLaiNxjcJj1YDSSHVPnDvu46yck8mhYLzFjK2gjKkdfJuMTSeCJNj1n122dx7Z",
+   "slot": 458360368,
+   "epoch": 1061,
+   "slot_index": 8368,
+   "blockTime": 1792310379,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL5VBhPL68Fx7goXmEHfXiWGnmzXM67A4T4Ut7qcH"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "qqNFT1uu3h9CpJGjs95JDdP2RVFjafhiHAoGud7zbmg7KE7ykrs15axbUrGVqVUDto5qfc1i6qWNQf7Nq69xtrD",
+   "slot": 458360368,
+   "epoch": 1061,
+   "slot_index": 8368,
+   "blockTime": 1792310379,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLXeBvDFhaUYB4w2oXWbZYDAT4YUFjRsTiHVq4CSP"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "4MKNZxzXFCA2d2LNz74s1GBiWHrBKUsnJSw5F6vcacPpFJorDP1mXE3AhqCPzt5GkiD3F1EUinLVMEEwNgvkmPgi",
+   "slot": 458360369,
+   "epoch": 1061,
+   "slot_index": 8369,
+   "blockTime": 1792310379,
+   "err": null,
+   "fee": 5048,
+   "signers": [
+    "SFLY3RDVNZ3rQLWofFAzc89kQj9xrr5a96JVnqHRphy"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "039e000000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "aYK2Ddu3TavjLtN1UizXXTPYY1qYSYkdCQYBnXuKTHYtw7ZrZ286aEWxYcPZSVS8X1CXPLno1nrYQpbBPRiXwHN",
+   "slot": 458373639,
+   "epoch": 1061,
+   "slot_index": 21639,
+   "blockTime": 1792313255,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V1"
+   ],
+   "deltas": {
+    "V1": 25771
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a0500000095b06e",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "Dcmug8nDqk2dHTPi4hZHfyqtDfANz2RRSRePcyQjrgKK",
+      "79EdTEKUUcdL2yV5LkyUyqPhDMVE9kK1VkySdyAUHvQA",
+      "V1",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "3hxVYnhpRQ8guAjD3NDivGicU11zNHk8sA6H4BDc15V63zggZ2kkUUmLzpMmeTD2BZqdGR5NNtG4RamTaqGStGCA",
+   "slot": 458377195,
+   "epoch": 1061,
+   "slot_index": 25195,
+   "blockTime": 1792314022,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V3"
+   ],
+   "deltas": {
+    "V3": 28245
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a05000000a68453",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "EX7MmqEGysZWndxT7HdbSwzyEw6QpJidqb5xNHbe1WKD",
+      "97CjW7puHfPXfqrVuD4XeqcyM989mCyRkUiFewC8dx3f",
+      "V3",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "3GFmTKsphAzvEvyiiDGPjgv7jYb42bqdt9CWJGYyzWAfEo6v6vayCELnG8dpGuAJ6PKs8YK8bUuAz3pqXm3uiydX",
+   "slot": 458384381,
+   "epoch": 1061,
+   "slot_index": 32381,
+   "blockTime": 1792315572,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V0"
+   ],
+   "deltas": {
+    "V0": 18672
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a0800000028f31f",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "5U1DfMUbds49A2Nf7NUf9cCZhhvApGDWwKAZapYncjxK",
+      "FnJs5ctUjtXbZKmj1ZJvz7SenRWqTNG6fbqmgoZoqWiC",
+      "V0",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "EXRDE3vcjgiu3h5p8SHznahf4WbbxUWdsqocNVDPcNMaqCaYYxFPrDWNQg4kYfZu1kkj1mHyxzFGoqBFgYKbwXL",
+   "slot": 458792386,
+   "epoch": 1062,
+   "slot_index": 8386,
+   "blockTime": 1792404025,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL57Rzc1FSAQeNf2xfLuMQ8J1MMRczV8jf2RwNhdV"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "GSYnwGJ8R5zRDTYTeJppZFPjHbMADQp7VRG2MeFFirsN",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "gmLaeH3XbUg4rLdATXfWYUjLEKXDD48W6vCVqGitbVNergYVJu4Dt3JhvUXv85x1UPk9xQ8rd9q6n4NohDKLWnp",
+   "slot": 458792386,
+   "epoch": 1062,
+   "slot_index": 8386,
+   "blockTime": 1792404025,
+   "err": null,
+   "fee": 11990,
+   "signers": [
+    "SFLY3RDVNZ3rQLWofFAzc89kQj9xrr5a96JVnqHRphy"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": -25771,
+    "X2": 0,
+    "reserve": 72688,
+    "V3": -28245,
+    "V0": -18672,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "03035b0000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "GSYnwGJ8R5zRDTYTeJppZFPjHbMADQp7VRG2MeFFirsN",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "Stake11111111111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw"
+   ]
+  },
+  {
+   "sig": "aY1VyGpAaiZt7xYMZ84T7thBqL7TLgHtK11Dcikrva8HuUPz28ifEe7xr4EdDGb7mMMWRQgHsej57Cnvy9YPYHe",
+   "slot": 458792387,
+   "epoch": 1062,
+   "slot_index": 8387,
+   "blockTime": 1792404025,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL5VBhPL68Fx7goXmEHfXiWGnmzXM67A4T4Ut7qcH"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "GSYnwGJ8R5zRDTYTeJppZFPjHbMADQp7VRG2MeFFirsN",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "5MUFS7v4xQbvGTvBg1oJxip1S9prLAausmtZzn9E4dvY3JuDPRzhRFWGyXiDv37M6aBseiwWzB5cXvsCxy8e7ycQ",
+   "slot": 458792388,
+   "epoch": 1062,
+   "slot_index": 8388,
+   "blockTime": 1792404026,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLXeBvDFhaUYB4w2oXWbZYDAT4YUFjRsTiHVq4CSP"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "GSYnwGJ8R5zRDTYTeJppZFPjHbMADQp7VRG2MeFFirsN",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "4yZTLpUfM4i5HDUjHZmbwwTXbGV6itMd6vhFDB3v9dyizKcGARRnCMAdo7raEN8YsYSbrnDWdRNyvhECnWntMEm9",
+   "slot": 458792389,
+   "epoch": 1062,
+   "slot_index": 8389,
+   "blockTime": 1792404026,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLuSi2wruCUjU7cY9NcWF6iHAsUjqD7smYmNEC27y"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "GSYnwGJ8R5zRDTYTeJppZFPjHbMADQp7VRG2MeFFirsN",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "4o3yqQoYu8Ytq5tBCfDERBpMejTvaNfzX84hhc56q3tbgDzv9qweWGPrzF3KhJcSwpyA25eJV8tfCEA9AVKhW4g",
+   "slot": 458792392,
+   "epoch": 1062,
+   "slot_index": 8392,
+   "blockTime": 1792404027,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL5VBhPL68Fx7goXmEHfXiWGnmzXM67A4T4Ut7qcH"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "5LrgkUR6JxwxEjHNpC1dmbaJN7xuqGYn8uQxq8fAWw3fB7awoxuCB644Yo9d513DmoUgfjYo8vnxkeEcg5EfK95u",
+   "slot": 458792392,
+   "epoch": 1062,
+   "slot_index": 8392,
+   "blockTime": 1792404027,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLuSi2wruCUjU7cY9NcWF6iHAsUjqD7smYmNEC27y"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "46VxjXoeYpKRk4H5S4AWqWeD9mQM2xN9roKZ3i16frLxRMJgqV8jpSG38T9Sf8j61t2DKYR7xyRNTF1vsi2eb3dT",
+   "slot": 458792392,
+   "epoch": 1062,
+   "slot_index": 8392,
+   "blockTime": 1792404027,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL57Rzc1FSAQeNf2xfLuMQ8J1MMRczV8jf2RwNhdV"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "5cE2LV4Lkh7qcBuxZUdq76K9qkDvPob49GU7bNEb9NEciCvo9cK1ngVhR33mk6phaxYAsZX1FvzxfKE4iMxXcM5H",
+   "slot": 458792394,
+   "epoch": 1062,
+   "slot_index": 8394,
+   "blockTime": 1792404027,
+   "err": null,
+   "fee": 11990,
+   "signers": [
+    "SFLY3RDVNZ3rQLWofFAzc89kQj9xrr5a96JVnqHRphy"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "03035b0000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "37VLkMdfnXrUPbQPHUs17QXEr5iBMJ7hkUbMNqsF7ZiSgYttXrL5RXKTNBr5qt2F8WR8jtKaxR5A4bkyM1hxfT9j",
+   "slot": 458792394,
+   "epoch": 1062,
+   "slot_index": 8394,
+   "blockTime": 1792404027,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLXeBvDFhaUYB4w2oXWbZYDAT4YUFjRsTiHVq4CSP"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "3jPNv861YKFQaCNoHPhDqEMQAKGiKfXty18DHHXAJbc2R9AiZaCGLyTjJ7y8hK1kUj5qA9VVLZYz3TeFABzHY41e",
+   "slot": 458810318,
+   "epoch": 1062,
+   "slot_index": 26318,
+   "blockTime": 1792407906,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V3"
+   ],
+   "deltas": {
+    "V3": 66370
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a05000000748033",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "9PeCx8mMNN8TSK27Yca7Atm5oW3A8Pb2ZCGyFek4cg6J",
+      "DVu6pngiXLoo4D1cGwYUA2qAQrLoexCC4voE476fMwnd",
+      "V3",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "aFUaSXS5QLA7gZkWXEMAYSJ8kNwfLaTXJtnPgaVykzkHrkdcN1Lk7igwb7cFzj7MQXQz8Kgkqr9z8BTUCKwzxxL",
+   "slot": 458815206,
+   "epoch": 1062,
+   "slot_index": 31206,
+   "blockTime": 1792408967,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V0"
+   ],
+   "deltas": {
+    "V0": 21463
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a0800000023713b",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "A67t38Tvt5VgAsNcjrEF9KPiTrL62GiHa3YnXG5aYDXT",
+      "E2A8UAYWzFKKmE2UN879LYWoMpcDmq5b9EqDf1KP5uGA",
+      "V0",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "BBMoxggrFfN6zAdoTKAeMkZTQht4Jt8n7dzmZLqpLN1w8ALZrSPVwXTiaMVX5UUXw8JpCw9kiG2zwsMvwWFVCzr",
+   "slot": 458817144,
+   "epoch": 1062,
+   "slot_index": 33144,
+   "blockTime": 1792409390,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V1"
+   ],
+   "deltas": {
+    "V1": 19879
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a050000007d90de",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "47wG7Xhw7VPRznqZsYH19MjMp6o3pzgGZXKLR8tSoDrH",
+      "877Eyy397v9tHMzFJCEYzdnwJYvGP6E6DqsgHpQypvpy",
+      "V1",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "3tfu3GBEbBk3y8H639rub4z9Xs4cXafdSP3oCxZ27rr3Z9iktXvV1jeAegFbcc4UUUQWRjjwxypcdVi42gthc1Xg",
+   "slot": 459222545,
+   "epoch": 1063,
+   "slot_index": 6545,
+   "blockTime": 1792497662,
+   "err": null,
+   "fee": 6200,
+   "signers": [
+    "4X8avqCKvNxb2a57pPV9nGJNfRQtETgBn7a7iyuNyjaH"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": -19879,
+    "X2": 0,
+    "reserve": 107712,
+    "V3": -66370,
+    "pool": 0,
+    "V0": -21463
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02804f1200",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "03e8030000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000000",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "GSYnwGJ8R5zRDTYTeJppZFPjHbMADQp7VRG2MeFFirsN",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "Stake11111111111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw"
+   ]
+  },
+  {
+   "sig": "382pFUmNWu8Tb7G1Mrijd9dbEpW1m99Xty6v9tmNaookf3oiFCAXocH1DmQyQ78vttJJXNYCfuN51Gz6gxgTiAcf",
+   "slot": 459222587,
+   "epoch": 1063,
+   "slot_index": 6587,
+   "blockTime": 1792497672,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "4X8avqCKvNxb2a57pPV9nGJNfRQtETgBn7a7iyuNyjaH"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "pool": 0,
+    "reserve": 0
+   },
+   "top": [
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "qoxxWiDrEU5TT3nKRgA1pr5fCaBo6T835FJVdbPZ3R4JpQurcm3H1Ja6VdEGWUPX3CnqonM18APt9q6CUjZCAsv",
+   "slot": 459236275,
+   "epoch": 1063,
+   "slot_index": 20275,
+   "blockTime": 1792500634,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V3"
+   ],
+   "deltas": {
+    "V3": 43937
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a050000004a2840",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "AStGcjySaU494hFee45vhcrRUZ35p7RY12VB79magjUo",
+      "3eFJbzQaSCYX2x264eVGxtFLBN3g331ys8WhgXATvpUD",
+      "V3",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "4jUPQqwxuUCuUyEXvwG3a4SU4wNjnHSCHpSjvkuKXgcsSXkfbnobVDTEs4d2nuhoMk8nDUuo5ryvZYer7kTGWyfQ",
+   "slot": 459244380,
+   "epoch": 1063,
+   "slot_index": 28380,
+   "blockTime": 1792502397,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V1"
+   ],
+   "deltas": {
+    "V1": 18434
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a05000000e037b4",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "9SegUNMNX6XutvVLcCDfuwMxEXrcyZUZkLu6T7Ydxn7H",
+      "HicqsCRxMmAxGsbAYeRYAkY9Yb8BBBWRsxHvatowHSev",
+      "V1",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "r2XTxC7qSEf1nPAx3ECqxUGY1Lh6ezRbfguqPNMWht1TZqiABinW6KRV5GygXj8GqC7qYAPYEvAcSMvXgXtwmpQ",
+   "slot": 459248092,
+   "epoch": 1063,
+   "slot_index": 32092,
+   "blockTime": 1792503208,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V0"
+   ],
+   "deltas": {
+    "V0": 25860
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a08000000de27be",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "2hfN2j4PEmBedePjdKK48XTuL1J77TpVbEEtunv1qpRN",
+      "F9KeNWeXDZEDGg8S3ZdPdffsxL9bw2wvwTaLM37TWA4w",
+      "V0",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "3JUCKw3Nt9we69yWfx8T3if7A3vyZ5YF6FeuxV7Gq7kS5SzfM8oRTZxQxYSiWPuMozsCrPckW1fVfqqPoqBC9G4B",
+   "slot": 459641963,
+   "epoch": 1063,
+   "slot_index": 425963,
+   "blockTime": 1792588468,
+   "err": null,
+   "fee": 127503,
+   "signers": [
+    "6nk2EXgZZE4dEebr1UJMGy8wCW8Sf3dgsRLaB4JHuo26"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee",
+    "V1",
+    "X1"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "X1": 1004998720,
+    "validator_list": 0,
+    "V1": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "03a2580900000000",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02400d0300",
+     "accounts": []
+    },
+    {
+     "program": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+     "data0": "01",
+     "accounts": [
+      "6nk2EXgZZE4dEebr1UJMGy8wCW8Sf3dgsRLaB4JHuo26",
+      "5Yw2bZWhWwdXjJYdeadkAnfdKfxxjRxahrpr63iYGLiz",
+      "6nk2EXgZZE4dEebr1UJMGy8wCW8Sf3dgsRLaB4JHuo26",
+      "mint",
+      "11111111111111111111111111111111",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+     ]
+    },
+    {
+     "program": "6EZAJVrNQdnBJU6ULxXSDaEoK6fN7C3iXTCkZKRWDdGM",
+     "data0": "93a59b6028cc9aa7",
+     "accounts": [
+      "6nk2EXgZZE4dEebr1UJMGy8wCW8Sf3dgsRLaB4JHuo26",
+      "26dP42vmSsKgGh3saZTajPoB5aeTEpRysp8aMU6fw79x",
+      "EXcdEB4Sy1ikfsXDdLRK9h8ZjgT6pyhq1o98RM7eeYr",
+      "3Gu6VvL43rRGUodheyitHuYGqsT7qLkuYjwjwC9V2mTU",
+      "pool",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "reserve",
+      "5Yw2bZWhWwdXjJYdeadkAnfdKfxxjRxahrpr63iYGLiz",
+      "manager_fee",
+      "mint",
+      "manager_fee",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "validator_list",
+      "3NG9nsVNx4eZDjVvQ8eK6m11L2b6yTbsh91UsUKtsSAr",
+      "X1",
+      "V1",
+      "GrefCNn5jSbcWv3uiervqZiCC87F8oX7PXz9LEBiog6s",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "StakeConfig11111111111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+      "11111111111111111111111111111111",
+      "7HUhwJvRThjcbBme9fhdvbqyvfZ5MhZGuxm5hEkZFLhY",
+      "6EZAJVrNQdnBJU6ULxXSDaEoK6fN7C3iXTCkZKRWDdGM"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+    "11111111111111111111111111111111",
+    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "Stake11111111111111111111111111111111111111",
+    "6EZAJVrNQdnBJU6ULxXSDaEoK6fN7C3iXTCkZKRWDdGM"
+   ],
+   "logs": [
+    "Program log: CreateIdempotent",
+    "Program log: Instruction: DepositToSpecificValidator",
+    "Program log: Instruction: DepositSol",
+    "Program log: Instruction: IncreaseAdditionalValidatorStake",
+    "Program log: Instruction: GetMinimumDelegation",
+    "Program log: Instruction: Split",
+    "Program log: Instruction: DelegateStake",
+    "Program log: Instruction: Split"
+   ]
+  },
+  {
+   "sig": "2srEWZq8TSYmxtgDFnLbTkU8wTiQgkxY1CESjg1kJb8dEPhXetMhXCU8h4FjRJaHNRYwo65S6XWPRTGhjAc9Yt2e",
+   "slot": 459642231,
+   "epoch": 1063,
+   "slot_index": 426231,
+   "blockTime": 1792588525,
+   "err": null,
+   "fee": 10000,
+   "signers": [
+    "6nk2EXgZZE4dEebr1UJMGy8wCW8Sf3dgsRLaB4JHuo26",
+    "F3LT4x8RwESn1SwUE2v9zj1E5dcGjALace8QZyFKkJJG"
+   ],
+   "touched": [
+    "manager_fee",
+    "V0"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "pool": 0,
+    "V0": -3995999997
+   },
+   "top": [
+    {
+     "program": "11111111111111111111111111111111",
+     "data0": "00000000c06c1900",
+     "accounts": [
+      "6nk2EXgZZE4dEebr1UJMGy8wCW8Sf3dgsRLaB4JHuo26",
+      "F3LT4x8RwESn1SwUE2v9zj1E5dcGjALace8QZyFKkJJG"
+     ]
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "0ac7423b3b000000",
+     "accounts": [
+      "pool",
+      "validator_list",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "V0",
+      "F3LT4x8RwESn1SwUE2v9zj1E5dcGjALace8QZyFKkJJG",
+      "6nk2EXgZZE4dEebr1UJMGy8wCW8Sf3dgsRLaB4JHuo26",
+      "6nk2EXgZZE4dEebr1UJMGy8wCW8Sf3dgsRLaB4JHuo26",
+      "5Yw2bZWhWwdXjJYdeadkAnfdKfxxjRxahrpr63iYGLiz",
+      "manager_fee",
+      "mint",
+      "SysvarC1ock11111111111111111111111111111111",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "Stake11111111111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "Stake11111111111111111111111111111111111111",
+    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+   ],
+   "logs": [
+    "Program log: Instruction: WithdrawStake",
+    "Program log: Instruction: GetMinimumDelegation",
+    "Program log: Instruction: Split",
+    "Program log: Instruction: Authorize",
+    "Program log: Instruction: Authorize"
+   ]
+  },
+  {
+   "sig": "4BnqAP7iPbieAKx2YcQkYj8mxfXUgtQ4AXM5vTqZkEQXiwn2ycGNBvhPs2JjAMEq3ZRdC9Nb2kYxBCvgjLGUqGGx",
+   "slot": 459655019,
+   "epoch": 1064,
+   "slot_index": 7019,
+   "blockTime": 1792591263,
+   "err": null,
+   "fee": 6200,
+   "signers": [
+    "4X8avqCKvNxb2a57pPV9nGJNfRQtETgBn7a7iyuNyjaH"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": -1004998720,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 1003314046,
+    "X2": 0,
+    "reserve": 1754471,
+    "V3": -43937,
+    "pool": 0,
+    "V0": -25860
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02804f1200",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "03e8030000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000000",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "Stake11111111111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Merge",
+    "Program log: Checking if destination stake is mergeable",
+    "Program log: Checking if source stake is mergeable",
+    "Program log: Merging stake accounts",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw"
+   ]
+  },
+  {
+   "sig": "34LaY46UiBLcNHnQxGDh8XSsE28cA5rLEsha7UVSSuWEcUvyq912fN9kbFZSJkWVuvccxngPed5H9MBBaSTrrpjo",
+   "slot": 459655032,
+   "epoch": 1064,
+   "slot_index": 7032,
+   "blockTime": 1792591266,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "4X8avqCKvNxb2a57pPV9nGJNfRQtETgBn7a7iyuNyjaH"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "pool": 0,
+    "reserve": 0
+   },
+   "top": [
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "5ybApLwWVdghEngakeffF8kapo6vV9SBvFaTTcUurvKtZiLvHqicxwhmCWt6EQ1mErGuNAomeQ7C8Z6SxT3o1Lhk",
+   "slot": 459668491,
+   "epoch": 1064,
+   "slot_index": 20491,
+   "blockTime": 1792594119,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V3"
+   ],
+   "deltas": {
+    "V3": 82721
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a05000000a5bb54",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "977GVWpNM6VUYju23rjUu5LrCxoeU4bTJUJPkG2gVbDx",
+      "HzvCDMj1cxpAvzJ8SyLb3abPYiJZ8qDF7G6NvUryu3kW",
+      "V3",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "PbcA2qvHy3qUpYGA73CQB9xhYvAPDA5yi4LBV4FYurfJyyqAC4dmSYaWrXmo9P7A1xk54KiQ1fyeEq4qbXXsH9B",
+   "slot": 459671546,
+   "epoch": 1064,
+   "slot_index": 23546,
+   "blockTime": 1792594767,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V0"
+   ],
+   "deltas": {
+    "V0": 15859
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a080000008cfe53",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "G5MMxuS62mczUJNkx97X2dTiYpbVPL9n34JaQweZ1JnX",
+      "6DdzYZD1mkhH1g6yoyLHMKFCTpJyn31CrYJfpVVi38ec",
+      "V0",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "4a88jcFrPghMTVqSRBKoDWiWUFsZKjwj5EmoXtqJPfgXBiKodVhKdprmmJv7HNYzFZ4qKekcXFpsxBANVXNXStsU",
+   "slot": 459680681,
+   "epoch": 1064,
+   "slot_index": 32681,
+   "blockTime": 1792596707,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V1"
+   ],
+   "deltas": {
+    "V1": 68031
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a0500000092c7e5",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "3uv6m3fyiAUj5KwrSP6KoLHefJd4LWM5hMjxREvcTUNi",
+      "8585iZPnxeJjdWeUdqJyfg2iSShmckPkSC6NGRX6CV8w",
+      "V1",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "2E7ZM2WEUgpkdbHtfLHBoQi4cYUMKH3yXCvZiKbqVfmRdmpbXrxXa8x3sdrfGYuYygaSQbsBDPB3EU8Mt76qCnSt",
+   "slot": 460088598,
+   "epoch": 1065,
+   "slot_index": 8598,
+   "blockTime": 1792683413,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLXeBvDFhaUYB4w2oXWbZYDAT4YUFjRsTiHVq4CSP"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": -68031,
+    "X2": 0,
+    "reserve": 166611,
+    "V3": -82721,
+    "V0": -15859,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "Stake11111111111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw"
+   ]
+  },
+  {
+   "sig": "sq8DVAXBk3AcJbbAQdHGfwPJQ9xsXV1XUW9Lk2dK3bp6Rnd6ZNKe4PpHJyFPjxFn9smPHthVEGzszgEJ7dfRNVT",
+   "slot": 460088599,
+   "epoch": 1065,
+   "slot_index": 8599,
+   "blockTime": 1792683413,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL57Rzc1FSAQeNf2xfLuMQ8J1MMRczV8jf2RwNhdV"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "2natnAiwWdPRoP1sj7fvtCvSdru31fjdHNaeLSFJsWQznG5dmkHbq3dGNpBBK4eFm4xS8yMe1yyTTJBAn7Dueo1B",
+   "slot": 460088605,
+   "epoch": 1065,
+   "slot_index": 8605,
+   "blockTime": 1792683415,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SFLY3RDVNZ3rQLWofFAzc89kQj9xrr5a96JVnqHRphy"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "uL1uKfQ123qv2X7cveX3E3BKt8csQdrg8sGSj73rG4jQBYD6BTPr2sKuFekqLiQQCfUwwYMCANfCKZpJ8mSmw6P",
+   "slot": 460088605,
+   "epoch": 1065,
+   "slot_index": 8605,
+   "blockTime": 1792683415,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL57Rzc1FSAQeNf2xfLuMQ8J1MMRczV8jf2RwNhdV"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "43Nq9VGLVRZfdM3H2ggeFv8mw6a1zJA6VKfkeesYe91REQSGV4ZDdzSt4opV5KpCwTiNvNa6RT1Xd7CC5kKHhNX2",
+   "slot": 460088608,
+   "epoch": 1065,
+   "slot_index": 8608,
+   "blockTime": 1792683415,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLuSi2wruCUjU7cY9NcWF6iHAsUjqD7smYmNEC27y"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "3PF2AVr3xMKYNiPSMKnCtJTftkXwrszLwPDXZzpn7x9HfGZS1jjwgpsF6VjHW7RRPGvPhcc7SVCSGic1Fnp9se4s",
+   "slot": 460088608,
+   "epoch": 1065,
+   "slot_index": 8608,
+   "blockTime": 1792683415,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL5VBhPL68Fx7goXmEHfXiWGnmzXM67A4T4Ut7qcH"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "5t5aYiekFD7smQhxiKi7mCebtkMt7rbAfeCYFGXVwnSJCRhoRkNyZcH979wzzmzPaexhPyDm4215Cd1o9VAqLozD",
+   "slot": 460088608,
+   "epoch": 1065,
+   "slot_index": 8608,
+   "blockTime": 1792683415,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLXeBvDFhaUYB4w2oXWbZYDAT4YUFjRsTiHVq4CSP"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "5UJKp2AnxDq9sdZm2q3ctg4aUFwESZ5hCe7QYKvRhCyqnhDre6ksBn1wtHcN1RV4iev15pEbMZqtJZEkY6iYR1ky",
+   "slot": 460088614,
+   "epoch": 1065,
+   "slot_index": 8614,
+   "blockTime": 1792683417,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SFLY3RDVNZ3rQLWofFAzc89kQj9xrr5a96JVnqHRphy"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "2dn7PzR81PWtWY7BKz9suQ4f8b6pbJ6ZEagiuiA3MPMjAFTBFVSx8fh2kxWhcgTtLqZrHWhvcDjMm2NnQFNKuJZA",
+   "slot": 460088623,
+   "epoch": 1065,
+   "slot_index": 8623,
+   "blockTime": 1792683419,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL5VBhPL68Fx7goXmEHfXiWGnmzXM67A4T4Ut7qcH"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "46j6HhpSy6GqZ9k4S6DAUK5rLM5WVGnqCVax41oy2viVmmrkpDeQiUaC8oz9ZYdNhyFKdEQEdFSbn7MpLz72kGxo",
+   "slot": 460088623,
+   "epoch": 1065,
+   "slot_index": 8623,
+   "blockTime": 1792683419,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLuSi2wruCUjU7cY9NcWF6iHAsUjqD7smYmNEC27y"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "27srQVGSqx7y2JNAZKCBwVia2xnRYL2VG1N9iFB7dn8NNrmQA1JaBypqqSkaXvNkjWdkhvwJA3aYLxoaMkTnik4W",
+   "slot": 460100142,
+   "epoch": 1065,
+   "slot_index": 20142,
+   "blockTime": 1792685855,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V3"
+   ],
+   "deltas": {
+    "V3": 37518
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a050000002a0d07",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "DnQqiiBCaDbwn2cGP1zdCvYxniGKDMjrjudz5u1qUTbQ",
+      "HNe5g3Ayv2vnWjEWyqgC7z32ipiGwuMavXU8cQ6gJWTV",
+      "V3",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "bVMHXG3MCxRwSUGPn4fqytSzyd2AcgfTmC8GsvR2ugYfPk1rZnit4W6HCmG5AaZsfLK2Lv2jneuCCwaoY6zkZwi",
+   "slot": 460100648,
+   "epoch": 1065,
+   "slot_index": 20648,
+   "blockTime": 1792685962,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V0"
+   ],
+   "deltas": {
+    "V0": 20598
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a080000003000a8",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "46EX1ZxmKUmvu6XTvXNvecfXiDRHuogDNHYjmzurjNqn",
+      "DHVN5F8fMiZiZ4TAsCyXWdz6BMGGvxf78sSSdQ3tsWcn",
+      "V0",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "2EYesTvaGkW5bZYjdnLDrajYT1nWR3ZxJJuXm7aSehYKiiWwFkk2y2voLyXJADvM2cPLK3g67K9U4NrCc6xjYGLC",
+   "slot": 460113337,
+   "epoch": 1065,
+   "slot_index": 33337,
+   "blockTime": 1792688656,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V1"
+   ],
+   "deltas": {
+    "V1": 44936
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a05000000ba5a7c",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "7JMsSjKLuW1qgkvBb8zBMbLJMcSoqW49Qkenh4cgVgfx",
+      "EBxobx9jG8REnunVwmDMucnn4PM8darG2qmrNYz7wguZ",
+      "V1",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "2S7VvxfNcmEYCDkc6Sac4QKspNSbn5mwyFi52VwR2kbXojQEvdJuMVLMmwZDsbU8znKREpfsyyCRg2npBKnzWu5R",
+   "slot": 460520307,
+   "epoch": 1066,
+   "slot_index": 8307,
+   "blockTime": 1792774862,
+   "err": null,
+   "fee": 6200,
+   "signers": [
+    "4X8avqCKvNxb2a57pPV9nGJNfRQtETgBn7a7iyuNyjaH"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": -44936,
+    "X2": 0,
+    "reserve": 103052,
+    "V3": -37518,
+    "pool": 0,
+    "V0": -20598
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02804f1200",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "03e8030000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000000",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "Stake11111111111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw"
+   ]
+  },
+  {
+   "sig": "3y88JQyp8NdcG83xYs32BcmuCvwwc8GwMYw2Q5Xbron2CxLUDk4BDXhG4SFVsK94JUkQr8gx9PG6MFyxWxxeadpu",
+   "slot": 460520322,
+   "epoch": 1066,
+   "slot_index": 8322,
+   "blockTime": 1792774866,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "4X8avqCKvNxb2a57pPV9nGJNfRQtETgBn7a7iyuNyjaH"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "pool": 0,
+    "reserve": 0
+   },
+   "top": [
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "5teBxpD6jj3LuNZPjZtY6rQpZZrMeUjLuFCeZzbMtauDkmVCmthA8W5vPsH19gddakFoVJKZ38UtWJDaMMwV8DyA",
+   "slot": 460535424,
+   "epoch": 1066,
+   "slot_index": 23424,
+   "blockTime": 1792778061,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V0"
+   ],
+   "deltas": {
+    "V0": 18917
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a0800000093a524",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "G83ociAba1qxkod3nwZdRY8Rf7ju7faesLqTLE5URbXg",
+      "DwDy86sTrgFBMfTdjMnehavK722yTgxmYUnLuz2kWWup",
+      "V0",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "3qb5HWzMaamskpt924iquHHFJthtUT3MQPz4hsYaTtaYaacLMRv24hWjxfLMtJh9Kf3h5x39wM8uFiVoTzSVRUNW",
+   "slot": 460536049,
+   "epoch": 1066,
+   "slot_index": 24049,
+   "blockTime": 1792778194,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V1"
+   ],
+   "deltas": {
+    "V1": 44291
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a050000002851c0",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "32Hv261DbVb2He7yWkxrr2d9f3uHusucxWYQ39GuWw2e",
+      "5AqMoyN5yz5PxFtmKS4QXuG8CPVZNo9yRiEvaVsogiVL",
+      "V1",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "4SgM6kJXzzQNoHEc4T7FYBcv5F1nohNicJ9H5DGgatCCuHjSfCSGcMDYaqrSrMwbLTrmuBPyhYuUkxuZvguxfhwF",
+   "slot": 460540545,
+   "epoch": 1066,
+   "slot_index": 28545,
+   "blockTime": 1792779148,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V3"
+   ],
+   "deltas": {
+    "V3": 35202
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a05000000c8b31f",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "zm5Q1aA5YveRR8C8Y7zy2vEWWqnCMfvvpuWTNHDUPYv",
+      "GSnZ63ysJ1JGGvuHhSUuSaxi8NhFN415preR2J7mbjd8",
+      "V3",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "2mHejQ7ELKoLmukGtWS8j7wyf2hhumZhZENWjMjsT6Z7vMYY34nKdyvZbde3hSMHZXJfrLvbZcVxSz8WBwAPFh4A",
+   "slot": 460952583,
+   "epoch": 1067,
+   "slot_index": 8583,
+   "blockTime": 1792866596,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL57Rzc1FSAQeNf2xfLuMQ8J1MMRczV8jf2RwNhdV"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "1dSD7FabaZNgYsytdVvz7gaPAwVKS8ebW1bjBZMDYBRBp47xr8fkF8ZhyKpY9wnZ3BKGKNnnj2bgr2YXyMBU4ZC",
+   "slot": 460952583,
+   "epoch": 1067,
+   "slot_index": 8583,
+   "blockTime": 1792866596,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLXeBvDFhaUYB4w2oXWbZYDAT4YUFjRsTiHVq4CSP"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": -44291,
+    "X2": 0,
+    "reserve": 98410,
+    "V3": -35202,
+    "V0": -18917,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "Stake11111111111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw"
+   ]
+  },
+  {
+   "sig": "3EQBbJDDvqhdAwgXHVpTnHN37Ae7KNcKyupzJWfDQmBhofG4ux8LP3GxufYYQAyVKGevunk3U3NhbupEDDrYBQfF",
+   "slot": 460952584,
+   "epoch": 1067,
+   "slot_index": 8584,
+   "blockTime": 1792866597,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLuSi2wruCUjU7cY9NcWF6iHAsUjqD7smYmNEC27y"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "3BRwbMpRchhDWnYDzsZE4D4D8uCNgybkxRg1K4yUJQHamQJLEZzmTBThuBkZSFwfddzatmbc1SoHNgSeAHEKwcNd",
+   "slot": 460952585,
+   "epoch": 1067,
+   "slot_index": 8585,
+   "blockTime": 1792866597,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SFLY3RDVNZ3rQLWofFAzc89kQj9xrr5a96JVnqHRphy"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "4HRs338zKjbfNAtC9cXCZQQkMbSG2KzbeM9zDaAuhX88VQYTWKUv1geP3pB9GTecDfs5VmhHZcq1S9qLUYvpAb7f",
+   "slot": 460952588,
+   "epoch": 1067,
+   "slot_index": 8588,
+   "blockTime": 1792866597,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL5VBhPL68Fx7goXmEHfXiWGnmzXM67A4T4Ut7qcH"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "5QJR5oHe6PdCbAsPZFfV1f7pMmBQSxw5L5vEdtTtbtxBvCLYGDhYo1KWVsfAPYCH5j2oQdfp63EPeLjmdG3bUDzQ",
+   "slot": 460952589,
+   "epoch": 1067,
+   "slot_index": 8589,
+   "blockTime": 1792866598,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLXeBvDFhaUYB4w2oXWbZYDAT4YUFjRsTiHVq4CSP"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "2d6949SwX8mynUmFdtqmLTnQ6MGHKBKQMR3wuDqSsDii91d2R5UbafQa4Vq9j6twXNDbzHymc2eojymVSPUhYKdc",
+   "slot": 460952590,
+   "epoch": 1067,
+   "slot_index": 8590,
+   "blockTime": 1792866598,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL57Rzc1FSAQeNf2xfLuMQ8J1MMRczV8jf2RwNhdV"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "3dNPdwBTFG5nNdQ8GPFJ5zsm72AtSHK9eQw2eyeMm8yDvzTgXaCHMskvGUEGeNF62icMRxiEeRxfhmmLguizLqab",
+   "slot": 460952591,
+   "epoch": 1067,
+   "slot_index": 8591,
+   "blockTime": 1792866598,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SFLY3RDVNZ3rQLWofFAzc89kQj9xrr5a96JVnqHRphy"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "3LoqnXZQ7D5AQyDAb4daQ58mY95Ygar8C7GSmqLnQeufpBQmvVM5LGuuTSEAoMvTELhJEEv8V4VV9U9dhvWNs41Q",
+   "slot": 460952591,
+   "epoch": 1067,
+   "slot_index": 8591,
+   "blockTime": 1792866598,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLuSi2wruCUjU7cY9NcWF6iHAsUjqD7smYmNEC27y"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "omrSrGmjm2DC2XRTGBuHjRaA6zfvQkEAA7pHnRKDncsteVcuvbRoWvTWZsrWzFzuxAe9HPS9exCS18GoXsMYSS6",
+   "slot": 460952597,
+   "epoch": 1067,
+   "slot_index": 8597,
+   "blockTime": 1792866599,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL5VBhPL68Fx7goXmEHfXiWGnmzXM67A4T4Ut7qcH"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "4kc5kKQZNd1f9jvLFgeBfo1a2RJcoUKdeQxBgU41XSFAEHc4PJvG8oAhuTrZXrmvotwjMCcdVYFVckUWyQ576esM",
+   "slot": 460961582,
+   "epoch": 1067,
+   "slot_index": 17582,
+   "blockTime": 1792868506,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V0"
+   ],
+   "deltas": {
+    "V0": 15664
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a08000000eb612b",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "FfcNSCShf8vLv1JWY9xHQMx5gHRp493ksNzEugBTyYFF",
+      "6qbiPhWcY3Ux8dmvVaKnD3n7TjnScytxcfjWB242HJpF",
+      "V0",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "66CwJbSp7cpGu7N9PRfYNPsJWiB2wTeU5i5yzMZz2fa8vKnRHemKdK8yM4FWK7YmfnKnyp2PdXiqPBPQBybCVXiw",
+   "slot": 460969467,
+   "epoch": 1067,
+   "slot_index": 25467,
+   "blockTime": 1792870179,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V1"
+   ],
+   "deltas": {
+    "V1": 31904
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a05000000762073",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "7v4PV3Q74EqEVvbqc2houQKjiqL4zm5jb9axDYcNJ7mM",
+      "AdLomPNoYCP97Bs4Yzj487uZrHjXXdjM5MPp7LWt6CK3",
+      "V1",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "4NWj6zWMvrYhqnW1ZRehC3ViHSupvsNNZZadpLpeLzrvbtMomZNbpfMSQRDNVLbk8tZcfEPRbAYgnBQF8mezywsj",
+   "slot": 460979711,
+   "epoch": 1067,
+   "slot_index": 35711,
+   "blockTime": 1792872355,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V3"
+   ],
+   "deltas": {
+    "V3": 42053
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a050000007a0d7d",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "HgzfT23h2V5Z79HgQWWaWdcQyQpAKfCyntjQv1CGruXR",
+      "Djmsgn7xSfxSpB7L9FRXBESsxQth8WJXTSU3kyeAqwjc",
+      "V3",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "4snfV1j3guRmgQeA28VporGsPkWZkzwFBvXdSo2QTgd9faUxEBRXkEyZHFSRUYQJd1AUwNws3zL6oT4G5NB55miq",
+   "slot": 461384572,
+   "epoch": 1068,
+   "slot_index": 8572,
+   "blockTime": 1792958326,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL57Rzc1FSAQeNf2xfLuMQ8J1MMRczV8jf2RwNhdV"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "2c18BmxPtevxHVzQHaRe6ymEtZtGfC6nwC1SYcgZh3cBuzY949y5EYe12YZExixn6UwqkQ8r5kvWXxDLXBhtDVCH",
+   "slot": 461384572,
+   "epoch": 1068,
+   "slot_index": 8572,
+   "blockTime": 1792958326,
+   "err": null,
+   "fee": 5030,
+   "signers": [
+    "SBKLuSi2wruCUjU7cY9NcWF6iHAsUjqD7smYmNEC27y"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": -31904,
+    "X2": 0,
+    "reserve": 89621,
+    "V3": -42053,
+    "V0": -15664,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0361000000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "Stake11111111111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw"
+   ]
+  },
+  {
+   "sig": "5m97GcGx3B31WgdCZP393KNecgmArtvJWRZnHfR2QqgBBhvCKgZ17DerjMFmXmsWpScMgz3xesM9tEUjyUGiAGDS",
+   "slot": 461384573,
+   "epoch": 1068,
+   "slot_index": 8573,
+   "blockTime": 1792958326,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLXeBvDFhaUYB4w2oXWbZYDAT4YUFjRsTiHVq4CSP"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "5Z8kXkqnnuhubZf3P929jNGU1bUX3QqsK4u88Waq6eP4dfFCK8vRqcPaSkWemEoR2JK8HbRLLq2coGeXdMBPZsLB",
+   "slot": 461384574,
+   "epoch": 1068,
+   "slot_index": 8574,
+   "blockTime": 1792958327,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL5VBhPL68Fx7goXmEHfXiWGnmzXM67A4T4Ut7qcH"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "4nhqXT5iWvV8HAhp8939YqYDnHEhSkoVgdZx4BkPrK8eYviajnNkuhaJmpjnpLG9RxCwkjSSVuACqvKpXcxadNhv",
+   "slot": 461384575,
+   "epoch": 1068,
+   "slot_index": 8575,
+   "blockTime": 1792958327,
+   "err": null,
+   "fee": 5030,
+   "signers": [
+    "SFLY3RDVNZ3rQLWofFAzc89kQj9xrr5a96JVnqHRphy"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0361000000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "3zDjRkXgnF1Tpttnm3HZLHki89fcKMRESp2z8FkbAgfYyFvPzSyfnPUz2Rp7pjuZ2FiePpz8gDpqkhuTbEEqCBix",
+   "slot": 461384578,
+   "epoch": 1068,
+   "slot_index": 8578,
+   "blockTime": 1792958328,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL57Rzc1FSAQeNf2xfLuMQ8J1MMRczV8jf2RwNhdV"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "3tFZG5eJdH7NdiWQnkCvi3MxKguLi9Yu15vP5kyCkDXkWaTHjLBEB4qkQoHsjfxGmB8sba3JwvSCUEgyG8n9FdgS",
+   "slot": 461384578,
+   "epoch": 1068,
+   "slot_index": 8578,
+   "blockTime": 1792958328,
+   "err": null,
+   "fee": 5030,
+   "signers": [
+    "SBKLuSi2wruCUjU7cY9NcWF6iHAsUjqD7smYmNEC27y"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0361000000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "4Ydp4JrLghpSaRHzWDabpyN671Jss2qS3fywcZiKeoFTkQBLgPBghZLXdnoECancPYyfEitWG9dgi2hcY9ZkuJdr",
+   "slot": 461384579,
+   "epoch": 1068,
+   "slot_index": 8579,
+   "blockTime": 1792958328,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLXeBvDFhaUYB4w2oXWbZYDAT4YUFjRsTiHVq4CSP"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "5Y1brEd87hZwVvseMUm7KaKu2EUVifpxVSL4hECFqWr8H1rZJyi7FkQk3UgcPsKYQrWvyewDL4scw6SUr4bcjXsy",
+   "slot": 461384580,
+   "epoch": 1068,
+   "slot_index": 8580,
+   "blockTime": 1792958328,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL5VBhPL68Fx7goXmEHfXiWGnmzXM67A4T4Ut7qcH"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "3xCFNnrM5hpkHGikQFkK1Dmvzz436txgakRK1Eg6NY8p9mtPKWY73qysoYwzjJL8q7ygtxpec1BuJdTYbtptL3sf",
+   "slot": 461384581,
+   "epoch": 1068,
+   "slot_index": 8581,
+   "blockTime": 1792958328,
+   "err": null,
+   "fee": 5030,
+   "signers": [
+    "SFLY3RDVNZ3rQLWofFAzc89kQj9xrr5a96JVnqHRphy"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0361000000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "4WUMFisZmYS7Edf4gRntEbKkJbeUkLaWxiQQYa4xGYRNPsNkTMWbzMgE1pNwqYdyk2mnuBLyuzgsdsrgU7aFJEh2",
+   "slot": 461395743,
+   "epoch": 1068,
+   "slot_index": 19743,
+   "blockTime": 1792960697,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V0"
+   ],
+   "deltas": {
+    "V0": 12360
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a080000004819e0",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "4mo6oD6VtRVMSEjaaYD6WnZtAus6dpWdtE1hE2omTaY8",
+      "9UZPYe5REyBjaDAv8TsSkxUokbb4MStM2vMnpoR2Vboh",
+      "V0",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "2NPon6FRp8pPtiRtsHVAnaCrJquAMVfNyvMLFZ5rN9c5SkNivKwm4PtTB6ubEQPt81xQU1xoz38CoE54XJ2xtejF",
+   "slot": 461397348,
+   "epoch": 1068,
+   "slot_index": 21348,
+   "blockTime": 1792961037,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V3"
+   ],
+   "deltas": {
+    "V3": 37453
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a05000000eb98a3",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "42MQ46VH3CR4dDL9odD9ph2zZkmT5JUDgEHunmcASbLN",
+      "E4e26uxzdL3Wg3qq84qRFCWdD6eVWZTN8japMv1ypVwK",
+      "V3",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "25cDWaSTHEm4JhQgNcdgUkF94JU5ZebPhqUoUpagCRBorKZ4tVdaKyUeWT2mXGv43gKSshiA1uEuYykwEHAA4oVL",
+   "slot": 461401235,
+   "epoch": 1068,
+   "slot_index": 25235,
+   "blockTime": 1792961855,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V1"
+   ],
+   "deltas": {
+    "V1": 37419
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a05000000d7d13c",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "EXHEHdhFfAUw58FeiAPWTnE2xKKTEARRvZxgTc6C7akF",
+      "GMBUyHHYGEQCxBYkTSzaKEzRNhF4HKXqwKMkAsaXj2Tu",
+      "V1",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "5gGwaeeEafWPecuAdn7u4SNjxbcbPEYSHBH5GmEhVjzGjLNMUcdxAhJ61JJpMH1FJfdnE9U2VVSLc7jeYCtq3V41",
+   "slot": 461808762,
+   "epoch": 1069,
+   "slot_index": 762,
+   "blockTime": 1793048462,
+   "err": null,
+   "fee": 6200,
+   "signers": [
+    "4X8avqCKvNxb2a57pPV9nGJNfRQtETgBn7a7iyuNyjaH"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": -37419,
+    "X2": 0,
+    "reserve": 87232,
+    "V3": -37453,
+    "pool": 0,
+    "V0": -12360
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02804f1200",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "03e8030000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000000",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "Stake11111111111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw"
+   ]
+  },
+  {
+   "sig": "5S6BHPxtDk6gTzM5fTez63gvKjEyZCiAaCVUqmWGMKrQeTPbG2JAKaREV6oz6ThJp6pgu8VYwwQw45kDNyxKbZvo",
+   "slot": 461808781,
+   "epoch": 1069,
+   "slot_index": 781,
+   "blockTime": 1793048466,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "4X8avqCKvNxb2a57pPV9nGJNfRQtETgBn7a7iyuNyjaH"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "pool": 0,
+    "reserve": 0
+   },
+   "top": [
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "3wAvB5TcpVMLs1YEMwYwCdPYjJw1NkRjRYKVVu5RWEgFdnCzouWEJqytdB6RerKUYNm2JLSDNCtNSyfG3e9qqdra",
+   "slot": 461841683,
+   "epoch": 1069,
+   "slot_index": 33683,
+   "blockTime": 1793055449,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V0"
+   ],
+   "deltas": {
+    "V0": 13814
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a08000000e2ae1e",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "FDVqQ3okmUZtcrP8kj92zg97zM3hbY3CXUTSNGrd6biQ",
+      "J83a5B8dU3Tvy5eqcWDDLNNRTWvVhvo8CRRUVwGuBWxc",
+      "V0",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "4BLtxpXAx6tCBKUTKjhQFgN2y7M3L4eNWWNUryiopRLhy8UAfekceNX1uXJtHsDQkk3T6s83Mu7tsRTKgioJmQdv",
+   "slot": 461843990,
+   "epoch": 1069,
+   "slot_index": 35990,
+   "blockTime": 1793055938,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V1"
+   ],
+   "deltas": {
+    "V1": 33567
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a05000000178f53",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "GUSNRv9E6ntwf3Ft1Q8jnSJdbphxHRJrfd18w1kk8fuc",
+      "G1u58rBZDK32cxJxiscLjGvkTnfn3jCJWtFRBY3fBFzg",
+      "V1",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "4Bcg2rH2VnrfocuCxSumxSpYBCExg7bmoDKfPEt9u7k8b3ZuZZtNGkSCFeBZegEHqmugELcjT3nDvQDPCrsefHek",
+   "slot": 461850791,
+   "epoch": 1069,
+   "slot_index": 42791,
+   "blockTime": 1793057385,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V3"
+   ],
+   "deltas": {
+    "V3": 33391
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a05000000ef67cd",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "E1E4bGbxT2CUFqxVb3zRWNHWLQeMfn6Rr6tuXtbZnA6r",
+      "7ERXLXtbhtrPtdwuz1Wd9FR58Wp6Pz6RZmGPt22JFmGj",
+      "V3",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "4TQL61n9UeM1PKiaFETNECHEPSapETzBqohPHJDMeiZFtNCgvuVMsjaS3Lvv87SaJMGxH3d2zXbByCoD4hFPVRS6",
+   "slot": 462248564,
+   "epoch": 1070,
+   "slot_index": 8564,
+   "blockTime": 1793142005,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SFLY3RDVNZ3rQLWofFAzc89kQj9xrr5a96JVnqHRphy"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": -33567,
+    "X2": 0,
+    "reserve": 80772,
+    "V3": -33391,
+    "V0": -13814,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "Stake11111111111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw",
+    "Program log: Instruction: Withdraw"
+   ]
+  },
+  {
+   "sig": "ra96Eawj39eF84jEsfUPJ3rqp5gZysCSrcoCNtNS8erXuAurGwWqPBXpv89xuz3BZhQC7GTLMeoWsUQMnGzkHXE",
+   "slot": 462248565,
+   "epoch": 1070,
+   "slot_index": 8565,
+   "blockTime": 1793142005,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLuSi2wruCUjU7cY9NcWF6iHAsUjqD7smYmNEC27y"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "5V3aGFfeSUARmeFfUQN2vRrvSGi4WeYupqnkGrzf8jy1uM27u8omcda4twTzj5ungUQGf8kpwz3aXtBzZmExH8ky",
+   "slot": 462248566,
+   "epoch": 1070,
+   "slot_index": 8566,
+   "blockTime": 1793142006,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL57Rzc1FSAQeNf2xfLuMQ8J1MMRczV8jf2RwNhdV"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "5bazcQgYRybuzcYGusVUpRr5CeFPz7FqYMLfaGX5U2zeQ3Cn66m4iqNJdXwhSFfw7je735KsbfeJrnJgk1q1mPCN",
+   "slot": 462248567,
+   "epoch": 1070,
+   "slot_index": 8567,
+   "blockTime": 1793142006,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLXeBvDFhaUYB4w2oXWbZYDAT4YUFjRsTiHVq4CSP"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "4MmBhd9Hahcrft5984pDxQo3qfhFLMoiMvUwWrJ46NJHAQWqtWBUzGudLwGubejd6MK4kjFFMZ6SYLeQRpJcBczQ",
+   "slot": 462248568,
+   "epoch": 1070,
+   "slot_index": 8568,
+   "blockTime": 1793142006,
+   "err": null,
+   "fee": 5002,
+   "signers": [
+    "SBKL5VBhPL68Fx7goXmEHfXiWGnmzXM67A4T4Ut7qcH"
+   ],
+   "touched": [
+    "reserve",
+    "V0",
+    "X0",
+    "V1",
+    "X1",
+    "V2",
+    "X2",
+    "V3",
+    "X3"
+   ],
+   "deltas": {
+    "V2": 0,
+    "X0": 0,
+    "X1": 0,
+    "X3": 0,
+    "validator_list": 0,
+    "V1": 0,
+    "X2": 0,
+    "reserve": 0,
+    "V3": 0,
+    "V0": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0306000000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "060000000001",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "SysvarC1ock11111111111111111111111111111111",
+      "SysvarStakeHistory1111111111111111111111111",
+      "Stake11111111111111111111111111111111111111",
+      "V0",
+      "X0",
+      "V1",
+      "X1",
+      "V2",
+      "X2",
+      "V3",
+      "X3"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateValidatorListBalance"
+   ]
+  },
+  {
+   "sig": "2Wz1uSWwMgfud6ukhJHHTRP5p3ygU8Ne5Bw81pvQUCEVuvDu9E1miw6Qq475ifvzDNH1AYJtQHKeHPV2gh6Pes26",
+   "slot": 462248568,
+   "epoch": 1070,
+   "slot_index": 8568,
+   "blockTime": 1793142006,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SFLY3RDVNZ3rQLWofFAzc89kQj9xrr5a96JVnqHRphy"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+   ],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "4dH9pKsrxZXULTGJiNg19YcVW3u2mF8pJxwCytENgmoTvTgUjw2sxukkY8duxXZ8s4XBTfWeYSNHhTQMXUTFoZoJ",
+   "slot": 462248571,
+   "epoch": 1070,
+   "slot_index": 8571,
+   "blockTime": 1793142007,
+   "err": null,
+   "fee": 5800,
+   "signers": [
+    "3RVJPtdkUXAm4nKmzLyP6cydpPoi5AQ3HvFLfuVdimLz"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "pool": 0,
+    "reserve": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0200350c00",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "03e8030000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+     ]
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "08",
+     "accounts": [
+      "pool",
+      "validator_list"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance",
+    "Program log: Instruction: CleanupRemovedValidatorEntries",
+    "Program log: Checking preferred validators"
+   ]
+  },
+  {
+   "sig": "5e7v3p7Qhh1KiHWX7D4Wt6qrvXZwzWYJDbv8bNQnfwdNQwdArbqrwK7TcLYJudDDd86J8F6dPnaBpEErvYioqBFm",
+   "slot": 462248571,
+   "epoch": 1070,
+   "slot_index": 8571,
+   "blockTime": 1793142007,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLuSi2wruCUjU7cY9NcWF6iHAsUjqD7smYmNEC27y"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "rp3MS12dEgqV6J5Svg3xpVmgEXJDoyJccjJWWeCzBXbuqMDD4K4Kfiv9d2wPiLyv59o6N9vYgW6CHgEqVgh94GV",
+   "slot": 462248572,
+   "epoch": 1070,
+   "slot_index": 8572,
+   "blockTime": 1793142007,
+   "err": null,
+   "fee": 5002,
+   "signers": [
+    "SBKL5VBhPL68Fx7goXmEHfXiWGnmzXM67A4T4Ut7qcH"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0306000000000000",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "5tVbP4GX5dp6oPQCUrE2oaEKeYGkRdFjTydYGgkt8xHUyCWUVE9SYpaHcSxk9VzcCy4SjAaQep7QZjT2R2xtSpy4",
+   "slot": 462248573,
+   "epoch": 1070,
+   "slot_index": 8573,
+   "blockTime": 1793142007,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKL57Rzc1FSAQeNf2xfLuMQ8J1MMRczV8jf2RwNhdV"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "3cKPquaobdxWGj8gc8K95iaw9RPsWdCBC5xJigfgWWMRcmVK1u9jqT4RKtYuJgSqAS1aL62FtETE9BbsBcpmWNCn",
+   "slot": 462248574,
+   "epoch": 1070,
+   "slot_index": 8574,
+   "blockTime": 1793142007,
+   "err": null,
+   "fee": 5000,
+   "signers": [
+    "SBKLXeBvDFhaUYB4w2oXWbZYDAT4YUFjRsTiHVq4CSP"
+   ],
+   "touched": [
+    "reserve",
+    "manager_fee"
+   ],
+   "deltas": {
+    "manager_fee": 0,
+    "mint": 0,
+    "validator_list": 0,
+    "reserve": 0,
+    "pool": 0
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02e0930400",
+     "accounts": []
+    },
+    {
+     "program": "SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy",
+     "data0": "07",
+     "accounts": [
+      "pool",
+      "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "validator_list",
+      "reserve",
+      "manager_fee",
+      "mint",
+      "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T"
+     ]
+    }
+   ],
+   "inner_programs": [],
+   "logs": [
+    "Program log: Instruction: UpdateStakePoolBalance"
+   ]
+  },
+  {
+   "sig": "5jrnrWgrh5EGu8oAEZ9krvBLHS5QB2qHAEPTgUeaxEsV331AGcKqaLUKdbjCJcS7EYYT3SNw9XLK2XakMfZSAvEq",
+   "slot": 462259135,
+   "epoch": 1070,
+   "slot_index": 19135,
+   "blockTime": 1793144254,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V0"
+   ],
+   "deltas": {
+    "V0": 18861
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a080000000f69d6",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "87BQSuRe1sEBSZA2b5yuhBG2s9ba7qjTv9yCMt1HckvY",
+      "9gVZnJPActttxnpWrqfrBu98BeyfR7zQ7doWtSdcd4xx",
+      "V0",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "5aEC2StGL6F3d3iqgvCaNw3vPq86VVUGFykX9XiyG3YBhqQvhXqFrCPhjLUxZFVvXg7YJzt723kwR13LXESV7VCC",
+   "slot": 462270339,
+   "epoch": 1070,
+   "slot_index": 30339,
+   "blockTime": 1793146640,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V1"
+   ],
+   "deltas": {
+    "V1": 43128
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a050000008416ef",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "GTraTKNWB7cgBrDVtmoHrdvyJm1Gyitk1q6YjGjwpGsT",
+      "4oka8L6gceBT4BNTJdVyoUo74RTE5FxMUom3rJJvwvbs",
+      "V1",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  },
+  {
+   "sig": "cU4UuRepbSCi1JGc4Yhifh8VD8jRAyxpxgJ8gL7HrLcgijvbuFbghTpRkuQqMXNewZv85i43cecxKQYPgbQCTPz",
+   "slot": 462270521,
+   "epoch": 1070,
+   "slot_index": 30521,
+   "blockTime": 1793146679,
+   "err": null,
+   "fee": 5001,
+   "signers": [
+    "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh"
+   ],
+   "touched": [
+    "V3"
+   ],
+   "deltas": {
+    "V3": 44932
+   },
+   "top": [
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "02a0860100",
+     "accounts": []
+    },
+    {
+     "program": "ComputeBudget111111111111111111111111111111",
+     "data0": "0301000000000000",
+     "accounts": []
+    },
+    {
+     "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+     "data0": "1a050000006de899",
+     "accounts": [
+      "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+      "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+      "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+      "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+      "9MKPuDwW6cYX8dqChAgWuxsfbXnYdTAJE4TrX7GSGGBY",
+      "2XMPdN8LDfd7R15BxpumuPibBogM8ax6JAcQJxQyZBVD",
+      "V3",
+      "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+      "11111111111111111111111111111111"
+     ]
+    }
+   ],
+   "inner_programs": [
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ],
+   "logs": [
+    "Program log: Instruction: ClaimWithPayer",
+    "Program log: Instruction: Claim"
+   ]
+  }
+ ]
+}
