@@ -1,0 +1,100 @@
+{
+ "comparisons": [
+  {
+   "name": "window deposit mint = floor(L*S/T)",
+   "model": 38766504032,
+   "chain": 38766504032,
+   "match": true
+  },
+  {
+   "name": "counterfactual mint = floor(L*(S+f)/(T+z))",
+   "model": 38310012764,
+   "chain": 38310012764,
+   "match": true
+  },
+  {
+   "name": "credit+deposit same tx mint",
+   "model": 4845813004,
+   "chain": 4845813004,
+   "match": true
+  },
+  {
+   "name": "maintenance+deposit same tx: fee tokens",
+   "model": 137474374,
+   "chain": 137474374,
+   "match": true
+  },
+  {
+   "name": "maintenance+deposit same tx: depositor3 mint",
+   "model": 4810226516,
+   "chain": 4810226516,
+   "match": true
+  },
+  {
+   "name": "after depositor3: T",
+   "model": 112842937399,
+   "chain": 112842937399,
+   "match": true
+  },
+  {
+   "name": "X+1 epoch-fee mint",
+   "model": 242344,
+   "chain": 242344,
+   "match": true
+  },
+  {
+   "name": "exit 0 (V0) payout",
+   "model": 25010076612,
+   "chain": 25010076612,
+   "match": true
+  },
+  {
+   "name": "exit 1 (V1) payout",
+   "model": 15247258554,
+   "chain": 15247258554,
+   "match": true
+  },
+  {
+   "name": "total WithdrawStake payout",
+   "model": 40257335166,
+   "chain": 40257335166,
+   "match": true
+  },
+  {
+   "name": "cooldown stake reward on user's own stake (not pool value)",
+   "observed": 4844597,
+   "estimate_from_V0_rate": 4845537,
+   "relative_diff": 0.00019403058706431102,
+   "match": true
+  },
+  {
+   "name": "pool T after redemption",
+   "model": 72590640538,
+   "chain": 72590640538,
+   "match": true
+  },
+  {
+   "name": "pool S after redemption",
+   "model": 69832522743,
+   "chain": 69832522743,
+   "match": true
+  }
+ ],
+ "mismatches": 0,
+ "summary": {
+  "extra_tokens_from_window": 456491268,
+  "extra_value_at_final_price": 474520928,
+  "realized_pnl_excluding_failed_controls": 257290166,
+  "wallet_delta": 262119763,
+  "wallet_delta_decomposition": "payouts - L - tx fees + own cooldown stake reward - fees of the two failed control txs signed by the depositor",
+  "honest_world_isolated": {
+   "window_minted": 38766504032,
+   "window_redeemed": 40251318295,
+   "honest_minted": 38310012764,
+   "honest_redeemed": 39961860773,
+   "delay_attributable_realized": 289457522,
+   "honest_pnl_before_tx_fees": -38139227,
+   "window_pnl_before_tx_fees": 251318295
+  }
+ }
+}

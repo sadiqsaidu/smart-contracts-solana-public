@@ -1,0 +1,236 @@
+{
+ "sig": "5jrnrWgrh5EGu8oAEZ9krvBLHS5QB2qHAEPTgUeaxEsV331AGcKqaLUKdbjCJcS7EYYT3SNw9XLK2XakMfZSAvEq",
+ "slot": 462259135,
+ "blockTime": 1793144254,
+ "fee": 5001,
+ "numSigners": 1,
+ "keys": [
+  {
+   "k": "EG2ziPBR4uc9MzCLxBmnrE7cozKZV8DTvVSxPWXiQ8vh",
+   "signer": true,
+   "writable": true,
+   "pre": 15977845954,
+   "post": 15977840953
+  },
+  {
+   "k": "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+   "signer": false,
+   "writable": true,
+   "pre": 30431139824725,
+   "post": 30431138646165
+  },
+  {
+   "k": "87BQSuRe1sEBSZA2b5yuhBG2s9ba7qjTv9yCMt1HckvY",
+   "signer": false,
+   "writable": true,
+   "pre": 4290522543,
+   "post": 4290503682
+  },
+  {
+   "k": "9gVZnJPActttxnpWrqfrBu98BeyfR7zQ7doWtSdcd4xx",
+   "signer": false,
+   "writable": true,
+   "pre": 0,
+   "post": 1178560
+  },
+  {
+   "k": "FDBQthc1mrSBntxJaJtmFVSkUnonDpGD5uJp8eemRBci",
+   "signer": false,
+   "writable": true,
+   "pre": 13100200442,
+   "post": 13100219303
+  },
+  {
+   "k": "11111111111111111111111111111111",
+   "signer": false,
+   "writable": false,
+   "pre": 1,
+   "post": 1
+  },
+  {
+   "k": "ComputeBudget111111111111111111111111111111",
+   "signer": false,
+   "writable": false,
+   "pre": 1,
+   "post": 1
+  },
+  {
+   "k": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+   "signer": false,
+   "writable": false,
+   "pre": 4354600617,
+   "post": 4354600617
+  },
+  {
+   "k": "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+   "signer": false,
+   "writable": false,
+   "pre": 1527360,
+   "post": 1527360
+  },
+  {
+   "k": "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+   "signer": false,
+   "writable": false,
+   "pre": 5011200,
+   "post": 5011200
+  },
+  {
+   "k": "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+   "signer": false,
+   "writable": false,
+   "pre": 1141440,
+   "post": 1141440
+  },
+  {
+   "k": "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+   "signer": false,
+   "writable": false,
+   "pre": 7642080,
+   "post": 7642080
+  }
+ ],
+ "top": [
+  {
+   "program": "ComputeBudget111111111111111111111111111111",
+   "data": "02a0860100",
+   "accounts": []
+  },
+  {
+   "program": "ComputeBudget111111111111111111111111111111",
+   "data": "030100000000000000",
+   "accounts": []
+  },
+  {
+   "program": "RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb",
+   "data": "1a080000000f69d6b958b1cdbb86be8fef6e2b676cf400e7de98a311f529a0fcd6bd5f8eb7a7a4d80c4849df5fac129ea60af75d659ba615e16da28f8cd0428a57ca23bff3a335a444f02d2ed9889c3507ba60824dbf3fe639777e5a36e6ef339222e2874b64bc32d2f570a3aa5744d1421022950b497ead6e0a34a66cf9a23b4a92917a639ad0f422d48e53a8a71dbbae3859d039f1805d06d2d397e984f6e61f7eeff5220480a9da9b0fbb83d53721826fdcc1053235b134100e34a4dadba7caca2159789523c6aeaf0a2c44eb232b137635c3317b7505c29ce6b8f4682ae3e25ab4eb24751076d4b95cc4732a9915a99ecd5afdc4e17303b89a08beb14a92b246e52dd6ad49000000000000fe",
+   "accounts": [
+    "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+    "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+    "jtoF4epChkmd75V2kxXSmywatczAomDqKu6VfWUQocT",
+    "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+    "87BQSuRe1sEBSZA2b5yuhBG2s9ba7qjTv9yCMt1HckvY",
+    "9gVZnJPActttxnpWrqfrBu98BeyfR7zQ7doWtSdcd4xx",
+    "FDBQthc1mrSBntxJaJtmFVSkUnonDpGD5uJp8eemRBci",
+    "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "11111111111111111111111111111111"
+   ]
+  }
+ ],
+ "inner": [
+  [
+   {
+    "program": "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "data_b58": "ng8bZGpLCfxp2rBWRULGWh6gkgYpP63LWWZbYBdveYi9CZnGQTeqarMosPDLA1aGqc1uyAawmcsDTuJLvU4qtFYp3A3Y2U4uS8c5a1qEB8HStRPNYnYqsemj9txdtFULRf2Ad2jAEyCeFh3vnSK8XTEQjWQBWUEskmA6qLJPznL8J12P1imkBUe6nBMsQhrpfTrFkWndquHyHYmqSTHBLMS9WZ6Pryr4Hgv7UVZjSqP7Bm43JFriPhAHvE9dcaNk1rtrYsB5a4QW83naBwdQyGEEPDpzs2bMdPDMva7tpsCVTKagdk6ViXMoczQs3GsbAYYAEEMRUiQaUm7tUUYmHSTgw1XbLR4F9wn4bH3DjyMgnryzJtbYP9Nfhf",
+    "accounts": [
+     "STGR71TeAeycQUDKzku1GqPQdErQcTcdqxJuQmCjBu6",
+     "87BQSuRe1sEBSZA2b5yuhBG2s9ba7qjTv9yCMt1HckvY",
+     "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+     "9gVZnJPActttxnpWrqfrBu98BeyfR7zQ7doWtSdcd4xx",
+     "FDBQthc1mrSBntxJaJtmFVSkUnonDpGD5uJp8eemRBci",
+     "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+     "11111111111111111111111111111111"
+    ]
+   },
+   {
+    "program": "11111111111111111111111111111111",
+    "data_b58": "111185aoSnpiXkpa3f3Y8YdAS2fAJAz3C3ZQ4dqzxEnJXWJfR2JTSJ6GdH4sJFCJSFGsm5",
+    "accounts": [
+     "6jWg4ostJobnqLMCUBkussarDesNFqFJj1nFqim1xgWB",
+     "9gVZnJPActttxnpWrqfrBu98BeyfR7zQ7doWtSdcd4xx"
+    ]
+   }
+  ]
+ ],
+ "logs": [
+  "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+  "Program ComputeBudget111111111111111111111111111111 success",
+  "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+  "Program ComputeBudget111111111111111111111111111111 success",
+  "Program RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb invoke [1]",
+  "Program log: Instruction: ClaimWithPayer",
+  "Program 4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7 invoke [2]",
+  "Program log: Instruction: Claim",
+  "Program 11111111111111111111111111111111 invoke [3]",
+  "Program 11111111111111111111111111111111 success",
+  "Program data: kKzRVpBXVHNplw61+WxVqL3pjD+BxRsJtmbmLGKaothTF1vQMSwZZVUuYW7hrjX+BG1QlKyVs53Yu+u9zBAimwNPPX0tXLVw0yJcBngK0DLalStMKXqtpES40YVB9z200eG2cP9IJ9+tSQAAAAAAAA==",
+  "Program 4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7 consumed 16153 of 71967 compute units",
+  "Program 4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7 success",
+  "Program RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb consumed 44375 of 99700 compute units",
+  "Program RouterBmuRBkPUbgEDMtdvTZ75GBdSREZR5uGUxxxpb success"
+ ],
+ "tda": [
+  {
+   "i": 0,
+   "tda": "87BQSuRe1sEBSZA2b5yuhBG2s9ba7qjTv9yCMt1HckvY",
+   "lamports": 1683922,
+   "len": 168,
+   "vote": "Ak5BJzQe2R8qFuyYmaAFPjXuD7XPux3ZNTv52D7rfiqR",
+   "merkle_root_upload_authority": "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+   "merkle_root": {
+    "root": "84ade33caf5d462a926195f21a24d444af04a965829f23f99038fb75d7cef8df",
+    "max_total_claim": "4369271306",
+    "max_num_nodes": "183",
+    "total_funds_claimed": "4369091064",
+    "num_nodes_claimed": "140"
+   },
+   "epoch_created_at": "1069",
+   "validator_commission_bps": 1000,
+   "expires_at": "1079"
+  },
+  {
+   "i": 1,
+   "tda": "GTraTKNWB7cgBrDVtmoHrdvyJm1Gyitk1q6YjGjwpGsT",
+   "lamports": 1511492,
+   "len": 168,
+   "vote": "GrefCNn5jSbcWv3uiervqZiCC87F8oX7PXz9LEBiog6s",
+   "merkle_root_upload_authority": "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+   "merkle_root": {
+    "root": "81ba6f0b39dbab234c901dc8f2346b632c13001f72ea5abcd286cb1447f05cb0",
+    "max_total_claim": "358474424",
+    "max_num_nodes": "20",
+    "total_funds_claimed": "358466612",
+    "num_nodes_claimed": "11"
+   },
+   "epoch_created_at": "1069",
+   "validator_commission_bps": 400,
+   "expires_at": "1079"
+  },
+  {
+   "i": 2,
+   "tda": "6WV56tkFrXvzXjF3CmiuSdRh5iYvfm2i7qkdgbKbkQqJ",
+   "lamports": 1503680,
+   "len": 168,
+   "vote": "DdCNGDpP7qMgoAy6paFzhhak2EeyCZcgjH7ak5u5v28m",
+   "merkle_root_upload_authority": "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+   "merkle_root": {
+    "root": "7a4ff4489b584dbb738df60a835b223ffc742fdc24b534513039870b735bbbe3",
+    "max_total_claim": "59323091247",
+    "max_num_nodes": "2619",
+    "total_funds_claimed": "59323091247",
+    "num_nodes_claimed": "2"
+   },
+   "epoch_created_at": "1069",
+   "validator_commission_bps": 10000,
+   "expires_at": "1079"
+  },
+  {
+   "i": 3,
+   "tda": "9MKPuDwW6cYX8dqChAgWuxsfbXnYdTAJE4TrX7GSGGBY",
+   "lamports": 1510203,
+   "len": 168,
+   "vote": "AX6v1G9GH7FNcoX6ogNyoD2fZiLaNps7heL9RrGUYGC8",
+   "merkle_root_upload_authority": "8F4jGUmxF36vQ6yabnsxX6AQVXdKBhs8kGSUuRKSg8Xt",
+   "merkle_root": {
+    "root": "748a78d9eea06066625f1ed0ff58917afda3cd07f6c1202137127e9e166ed04c",
+    "max_total_claim": "1494547400",
+    "max_num_nodes": "21",
+    "total_funds_claimed": "1494540877",
+    "num_nodes_claimed": "10"
+   },
+   "epoch_created_at": "1069",
+   "validator_commission_bps": 700,
+   "expires_at": "1079"
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "inputs": {
+  "z": 14573000000,
+  "infl30": 10504962,
+  "claims30": 98233,
+  "r31": 14583603195,
+  "phi31": 729180160,
+  "f31": 182052877,
+  "infl31": 10528160,
+  "claims31": 132642,
+  "f32": 133062,
+  "L32": 2552173055,
+  "n32": 637098094
+ },
+ "S_analytic_centre": 16326116661,
+ "coarse_solutions": 3384,
+ "solutions_found": 2518,
+ "T30_range": [
+  51534565104,
+  51534578342
+ ],
+ "S30_range": [
+  16325531238,
+  16325534543
+ ],
+ "T30": 51534573303,
+ "S30": 16325533285,
+ "z_over_T": 0.282781035448132,
+ "jit": [
+  {
+   "L": 1000000000,
+   "minted": 316787978,
+   "minted_if_recognised": 249706364,
+   "redeemed": 1262456381,
+   "redeemed_if_recognised": 999149946,
+   "realized_gain_before_tx_fees": 262456381,
+   "honest_realized_before_tx_fees": -850054,
+   "delay_attributable": 263306435,
+   "value_from_incumbents_mtm": 263720101,
+   "redeemable_upper_bound": 62097575863,
+   "routing_feasible": true,
+   "tx_fees_estimate": 227503
+  },
+  {
+   "L": 10000000000,
+   "minted": 3167879782,
+   "minted_if_recognised": 2497063649,
+   "redeemed": 12239234513,
+   "redeemed_if_recognised": 9991322198,
+   "realized_gain_before_tx_fees": 2239234513,
+   "honest_realized_before_tx_fees": -8677802,
+   "delay_attributable": 2247912315,
+   "value_from_incumbents_mtm": 2251486000,
+   "redeemable_upper_bound": 71097575863,
+   "routing_feasible": true,
+   "tx_fees_estimate": 227503
+  },
+  {
+   "L": 50000000000,
+   "minted": 15839398910,
+   "minted_if_recognised": 12485318248,
+   "redeemed": 56765692506,
+   "redeemed_if_recognised": 49954333461,
+   "realized_gain_before_tx_fees": 6765692506,
+   "honest_realized_before_tx_fees": -45666539,
+   "delay_attributable": 6811359045,
+   "value_from_incumbents_mtm": 6822515021,
+   "redeemable_upper_bound": 111097575863,
+   "routing_feasible": true,
+   "tx_fees_estimate": 227503
+  },
+  {
+   "L": 200000000000,
+   "minted": 63357595643,
+   "minted_if_recognised": 49941272995,
+   "redeemed": 210804903564,
+   "redeemed_if_recognised": 199807563078,
+   "realized_gain_before_tx_fees": 10804903564,
+   "honest_realized_before_tx_fees": -192436922,
+   "delay_attributable": 10997340486,
+   "value_from_incumbents_mtm": 11015919485,
+   "redeemable_upper_bound": 261097575863,
+   "routing_feasible": true,
+   "tx_fees_estimate": 227503
+  }
+ ],
+ "window_slots_until_1031_spb": 30921,
+ "deposit_window_slots_in_1030": 25225
+}

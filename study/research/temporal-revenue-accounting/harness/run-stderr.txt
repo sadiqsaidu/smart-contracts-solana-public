@@ -1,0 +1,8 @@
+validator slot: 7
+solana-test-validator 2.0.15 (src:f8f3fe31; feat:607245837, client:Agave)
+Wrote program to /tmp/claude-1000/-home-azureuser-security-research-smart-contracts-solana-public/ba5ed603-957e-4c5e-9449-f13cc5c62666/scratchpad/ledger-temporal3/SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy.so
+ec2dfefaa70d560754a0000f39bd2cabc192b895d36205b3c428f601b6e1d7e1  /tmp/claude-1000/-home-azureuser-security-research-smart-contracts-solana-public/ba5ed603-957e-4c5e-9449-f13cc5c62666/scratchpad/ledger-temporal3/SPoo1Ku8WFXoNDMHPsrGSTSG1Y47rzgn41SLUNakuHy.so
+Wrote program to /tmp/claude-1000/-home-azureuser-security-research-smart-contracts-solana-public/ba5ed603-957e-4c5e-9449-f13cc5c62666/scratchpad/ledger-temporal3/6EZAJVrNQdnBJU6ULxXSDaEoK6fN7C3iXTCkZKRWDdGM.so
+5500ff7f90fcb90a76def41953f2d43e2613a494a85dc261843d8a8573cbb7d0  /tmp/claude-1000/-home-azureuser-security-research-smart-contracts-solana-public/ba5ed603-957e-4c5e-9449-f13cc5c62666/scratchpad/ledger-temporal3/6EZAJVrNQdnBJU6ULxXSDaEoK6fN7C3iXTCkZKRWDdGM.so
+bigint: Failed to load bindings, pure JS will be used (try npm run rebuild?)
+exit=0

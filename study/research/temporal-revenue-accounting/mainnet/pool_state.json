@@ -1,0 +1,351 @@
+{
+ "rpc": "https://api.mainnet-beta.solana.com",
+ "read_at": "2026-10-28T08:11:30.239Z",
+ "epochInfo": {
+  "absoluteSlot": 462403939,
+  "blockHeight": 440428537,
+  "epoch": 1070,
+  "slotIndex": 163939,
+  "slotsInEpoch": 432000,
+  "transactionCount": 564115539622
+ },
+ "version": {
+  "feature-set": 3383571666,
+  "solana-core": "4.3.2"
+ },
+ "pool_address": "EyKyx9LKz7Qbp6PSbBRoMdt8iNYp8PvFVupQTQRMY9AM",
+ "pool": {
+  "account_type": 1,
+  "manager": "D7iF7ZwxU8U9hMbiNdg1vYwvgekJ3U3QcV6T3AkTALVe",
+  "staker": "3Gu6VvL43rRGUodheyitHuYGqsT7qLkuYjwjwC9V2mTU",
+  "stake_deposit_authority": "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T",
+  "stake_withdraw_bump_seed": 253,
+  "validator_list": "8M7ZbLikHJdeU6iKzZxWJ8zHy1ozX65Zk2GBVcmFVnXe",
+  "reserve_stake": "EDKjf7YhYZyZriHrepRZEXNjwAen9aJwqToiWWqKf9yU",
+  "pool_mint": "6umRHtiuBd1PC6HQhfH9ioNsqY4ihZncZXNPiGu3d3rN",
+  "manager_fee_account": "5aiXfi3RnfXY3FKEQXPtLXxTC7DA3xn2NZPcQvhRPtod",
+  "token_program_id": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+  "total_lamports": "66101088311",
+  "pool_token_supply": "16407030513",
+  "last_update_epoch": "1070",
+  "lockup": {
+   "unix_timestamp": "0",
+   "epoch": "0",
+   "custodian": "11111111111111111111111111111111"
+  },
+  "epoch_fee": {
+   "denominator": "100",
+   "numerator": "5"
+  },
+  "next_epoch_fee": "None",
+  "preferred_deposit_validator": null,
+  "preferred_withdraw_validator": null,
+  "stake_deposit_fee": {
+   "denominator": "100",
+   "numerator": "0"
+  },
+  "stake_withdrawal_fee": {
+   "denominator": "1000",
+   "numerator": "1"
+  },
+  "next_stake_withdrawal_fee": "None",
+  "stake_referral_fee": 0,
+  "sol_deposit_authority": "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T",
+  "sol_deposit_fee": {
+   "denominator": "100",
+   "numerator": "0"
+  },
+  "sol_referral_fee": 0,
+  "sol_withdraw_authority": "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+  "sol_withdrawal_fee": {
+   "denominator": "1000",
+   "numerator": "1"
+  },
+  "next_sol_withdrawal_fee": "None",
+  "last_epoch_pool_token_supply": "16406919327",
+  "last_epoch_total_lamports": "66092129298"
+ },
+ "derived": {
+  "pool_withdraw_authority": "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+  "staker_deposit_pda": "BLTSuAqaoaUUjLRVdanFXGBi2fef5pwhKN23kCMVgX2T",
+  "staker_staker_pda": "3Gu6VvL43rRGUodheyitHuYGqsT7qLkuYjwjwC9V2mTU",
+  "staker_withdraw_pda": "4pKTCAr8MgtBQUMcVwEuYndvAq5oGXNA8mbv7PqtgTRp"
+ },
+ "mint": {
+  "decimals": 9,
+  "freezeAuthority": null,
+  "isInitialized": true,
+  "mintAuthority": "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+  "supply": "16407030513"
+ },
+ "validator_list_max": 100,
+ "validators": [
+  {
+   "i": 0,
+   "vote": "Ak5BJzQe2R8qFuyYmaAFPjXuD7XPux3ZNTv52D7rfiqR",
+   "active_stake_lamports": "13100200442",
+   "transient_stake_lamports": "0",
+   "last_update_epoch": "1070",
+   "transient_seed_suffix": "0",
+   "validator_seed_suffix": 0,
+   "status": 0,
+   "stake_account": "FDBQthc1mrSBntxJaJtmFVSkUnonDpGD5uJp8eemRBci",
+   "transient_account": "33DcP2qViMBxG3D3nHAmLC7zjCXZ9D2BX6hYwfjsrfev",
+   "tda_prev_epoch": "87BQSuRe1sEBSZA2b5yuhBG2s9ba7qjTv9yCMt1HckvY",
+   "tda_cur_epoch": "7VXHEjj1YENU44Dw4z6tUdyYXu7QuUpMWc5kabz8UHWu",
+   "vote_account": {
+    "lamports": 40389256541,
+    "node_pubkey": "GoeW4aFK4dGoekJySgUynWDxBZiQJqm8GDAF4H53tDK9",
+    "commission": 10
+   },
+   "stake_account_state": {
+    "lamports": 13100219303,
+    "owner": "Stake11111111111111111111111111111111111111",
+    "space": 200,
+    "parsed": {
+     "info": {
+      "meta": {
+       "authorized": {
+        "staker": "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+        "withdrawer": "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku"
+       },
+       "lockup": {
+        "custodian": "11111111111111111111111111111111",
+        "epoch": 0,
+        "unixTimestamp": 0
+       },
+       "rentExemptReserve": "2282880"
+      },
+      "stake": {
+       "creditsObserved": 2227608239332,
+       "delegation": {
+        "activationEpoch": "752",
+        "deactivationEpoch": "18446744073709551615",
+        "stake": "13098534202",
+        "voter": "Ak5BJzQe2R8qFuyYmaAFPjXuD7XPux3ZNTv52D7rfiqR"
+       }
+      }
+     },
+     "type": "delegated"
+    }
+   },
+   "transient_state": null,
+   "tda_prev_epoch_state": {
+    "lamports": 1683922,
+    "owner": "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "space": 168
+   },
+   "tda_cur_epoch_state": {
+    "lamports": 1002742632,
+    "owner": "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "space": 168
+   }
+  },
+  {
+   "i": 1,
+   "vote": "GrefCNn5jSbcWv3uiervqZiCC87F8oX7PXz9LEBiog6s",
+   "active_stake_lamports": "24488454515",
+   "transient_stake_lamports": "0",
+   "last_update_epoch": "1070",
+   "transient_seed_suffix": "17639347884914400836",
+   "validator_seed_suffix": 0,
+   "status": 0,
+   "stake_account": "A8skhwLunD3WKfsv5oX9XZ4SAXvAqNebLyMhGft4CSqP",
+   "transient_account": "6Wczi4biBsBT22aZaDZWbXp3jMBVmW1ofWSzBkWZui4B",
+   "tda_prev_epoch": "GTraTKNWB7cgBrDVtmoHrdvyJm1Gyitk1q6YjGjwpGsT",
+   "tda_cur_epoch": "7kEjkXbXJZeWmVssNM62sFxTfJ2tyNtZkmpMefjsvZ8o",
+   "vote_account": {
+    "lamports": 3404579759,
+    "node_pubkey": "3tzpLMWRkWucvTRWU5PjgKzN1iwJuV69yCCjmuuo4gTk",
+    "commission": 4
+   },
+   "stake_account_state": {
+    "lamports": 24488497643,
+    "owner": "Stake11111111111111111111111111111111111111",
+    "space": 200,
+    "parsed": {
+     "info": {
+      "meta": {
+       "authorized": {
+        "staker": "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+        "withdrawer": "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku"
+       },
+       "lockup": {
+        "custodian": "11111111111111111111111111111111",
+        "epoch": 0,
+        "unixTimestamp": 0
+       },
+       "rentExemptReserve": "2282880"
+      },
+      "stake": {
+       "creditsObserved": 164636544614,
+       "delegation": {
+        "activationEpoch": "752",
+        "deactivationEpoch": "18446744073709551615",
+        "stake": "24486788275",
+        "voter": "GrefCNn5jSbcWv3uiervqZiCC87F8oX7PXz9LEBiog6s"
+       }
+      }
+     },
+     "type": "delegated"
+    }
+   },
+   "transient_state": null,
+   "tda_prev_epoch_state": {
+    "lamports": 1511492,
+    "owner": "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "space": 168
+   },
+   "tda_cur_epoch_state": {
+    "lamports": 89892633,
+    "owner": "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "space": 168
+   }
+  },
+  {
+   "i": 2,
+   "vote": "DdCNGDpP7qMgoAy6paFzhhak2EeyCZcgjH7ak5u5v28m",
+   "active_stake_lamports": "14163241633",
+   "transient_stake_lamports": "0",
+   "last_update_epoch": "1070",
+   "transient_seed_suffix": "0",
+   "validator_seed_suffix": 0,
+   "status": 0,
+   "stake_account": "Z3tPaBv5gEphQWvhA4xVtvSw7FBszPifLd11MvZiXFj",
+   "transient_account": "AivKrPzjrokA8FKTZVth6Rd1WQNcNc9VHA3JgGywskTx",
+   "tda_prev_epoch": "6WV56tkFrXvzXjF3CmiuSdRh5iYvfm2i7qkdgbKbkQqJ",
+   "tda_cur_epoch": "9tas4UCoVGGkehDSGyTxFtJXemQFr3JMZvxEAvzxaJi1",
+   "vote_account": {
+    "lamports": 219213632161,
+    "node_pubkey": "5pPRHniefFjkiaArbGX3Y8NUysJmQ9tMZg3FrFGwHzSm",
+    "commission": 5
+   },
+   "stake_account_state": {
+    "lamports": 14163241633,
+    "owner": "Stake11111111111111111111111111111111111111",
+    "space": 200,
+    "parsed": {
+     "info": {
+      "meta": {
+       "authorized": {
+        "staker": "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+        "withdrawer": "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku"
+       },
+       "lockup": {
+        "custodian": "11111111111111111111111111111111",
+        "epoch": 0,
+        "unixTimestamp": 0
+       },
+       "rentExemptReserve": "2282880"
+      },
+      "stake": {
+       "creditsObserved": 5098275453397,
+       "delegation": {
+        "activationEpoch": "752",
+        "deactivationEpoch": "18446744073709551615",
+        "stake": "14161575393",
+        "voter": "DdCNGDpP7qMgoAy6paFzhhak2EeyCZcgjH7ak5u5v28m"
+       }
+      }
+     },
+     "type": "delegated"
+    }
+   },
+   "transient_state": null,
+   "tda_prev_epoch_state": {
+    "lamports": 1503680,
+    "owner": "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "space": 168
+   },
+   "tda_cur_epoch_state": {
+    "lamports": 18806181507,
+    "owner": "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "space": 168
+   }
+  },
+  {
+   "i": 3,
+   "vote": "AX6v1G9GH7FNcoX6ogNyoD2fZiLaNps7heL9RrGUYGC8",
+   "active_stake_lamports": "14338980086",
+   "transient_stake_lamports": "0",
+   "last_update_epoch": "1070",
+   "transient_seed_suffix": "0",
+   "validator_seed_suffix": 0,
+   "status": 0,
+   "stake_account": "Ev6cP6pHUREpCJJPc65k4svhQyuXsFwdPjYksGUk3hDb",
+   "transient_account": "8DhhLDTCG8QqwgDRus2Q4BVPGLFUUVAqBxL39gvzM2Eh",
+   "tda_prev_epoch": "9MKPuDwW6cYX8dqChAgWuxsfbXnYdTAJE4TrX7GSGGBY",
+   "tda_cur_epoch": "5u6LnhwgK2vSX7978bTtGyUXgyGf4SCt29XRx3TuMdDF",
+   "vote_account": {
+    "lamports": 32388263877,
+    "node_pubkey": "32ke3uf1qL3xLqbwzU76T2sbG2XaJrGuSCNdUnien3zm",
+    "commission": 7
+   },
+   "stake_account_state": {
+    "lamports": 14339025018,
+    "owner": "Stake11111111111111111111111111111111111111",
+    "space": 200,
+    "parsed": {
+     "info": {
+      "meta": {
+       "authorized": {
+        "staker": "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+        "withdrawer": "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku"
+       },
+       "lockup": {
+        "custodian": "11111111111111111111111111111111",
+        "epoch": 0,
+        "unixTimestamp": 0
+       },
+       "rentExemptReserve": "2282880"
+      },
+      "stake": {
+       "creditsObserved": 374575113603,
+       "delegation": {
+        "activationEpoch": "849",
+        "deactivationEpoch": "18446744073709551615",
+        "stake": "14337313846",
+        "voter": "AX6v1G9GH7FNcoX6ogNyoD2fZiLaNps7heL9RrGUYGC8"
+       }
+      }
+     },
+     "type": "delegated"
+    }
+   },
+   "transient_state": null,
+   "tda_prev_epoch_state": {
+    "lamports": 1510203,
+    "owner": "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "space": 168
+   },
+   "tda_cur_epoch_state": {
+    "lamports": 576581035,
+    "owner": "4R3gSG8BpU4t19KYj8CfnbtRpnT8gtk4dvTHxVRwc2r7",
+    "space": 168
+   }
+  }
+ ],
+ "reserve": {
+  "lamports": 11877875,
+  "owner": "Stake11111111111111111111111111111111111111",
+  "space": 200,
+  "parsed": {
+   "info": {
+    "meta": {
+     "authorized": {
+      "staker": "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku",
+      "withdrawer": "Gq5an4FHyTght92zUF1RjNoZ8Pms7md7hRfGVHeswZku"
+     },
+     "lockup": {
+      "custodian": "11111111111111111111111111111111",
+      "epoch": 0,
+      "unixTimestamp": 0
+     },
+     "rentExemptReserve": "2282880"
+    },
+    "stake": null
+   },
+   "type": "initialized"
+  }
+ }
+}
